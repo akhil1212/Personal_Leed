@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tbody_Table_CFR</name>
+   <tag></tag>
+   <elementGuidId>8817cfd1-32e7-4154-b709-0c50e7a05977</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cfrAndOmp_files&quot;]/table/tbody</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;cfrAndOmp_files&quot;]/table/tbody</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Furniture</name>
+   <tag></tag>
+   <elementGuidId>6f5955fc-edfb-475f-9cd0-86815143c65a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;furnitureComponents_files&quot;]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;furnitureComponents_files&quot;]/div/button</value>
+   </webElementXpaths>
+</WebElementEntity>

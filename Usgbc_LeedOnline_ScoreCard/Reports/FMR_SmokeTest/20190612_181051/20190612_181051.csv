@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FMR_SmokeTest,Chrome 74.0.3729.169,,,2019-06-12 18:11:03,2019-06-12 18:29:58,18m - 54.891s,PASSED
+,,,,,,,
+Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation,Chrome 74.0.3729.169,,,2019-06-12 18:11:04,2019-06-12 18:11:43,39.153s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:11:04,2019-06-12 18:11:09,4.817s,PASSED
+runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation),Chrome 74.0.3729.169,,,2019-06-12 18:11:09,2019-06-12 18:11:42,33.282s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:11:42,2019-06-12 18:11:43,0.676s,PASSED
+,,,,,,,
+Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR,Chrome 74.0.3729.169,,,2019-06-12 18:11:43,2019-06-12 18:15:21,3m - 37.473s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:11:43,2019-06-12 18:11:45,2.169s,PASSED
+runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FacilityMaintenanceandRenovationPoliForm),Chrome 74.0.3729.169,,,2019-06-12 18:11:46,2019-06-12 18:15:20,3m - 34.377s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:15:20,2019-06-12 18:15:21,0.633s,PASSED
+,,,,,,,
+Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_VerifyUploadedFile,Chrome 74.0.3729.169,,,2019-06-12 18:15:21,2019-06-12 18:16:08,47.151s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:15:21,2019-06-12 18:15:24,3.139s,PASSED
+runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_VerifyUploadedFiles),Chrome 74.0.3729.169,,,2019-06-12 18:15:24,2019-06-12 18:16:07,43.136s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:16:07,2019-06-12 18:16:08,0.689s,PASSED
+,,,,,,,
+Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DownloadFiles,Chrome 74.0.3729.169,,,2019-06-12 18:16:08,2019-06-12 18:25:02,8m - 54.024s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:16:08,2019-06-12 18:16:10,2.155s,PASSED
+runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_DownloadUploadedFiles),Chrome 74.0.3729.169,,,2019-06-12 18:16:10,2019-06-12 18:25:01,8m - 50.920s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:25:01,2019-06-12 18:25:02,0.665s,PASSED
+,,,,,,,
+Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DeleteUploadedFiles,Chrome 74.0.3729.169,,,2019-06-12 18:25:02,2019-06-12 18:27:20,2m - 18.390s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:25:02,2019-06-12 18:25:04,2.170s,PASSED
+runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_DeleteUploadedFiles),Chrome 74.0.3729.169,,,2019-06-12 18:25:04,2019-06-12 18:27:20,2m - 15.447s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:27:20,2019-06-12 18:27:20,0.595s,PASSED
+,,,,,,,
+Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_AutoSaveAsDraft,Chrome 74.0.3729.169,,,2019-06-12 18:27:20,2019-06-12 18:29:58,2m - 37.799s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:27:20,2019-06-12 18:27:22,2.155s,PASSED
+runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_AutoSaveAsDraft),Chrome 74.0.3729.169,,,2019-06-12 18:27:22,2019-06-12 18:29:57,2m - 34.906s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-12 18:29:57,2019-06-12 18:29:58,0.617s,PASSED

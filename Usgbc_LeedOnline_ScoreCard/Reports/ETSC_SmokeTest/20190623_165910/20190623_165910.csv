@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ETSC_SmokeTest,Chrome 75.0.3770.100,,2019-06-23 16:59:13,2019-06-23 17:00:41,1m - 28.773s,PASSED
+,,,,,,
+Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases,Chrome 75.0.3770.100,,2019-06-23 16:59:13,2019-06-23 17:00:41,1m - 28.129s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-23 16:59:13,2019-06-23 16:59:19,5.287s,PASSED
+runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases),Chrome 75.0.3770.100,,2019-06-23 16:59:19,2019-06-23 17:00:41,1m - 21.775s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-23 17:00:41,2019-06-23 17:00:41,0.818s,PASSED

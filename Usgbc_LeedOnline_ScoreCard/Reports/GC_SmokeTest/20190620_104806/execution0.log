@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894067</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/GC_SmokeTest</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">GC_SmokeTest</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/GC_SmokeTest</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894087</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = promantus inc - G10PROLT025</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">promantus inc - G10PROLT025</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894089</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894091</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.232.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.232.1</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894093</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.3.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.3.3</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894373</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/GreenCleaning/TC_GC_Custodial</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/GreenCleaning/TC_GC_Custodial</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/GreenCleaning/TC_GC_Custodial</property>
+  <property name="source">H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Test Cases\\GreenCleaning\\TC_GC_Custodial.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894511</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894545</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894807</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894831</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;args&amp;apos;, &amp;apos;[--window-size=1920,1080]&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:14</date>
+  <millis>1561007894854</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899037</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 9f1c2c4c4d5f61cfd2986cbe42a5b48a</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">9f1c2c4c4d5f61cfd2986cbe42a5b48a</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899079</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.169</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.169</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899080</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899083</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899086</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899086</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899087</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899087</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899099</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899099</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;The driver is ########### \&amp;quot; + driver)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899103</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;The driver is ########### \&amp;quot; + driver)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899103</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : downloadPath = \&amp;quot;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\DownloadedFiles\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899107</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : downloadPath = \&amp;quot;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\DownloadedFiles\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899107</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899685</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899685</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:19</date>
+  <millis>1561007899876</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runWithCucumberRunner(greenCleaningForm.Runner_GreenCleaning)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:22</date>
+  <millis>1561007902290</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/GreenCleaning/TC_GC_Navigate</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/GreenCleaning/TC_GC_Navigate</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/GreenCleaning/TC_GC_Navigate</property>
+  <property name="source">H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Test Cases\\GreenCleaning\\TC_GC_Navigate.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:22</date>
+  <millis>1561007902475</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runWithCucumberRunner(greenCleaningForm.Runner_NavigationGC)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:23</date>
+  <millis>1561007903208</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login/TC_Login</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="name">Test Cases/Login/TC_Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Login/TC_Login</property>
+  <property name="source">H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Test Cases\\Login\\TC_Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:23</date>
+  <millis>1561007903398</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runWithCucumberRunner(common.Runner_Login)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-20T10:48:27</date>
+  <millis>1561007907985</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://leedonline-stg.usgbc.org&amp;apos; successfully</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:30</date>
+  <millis>1561007910000</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:30</date>
+  <millis>1561007910210</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;automationbdd1@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/Login/input_username&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:30</date>
+  <millis>1561007910338</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;initpass&amp;apos; is set on object &amp;apos;Object Repository/Login/input_password&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:33</date>
+  <millis>1561007913342</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:33</date>
+  <millis>1561007913378</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Login/span_End User License Agreement&amp;apos; successfully</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:33</date>
+  <millis>1561007913430</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Login/span_End User License Agreement&amp;apos; is visible</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:33</date>
+  <millis>1561007913514</millis>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Login/span_End User License Agreement&amp;apos; is checked</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:34</date>
+  <millis>1561007914517</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:34</date>
+  <millis>1561007914600</millis>
+  <sequence>118</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/button_Log In&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:41</date>
+  <millis>1561007921663</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923587</millis>
+  <sequence>131</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/a_Credits&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923729</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Run with &amp;apos;common.Runner_Login&amp;apos; was passed</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923729</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runWithCucumberRunner(common.Runner_Login)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923729</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login/TC_Login</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923731</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login/TC_Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923759</millis>
+  <sequence>136</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Login/TC_Login&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923806</millis>
+  <sequence>144</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Navigation/div_Green Cleaning&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923835</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Navigation/div_Green Cleaning&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923895</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Navigation/h3_Status&amp;apos; is: &amp;apos;ATTEMPTED&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923935</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Navigation/divval&amp;apos; is: &amp;apos;ATTEMPTED&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:43</date>
+  <millis>1561007923961</millis>
+  <sequence>171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Navigation/h3_Status&amp;apos; is: &amp;apos;ATTEMPTED&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:44</date>
+  <millis>1561007924023</millis>
+  <sequence>178</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Green_Cleaning/Navigation/div_Green Cleaning&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:47</date>
+  <millis>1561007927024</millis>
+  <sequence>180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932007</millis>
+  <sequence>187</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Green_Cleaning/Navigation/span_(V01)&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932076</millis>
+  <sequence>193</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Navigation/div_GreenCleaningPolicyCreditLib&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932082</millis>
+  <sequence>194</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Run with &amp;apos;greenCleaningForm.Runner_NavigationGC&amp;apos; was passed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932082</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runWithCucumberRunner(greenCleaningForm.Runner_NavigationGC)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932083</millis>
+  <sequence>196</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/GreenCleaning/TC_GC_Navigate</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932084</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/GreenCleaning/TC_GC_Navigate</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932084</millis>
+  <sequence>198</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/GreenCleaning/TC_GC_Navigate&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:52</date>
+  <millis>1561007932176</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_SelectOption&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:55</date>
+  <millis>1561007935200</millis>
+  <sequence>214</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:55</date>
+  <millis>1561007935335</millis>
+  <sequence>228</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_SelectOption&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:58</date>
+  <millis>1561007938347</millis>
+  <sequence>231</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:58</date>
+  <millis>1561007938625</millis>
+  <sequence>240</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Option 1. Custodial effectiveness assessment&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:58</date>
+  <millis>1561007938707</millis>
+  <sequence>256</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/ProceduresEditorBox_Custodial/p_procedures and routine Inspection&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:48:58</date>
+  <millis>1561007938788</millis>
+  <sequence>270</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/ProceduresEditorBox_Custodial/p_procedures and routine Inspection&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:03</date>
+  <millis>1561007943802</millis>
+  <sequence>293</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; is set on object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/ProceduresEditorBox_Custodial/body_custodialText&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:06</date>
+  <millis>1561007946813</millis>
+  <sequence>296</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:06</date>
+  <millis>1561007946911</millis>
+  <sequence>316</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/ProceduresEditorBox_Custodial/body_custodialText&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:06</date>
+  <millis>1561007946927</millis>
+  <sequence>319</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; and expected text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:06</date>
+  <millis>1561007946940</millis>
+  <sequence>324</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:06</date>
+  <millis>1561007946991</millis>
+  <sequence>335</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/p_Custodial Effectiveness&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:07</date>
+  <millis>1561007947046</millis>
+  <sequence>349</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/p_Custodial Effectiveness&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:07</date>
+  <millis>1561007947184</millis>
+  <sequence>364</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/Button_Custodial&amp;apos; has attribute &amp;apos;class&amp;apos; with value &amp;apos;tiny ui button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:07</date>
+  <millis>1561007947282</millis>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>File &amp;apos;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\MultipleFileDiffExt\\SampleGIFImage_350kbmb.gif&amp;apos; sent to object: &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/input_custodial&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:08</date>
+  <millis>1561007948295</millis>
+  <sequence>382</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:08</date>
+  <millis>1561007948869</millis>
+  <sequence>396</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/Button_Custodial&amp;apos; has attribute &amp;apos;class&amp;apos; with value &amp;apos;tiny ui button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:08</date>
+  <millis>1561007948957</millis>
+  <sequence>411</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>File &amp;apos;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\MultipleFileDiffExt\\SamplePPTFile_1000kb.ppt&amp;apos; sent to object: &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/input_custodial&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:09</date>
+  <millis>1561007949978</millis>
+  <sequence>414</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:10</date>
+  <millis>1561007950565</millis>
+  <sequence>428</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/Button_Custodial&amp;apos; has attribute &amp;apos;class&amp;apos; with value &amp;apos;tiny ui button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:10</date>
+  <millis>1561007950644</millis>
+  <sequence>443</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>File &amp;apos;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\MultipleFileDiffExt\\ZZ.pdf&amp;apos; sent to object: &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/input_custodial&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:11</date>
+  <millis>1561007951656</millis>
+  <sequence>446</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:11</date>
+  <millis>1561007951665</millis>
+  <sequence>451</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:11</date>
+  <millis>1561007951715</millis>
+  <sequence>462</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_Overall score&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:11</date>
+  <millis>1561007951801</millis>
+  <sequence>476</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_Overall score&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:11</date>
+  <millis>1561007951959</millis>
+  <sequence>493</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;141&amp;apos; is set on object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_Overall score&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:12</date>
+  <millis>1561007952066</millis>
+  <sequence>509</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Attribute &amp;apos;value&amp;apos; of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_Overall score&amp;apos; is: &amp;apos;141&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:12</date>
+  <millis>1561007952080</millis>
+  <sequence>512</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;141&amp;apos; and expected text &amp;apos;141&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:12</date>
+  <millis>1561007952097</millis>
+  <sequence>517</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:12</date>
+  <millis>1561007952146</millis>
+  <sequence>528</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_date&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:12</date>
+  <millis>1561007952208</millis>
+  <sequence>542</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_date&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:12</date>
+  <millis>1561007952349</millis>
+  <sequence>564</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_date&amp;apos; is cleared</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:12</date>
+  <millis>1561007952515</millis>
+  <sequence>578</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;04 Jun 2019&amp;apos; sent to object: &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_date&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:14</date>
+  <millis>1561007954526</millis>
+  <sequence>581</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:14</date>
+  <millis>1561007954594</millis>
+  <sequence>596</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Attribute &amp;apos;value&amp;apos; of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_date&amp;apos; is: &amp;apos;04 Jun 2019&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:14</date>
+  <millis>1561007954604</millis>
+  <sequence>599</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;04 Jun 2019&amp;apos; and expected text &amp;apos;04 Jun 2019&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:14</date>
+  <millis>1561007954661</millis>
+  <sequence>614</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/OpportunitiesEditorBox_Custodial/p_opportunities&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:14</date>
+  <millis>1561007954715</millis>
+  <sequence>628</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/OpportunitiesEditorBox_Custodial/p_opportunities&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:19</date>
+  <millis>1561007959046</millis>
+  <sequence>651</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; is set on object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/OpportunitiesEditorBox_Custodial/body_textOpportunities&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:22</date>
+  <millis>1561007962057</millis>
+  <sequence>654</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:22</date>
+  <millis>1561007962166</millis>
+  <sequence>674</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/OpportunitiesEditorBox_Custodial/body_textOpportunities&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:22</date>
+  <millis>1561007962177</millis>
+  <sequence>677</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; and expected text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:22</date>
+  <millis>1561007962231</millis>
+  <sequence>690</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/p_SC_additionalDoc&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:22</date>
+  <millis>1561007962285</millis>
+  <sequence>706</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/p_SC_additionalDoc&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:22</date>
+  <millis>1561007962351</millis>
+  <sequence>721</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/Button_SC_AddFile&amp;apos; has attribute &amp;apos;class&amp;apos; with value &amp;apos;tiny ui button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:22</date>
+  <millis>1561007962438</millis>
+  <sequence>736</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>File &amp;apos;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\MultipleFileDiffExt\\SampleGIFImage_350kbmb.gif&amp;apos; sent to object: &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/input_SCAddFile&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:23</date>
+  <millis>1561007963459</millis>
+  <sequence>739</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:23</date>
+  <millis>1561007963510</millis>
+  <sequence>753</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/Button_SC_AddFile&amp;apos; has attribute &amp;apos;class&amp;apos; with value &amp;apos;tiny ui button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:23</date>
+  <millis>1561007963589</millis>
+  <sequence>768</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>File &amp;apos;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\MultipleFileDiffExt\\SamplePPTFile_1000kb.ppt&amp;apos; sent to object: &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/input_SCAddFile&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:24</date>
+  <millis>1561007964601</millis>
+  <sequence>771</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:24</date>
+  <millis>1561007964695</millis>
+  <sequence>785</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/Button_SC_AddFile&amp;apos; has attribute &amp;apos;class&amp;apos; with value &amp;apos;tiny ui button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:24</date>
+  <millis>1561007964778</millis>
+  <sequence>800</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>File &amp;apos;H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\MultipleFileDiffExt\\ZZ.pdf&amp;apos; sent to object: &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/input_SCAddFile&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:25</date>
+  <millis>1561007965795</millis>
+  <sequence>803</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:25</date>
+  <millis>1561007965850</millis>
+  <sequence>818</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/p_SC_Editorbox&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:25</date>
+  <millis>1561007965902</millis>
+  <sequence>832</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/p_SC_Editorbox&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:29</date>
+  <millis>1561007969421</millis>
+  <sequence>855</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; is set on object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:32</date>
+  <millis>1561007972433</millis>
+  <sequence>858</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:32</date>
+  <millis>1561007972528</millis>
+  <sequence>878</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:32</date>
+  <millis>1561007972538</millis>
+  <sequence>881</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; and expected text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:42</date>
+  <millis>1561007982542</millis>
+  <sequence>883</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:42</date>
+  <millis>1561007982609</millis>
+  <sequence>898</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/button_Save&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:42</date>
+  <millis>1561007982674</millis>
+  <sequence>912</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/button_Save&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:42</date>
+  <millis>1561007982827</millis>
+  <sequence>927</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Green_Cleaning/button_Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:44</date>
+  <millis>1561007984840</millis>
+  <sequence>930</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:44</date>
+  <millis>1561007984942</millis>
+  <sequence>933</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Form data saved successfully.&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:45</date>
+  <millis>1561007985004</millis>
+  <sequence>948</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/icon_pdf&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:45</date>
+  <millis>1561007985062</millis>
+  <sequence>962</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Green_Cleaning/icon_pdf&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:50</date>
+  <millis>1561007990073</millis>
+  <sequence>965</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:49:50</date>
+  <millis>1561007990198</millis>
+  <sequence>979</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Green_Cleaning/icon_pdf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:00</date>
+  <millis>1561008000239</millis>
+  <sequence>982</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:06</date>
+  <millis>1561008006366</millis>
+  <sequence>984</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:06</date>
+  <millis>1561008006428</millis>
+  <sequence>999</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/ProceduresEditorBox_Custodial/p_procedures and routine Inspection&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:06</date>
+  <millis>1561008006561</millis>
+  <sequence>1020</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/ProceduresEditorBox_Custodial/body_custodialText&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:08</date>
+  <millis>1561008008586</millis>
+  <sequence>1024</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:13</date>
+  <millis>1561008013703</millis>
+  <sequence>1026</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:13</date>
+  <millis>1561008013821</millis>
+  <sequence>1041</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/AddFile_UploadCustodialEffectivenessAudit/p_Custodial Effectiveness&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:17</date>
+  <millis>1561008017034</millis>
+  <sequence>1055</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:17</date>
+  <millis>1561008017101</millis>
+  <sequence>1070</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Attribute &amp;apos;value&amp;apos; of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_Overall score&amp;apos; is: &amp;apos;141&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:20</date>
+  <millis>1561008020188</millis>
+  <sequence>1073</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:20</date>
+  <millis>1561008020269</millis>
+  <sequence>1088</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Attribute &amp;apos;value&amp;apos; of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/input_date&amp;apos; is: &amp;apos;04 Jun 2019&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:23</date>
+  <millis>1561008023381</millis>
+  <sequence>1091</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:28</date>
+  <millis>1561008028455</millis>
+  <sequence>1093</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:28</date>
+  <millis>1561008028537</millis>
+  <sequence>1108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/OpportunitiesEditorBox_Custodial/p_opportunities&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:28</date>
+  <millis>1561008028765</millis>
+  <sequence>1129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/OpportunitiesEditorBox_Custodial/body_textOpportunities&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:30</date>
+  <millis>1561008030809</millis>
+  <sequence>1133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:35</date>
+  <millis>1561008035869</millis>
+  <sequence>1135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:35</date>
+  <millis>1561008035937</millis>
+  <sequence>1150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/p_SC_Editorbox&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:36</date>
+  <millis>1561008036039</millis>
+  <sequence>1171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:38</date>
+  <millis>1561008038062</millis>
+  <sequence>1175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:43</date>
+  <millis>1561008043135</millis>
+  <sequence>1177</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:43</date>
+  <millis>1561008043197</millis>
+  <sequence>1192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/p_SC_additionalDoc&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:46</date>
+  <millis>1561008046059</millis>
+  <sequence>1206</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:47</date>
+  <millis>1561008047541</millis>
+  <sequence>1208</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refresh successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:47</date>
+  <millis>1561008047881</millis>
+  <sequence>1228</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/Custodial_Effectiveness_Opt1/ProceduresEditorBox_Custodial/body_custodialText&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:47</date>
+  <millis>1561008047893</millis>
+  <sequence>1231</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; and expected text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:47</date>
+  <millis>1561008047983</millis>
+  <sequence>1251</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox&amp;apos; is: &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:47</date>
+  <millis>1561008047992</millis>
+  <sequence>1254</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; and expected text &amp;apos;Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 7XSER&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048015</millis>
+  <sequence>1255</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Run with &amp;apos;greenCleaningForm.Runner_GreenCleaning&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048016</millis>
+  <sequence>1256</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runWithCucumberRunner(greenCleaningForm.Runner_GreenCleaning)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048016</millis>
+  <sequence>1257</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/GreenCleaning/TC_GC_Custodial</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048016</millis>
+  <sequence>1258</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048017</millis>
+  <sequence>1260</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048850</millis>
+  <sequence>1262</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048850</millis>
+  <sequence>1264</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048850</millis>
+  <sequence>1265</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048851</millis>
+  <sequence>1266</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/GreenCleaning/TC_GC_Custodial</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-20T10:50:48</date>
+  <millis>1561008048882</millis>
+  <sequence>1267</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/GC_SmokeTest</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

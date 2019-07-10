@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GH_SmokeTest" time="1292" tests="7" failures="0" errors="0">
+   <testsuite name="GH_SmokeTest" tests="7" failures="0" errors="0" time="1292" timestamp="2019-07-10 10:25:14" hostname="Promantus Inc - G10PROLT021" id="Test Suites/GH_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GH_SmokeTest\\20190710_102511"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GH_SmokeTest\\20190710_102511\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="55cf474801c91ac47b40668730205af9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GridHarmonization/TC_GH_ResponseProgram" classname="Test Cases/GridHarmonization/TC_GH_ResponseProgram" status="PASSED">
+         <system-out><![CDATA[2019-07-10 10:25:15 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_ResponseProgram: Test Cases/GridHarmonization/TC_GH_ResponseProgram
+
+2019-07-10 10:25:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 10:25:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 10:25:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:25:15 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:25:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-10 10:25:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:25:20 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 10:25:20 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 10:25:20 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 10:25:20 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 10:25:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DemandResponseProgram): Run with 'gridHarmonizationForm.Runner_GH_DemandResponseProgram' was passed
+
+2019-07-10 10:25:25 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_Navigate: Test Cases/GridHarmonization/TC_GH_Navigate
+
+2019-07-10 10:25:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_NavigationGH): Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:25:28 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 10:25:28 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:25:33 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:25:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:25:35 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:25:36 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:25:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:25:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:25:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:25:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:25:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:25:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is present
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/divval' is: 'READY FOR REVIEW'
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:25:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/GH_VerifyPage' is present
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GridHarmonization/TC_GH_Navigate' successfully
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' is present
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' is clicked on
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Text 'Case 1. Demand response program available and participation' is present on page 
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/FieldsVerifying' is present
+
+2019-07-10 10:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/CheckBox/checkbox_DemandResponsePlan' is checked
+
+2019-07-10 10:26:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:26:01 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/CheckBox/checkbox_DemandResponseEvent' is checked
+
+2019-07-10 10:26:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/CheckBox/checkbox_DemandResponseProcess' is checked
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_On-peak electricity demand' is visible
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_On-peak electricity demand'
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_On-peak electricity demand' is: '8'
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Actual text '8' and expected text '8' are matched 
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Planned demand' is visible
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Text '87' is set on object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Planned demand'
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Planned demand' is: '87'
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Actual text '87' and expected text '87' are matched 
+
+2019-07-10 10:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Percent on-peak reduction' is visible
+
+2019-07-10 10:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Percent on-peak reduction' is clicked on
+
+2019-07-10 10:26:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:26:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Planned demand' is: '87'
+
+2019-07-10 10:26:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' successfully
+
+2019-07-10 10:26:10 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' is visible
+
+2019-07-10 10:26:10 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Btn_AddFile_UploadProof' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:26:10 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/input_AddFile_UploadProof'
+
+2019-07-10 10:26:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:26:12 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Btn_AddFile_UploadProof' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:26:12 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/input_AddFile_UploadProof'
+
+2019-07-10 10:26:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:26:14 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Btn_AddFile_UploadProof' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:26:14 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/input_AddFile_UploadProof'
+
+2019-07-10 10:26:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' is present
+
+2019-07-10 10:26:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' successfully
+
+2019-07-10 10:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Btn_SC_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:26:15 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/input_SC_AddFile'
+
+2019-07-10 10:26:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Btn_SC_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:26:16 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/input_SC_AddFile'
+
+2019-07-10 10:26:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Btn_SC_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:26:18 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/input_SC_AddFile'
+
+2019-07-10 10:26:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:26:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/p_SC_EditorBox' successfully
+
+2019-07-10 10:26:20 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/p_SC_EditorBox' is present
+
+2019-07-10 10:26:24 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9' is set on object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-07-10 10:26:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:26:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9'
+
+2019-07-10 10:26:27 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9' are matched 
+
+2019-07-10 10:26:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:26:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/button_Save' successfully
+
+2019-07-10 10:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/button_Save' is visible
+
+2019-07-10 10:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Save' is clicked on
+
+2019-07-10 10:26:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:26:39 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-10 10:26:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/icon_pdf' successfully
+
+2019-07-10 10:26:39 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/icon_pdf' is present
+
+2019-07-10 10:26:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/icon_pdf' is clicked on
+
+2019-07-10 10:26:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:26:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_On-peak electricity demand' is: '8'
+
+2019-07-10 10:26:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:26:58 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Planned demand' is: '87'
+
+2019-07-10 10:27:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:27:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_Percent on-peak reduction' is: '1,087.5'
+
+2019-07-10 10:27:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:27:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:27:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' successfully
+
+2019-07-10 10:27:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:27:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:27:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/p_SC_EditorBox' successfully
+
+2019-07-10 10:27:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9'
+
+2019-07-10 10:27:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:27:21 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-10 10:27:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9'
+
+2019-07-10 10:27:21 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9' are matched 
+
+2019-07-10 10:27:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:27:24 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-10 10:27:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:27:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/a_MarkReadyForReview' is clicked on
+
+2019-07-10 10:27:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:27:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:27:31 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_GH_DemandResponseProgram' was passed
+
+2019-07-10 10:27:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 10:27:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 10:27:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GridHarmonization/TC_GH_ResponseCapable" classname="Test Cases/GridHarmonization/TC_GH_ResponseCapable" status="PASSED">
+         <system-out><![CDATA[2019-07-10 10:27:32 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_ResponseCapable: Test Cases/GridHarmonization/TC_GH_ResponseCapable
+
+2019-07-10 10:27:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 10:27:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 10:27:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:27:32 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:27:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:27:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 10:27:35 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 10:27:35 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 10:27:35 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 10:27:35 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DemandResponseCapable): Run with 'gridHarmonizationForm.Runner_GH_DemandResponseCapable' was passed
+
+2019-07-10 10:27:37 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_Navigate: Test Cases/GridHarmonization/TC_GH_Navigate
+
+2019-07-10 10:27:37 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_NavigationGH): Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:27:38 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 10:27:38 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:27:41 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:27:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:27:43 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:27:44 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:27:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:27:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:27:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:27:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:27:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:27:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is present
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:27:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:28:04 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/GH_VerifyPage' is present
+
+2019-07-10 10:28:04 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:28:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GridHarmonization/TC_GH_Navigate' successfully
+
+2019-07-10 10:28:04 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_SelectOption' is present
+
+2019-07-10 10:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_SelectOption' is clicked on
+
+2019-07-10 10:28:05 - [MESSAGE][PASSED] - Text 'Case 2. Demand response capable building' is present on page 
+
+2019-07-10 10:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/FieldsVerifying' is present
+
+2019-07-10 10:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/CheckBox/checkbox_DemandResponsePlan' is checked
+
+2019-07-10 10:28:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:28:07 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/CheckBox/checkbox_DemandResponseEvent' is checked
+
+2019-07-10 10:28:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:28:09 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/CheckBox/checkbox_DemandResponseProcess' is checked
+
+2019-07-10 10:28:09 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_peak electircity demand' is visible
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Text '56' is set on object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_peak electircity demand'
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_peak electircity demand' is: '56'
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Actual text '56' and expected text '56' are matched 
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PlannedDemandReduction' is visible
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Text '43' is set on object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PlannedDemandReduction'
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PlannedDemandReduction' is: '43'
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Actual text '43' and expected text '43' are matched 
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PercentOnPeakReduction' is visible
+
+2019-07-10 10:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PercentOnPeakReduction' is clicked on
+
+2019-07-10 10:28:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:28:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PercentOnPeakReduction' is: '76.79'
+
+2019-07-10 10:28:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:28:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/button_Save' successfully
+
+2019-07-10 10:28:25 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/button_Save' is visible
+
+2019-07-10 10:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Save' is clicked on
+
+2019-07-10 10:28:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:28:28 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-10 10:28:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/icon_pdf' successfully
+
+2019-07-10 10:28:28 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/icon_pdf' is present
+
+2019-07-10 10:28:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/icon_pdf' is clicked on
+
+2019-07-10 10:28:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:28:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_peak electircity demand' is: '56'
+
+2019-07-10 10:28:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:28:46 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PlannedDemandReduction' is: '43'
+
+2019-07-10 10:28:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:28:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_PercentOnPeakReduction' is: '76.79'
+
+2019-07-10 10:28:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:28:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:28:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/p_SC_EditorBox' successfully
+
+2019-07-10 10:28:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9'
+
+2019-07-10 10:28:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:28:59 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_GH_DemandResponseCapable' was passed
+
+2019-07-10 10:28:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 10:28:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 10:29:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GridHarmonization/TC_GH_PermanentLoad" classname="Test Cases/GridHarmonization/TC_GH_PermanentLoad" status="PASSED">
+         <system-out><![CDATA[2019-07-10 10:29:00 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_PermanentLoad: Test Cases/GridHarmonization/TC_GH_PermanentLoad
+
+2019-07-10 10:29:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 10:29:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 10:29:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:29:00 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:29:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:29:03 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 10:29:03 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 10:29:03 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 10:29:03 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 10:29:04 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_GH_Permanent): Run with 'gridHarmonizationForm.Runner_GH_Permanent' was passed
+
+2019-07-10 10:29:05 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_Navigate: Test Cases/GridHarmonization/TC_GH_Navigate
+
+2019-07-10 10:29:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_NavigationGH): Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:29:07 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 10:29:07 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:29:15 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:29:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:29:17 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:29:18 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:29:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:29:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:29:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:29:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:29:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:29:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:29:31 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:29:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 10:29:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:29:32 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is present
+
+2019-07-10 10:29:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:29:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 10:29:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:29:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/GH_VerifyPage' is present
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GridHarmonization/TC_GH_Navigate' successfully
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_SelectOption' is present
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_SelectOption' is clicked on
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Text 'Case 3. Permanent load shifting technologies' is present on page 
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/FieldsVerifying' is present
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/checkbox_LoadShifting' is checked
+
+2019-07-10 10:29:39 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PeakElectricityDemand' is visible
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PeakElectricityDemand'
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PeakElectricityDemand' is: '2'
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Actual text '2' and expected text '2' are matched 
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PlannedDemandReduction' is visible
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PlannedDemandReduction'
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PlannedDemandReduction' is: '7'
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Actual text '7' and expected text '7' are matched 
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PercentOn-peakReduction' is visible
+
+2019-07-10 10:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PercentOn-peakReduction' is clicked on
+
+2019-07-10 10:29:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:29:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PercentOn-peakReduction' is: '350'
+
+2019-07-10 10:29:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' successfully
+
+2019-07-10 10:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' is visible
+
+2019-07-10 10:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Btn_AddFile_UploadSummary' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:29:46 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/input_AddFile_UploadSummary'
+
+2019-07-10 10:29:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:29:48 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Btn_AddFile_UploadSummary' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:29:48 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/input_AddFile_UploadSummary'
+
+2019-07-10 10:29:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Btn_AddFile_UploadSummary' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 10:29:52 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/input_AddFile_UploadSummary'
+
+2019-07-10 10:29:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:30:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:30:03 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/checkbox_DistributedEnergy' is present
+
+2019-07-10 10:30:03 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/checkbox_DistributedEnergy' is checked
+
+2019-07-10 10:30:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:30:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/button_Save' successfully
+
+2019-07-10 10:30:14 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/button_Save' is visible
+
+2019-07-10 10:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Save' is clicked on
+
+2019-07-10 10:30:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:30:16 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-10 10:30:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/icon_pdf' successfully
+
+2019-07-10 10:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/icon_pdf' is present
+
+2019-07-10 10:30:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/icon_pdf' is clicked on
+
+2019-07-10 10:30:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:30:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PeakElectricityDemand' is: '2'
+
+2019-07-10 10:30:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:30:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PlannedDemandReduction' is: '7'
+
+2019-07-10 10:30:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:30:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PercentOn-peakReduction' is: '350'
+
+2019-07-10 10:30:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:30:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:30:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' successfully
+
+2019-07-10 10:30:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:30:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:30:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/p_SC_EditorBox' successfully
+
+2019-07-10 10:30:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. VL2Q9'
+
+2019-07-10 10:30:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:30:55 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_GH_Permanent' was passed
+
+2019-07-10 10:30:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 10:30:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 10:30:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GridHarmonization/TC_GH_VerifyUploaddFiles" classname="Test Cases/GridHarmonization/TC_GH_VerifyUploaddFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-10 10:30:56 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_VerifyUploaddFiles: Test Cases/GridHarmonization/TC_GH_VerifyUploaddFiles
+
+2019-07-10 10:30:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 10:30:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 10:30:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:30:56 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:30:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:30:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 10:30:59 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 10:30:59 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 10:30:59 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 10:30:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_GH_VerifyUploadedFiles): Run with 'gridHarmonizationForm.Runner_GH_VerifyUploadedFiles' was passed
+
+2019-07-10 10:31:02 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_Navigate: Test Cases/GridHarmonization/TC_GH_Navigate
+
+2019-07-10 10:31:02 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_NavigationGH): Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:31:04 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 10:31:04 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:31:09 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:31:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:31:12 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:31:12 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:31:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:31:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:31:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:31:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:31:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:31:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:31:29 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:31:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 10:31:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:31:30 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is present
+
+2019-07-10 10:31:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:31:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 10:31:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:31:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/GH_VerifyPage' is present
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GridHarmonization/TC_GH_Navigate' successfully
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Table_UploadSummary' successfully
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Table_UploadSummary' is present
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 10:31:47 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 10:31:48 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-10 10:31:48 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 10:31:48 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 10:31:48 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-10 10:31:48 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 10:31:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:31:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' successfully
+
+2019-07-10 10:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' is checked
+
+2019-07-10 10:31:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Table_UploadProof' successfully
+
+2019-07-10 10:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Table_UploadProof' is present
+
+2019-07-10 10:31:50 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Table_Sc_AddFile' successfully
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Table_Sc_AddFile' is present
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-10 10:31:51 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 10:31:52 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 10:31:52 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-10 10:31:52 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 10:32:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 10:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Yes' is clicked on
+
+2019-07-10 10:32:02 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_GH_VerifyUploadedFiles' was passed
+
+2019-07-10 10:32:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 10:32:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 10:32:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GridHarmonization/TC_GH_DownloadFiles" classname="Test Cases/GridHarmonization/TC_GH_DownloadFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-10 10:32:04 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_DownloadFiles: Test Cases/GridHarmonization/TC_GH_DownloadFiles
+
+2019-07-10 10:32:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 10:32:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 10:32:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:32:04 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:32:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:32:06 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 10:32:06 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 10:32:06 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 10:32:06 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 10:32:06 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DownloadFiles): Run with 'gridHarmonizationForm.Runner_GH_DownloadFiles' was passed
+
+2019-07-10 10:32:10 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_Navigate: Test Cases/GridHarmonization/TC_GH_Navigate
+
+2019-07-10 10:32:10 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_NavigationGH): Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:32:11 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 10:32:11 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:32:15 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:32:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:32:17 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:32:17 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:32:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:32:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:32:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:32:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:32:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:32:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is present
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:32:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/GH_VerifyPage' is present
+
+2019-07-10 10:32:44 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:32:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GridHarmonization/TC_GH_Navigate' successfully
+
+2019-07-10 10:32:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Table_UploadSummary' successfully
+
+2019-07-10 10:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Table_UploadSummary' is present
+
+2019-07-10 10:32:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' successfully
+
+2019-07-10 10:32:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' is hovered
+
+2019-07-10 10:32:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:32:47 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 10:32:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' is hovered
+
+2019-07-10 10:32:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:33:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' is hovered
+
+2019-07-10 10:33:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:33:01 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 10:33:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:33:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:33:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:33:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:33:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:34:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:34:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:34:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:34:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:34:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:34:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:35:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:35:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:35:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:35:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:35:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:35:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:36:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:36:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:36:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:36:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:36:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:36:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:37:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:37:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:37:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:37:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:37:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:37:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' is hovered
+
+2019-07-10 10:37:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:37:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' is hovered
+
+2019-07-10 10:37:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:37:56 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 10:38:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:38:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:38:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:38:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:38:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:38:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' is hovered
+
+2019-07-10 10:38:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:39:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:39:04 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:39:04 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:39:04 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 10:39:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:39:07 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:39:07 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:39:07 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 10:39:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:39:10 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:39:10 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:39:10 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 10:39:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' successfully
+
+2019-07-10 10:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' is checked
+
+2019-07-10 10:39:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Table_UploadProof' successfully
+
+2019-07-10 10:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Table_UploadProof' is present
+
+2019-07-10 10:39:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' successfully
+
+2019-07-10 10:39:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' is hovered
+
+2019-07-10 10:39:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:39:15 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 10:39:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:39:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' is hovered
+
+2019-07-10 10:39:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' is hovered
+
+2019-07-10 10:39:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:39:39 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 10:39:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' is hovered
+
+2019-07-10 10:39:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' is hovered
+
+2019-07-10 10:39:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:39:54 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 10:40:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:40:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:40:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' is hovered
+
+2019-07-10 10:40:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:40:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:40:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:40:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:40:32 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:40:32 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:40:32 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 10:40:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:40:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:40:35 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:40:35 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:40:35 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 10:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:40:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:40:38 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:40:38 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:40:38 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 10:40:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Table_Sc_AddFile' successfully
+
+2019-07-10 10:40:38 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Table_Sc_AddFile' is present
+
+2019-07-10 10:40:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' successfully
+
+2019-07-10 10:40:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' is hovered
+
+2019-07-10 10:40:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:40:41 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 10:40:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' is hovered
+
+2019-07-10 10:40:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:40:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' is hovered
+
+2019-07-10 10:40:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:40:55 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 10:41:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' is hovered
+
+2019-07-10 10:41:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:41:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' is hovered
+
+2019-07-10 10:41:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:41:09 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 10:41:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:41:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' is hovered
+
+2019-07-10 10:41:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:41:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:41:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:41:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:41:38 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:41:38 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:41:38 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 10:41:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:41:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:41:41 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:41:41 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:41:41 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 10:41:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:41:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:41:44 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 10:41:44 - [MESSAGE][PASSED] - 
+
+2019-07-10 10:41:44 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 10:41:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 10:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Yes' is clicked on
+
+2019-07-10 10:41:54 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_GH_DownloadFiles' was passed
+
+2019-07-10 10:41:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 10:41:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 10:41:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GridHarmonization/TC_GH_DeleteUploadedFiles" classname="Test Cases/GridHarmonization/TC_GH_DeleteUploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-10 10:41:55 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_DeleteUploadedFiles: Test Cases/GridHarmonization/TC_GH_DeleteUploadedFiles
+
+2019-07-10 10:41:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 10:41:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 10:41:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:41:55 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:41:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:41:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 10:41:58 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 10:41:58 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 10:41:58 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 10:41:58 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DeleteUploadedFiles): Run with 'gridHarmonizationForm.Runner_GH_DeleteUploadedFiles' was passed
+
+2019-07-10 10:42:00 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_Navigate: Test Cases/GridHarmonization/TC_GH_Navigate
+
+2019-07-10 10:42:00 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_NavigationGH): Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:42:01 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 10:42:01 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:42:05 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:42:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:07 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:42:08 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:42:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:42:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:42:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:42:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is present
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:42:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/GH_VerifyPage' is present
+
+2019-07-10 10:42:29 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:42:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GridHarmonization/TC_GH_Navigate' successfully
+
+2019-07-10 10:42:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Table_UploadSummary' successfully
+
+2019-07-10 10:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Table_UploadSummary' is present
+
+2019-07-10 10:42:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' successfully
+
+2019-07-10 10:42:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:42:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:42:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:42:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:42:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:42:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:42:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/Table_UploadSummary' located by 'By.xpath: //*[@id="loadShiftStrategyUpload_files"]/table' is not present after '30' second(s)
+
+2019-07-10 10:42:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' successfully
+
+2019-07-10 10:42:44 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/input_SelectOption' is checked
+
+2019-07-10 10:42:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Table_UploadProof' successfully
+
+2019-07-10 10:42:45 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Table_UploadProof' is present
+
+2019-07-10 10:42:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/p_Upload proof of enrollment' successfully
+
+2019-07-10 10:42:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:42:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:42:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:42:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:42:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:42:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:42:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:42:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GridHarmonization/DemandResponsePrgrm_Case1/AddFile/Table_UploadProof' located by 'By.xpath: //*[@id="proofOfEnrollUpload_files"]/table' is not present after '30' second(s)
+
+2019-07-10 10:42:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Table_Sc_AddFile' successfully
+
+2019-07-10 10:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Table_Sc_AddFile' is present
+
+2019-07-10 10:42:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/p_SC_AddFile' successfully
+
+2019-07-10 10:42:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:42:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:43:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:43:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:43:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:43:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:43:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:43:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:43:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:43:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:43:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GridHarmonization/SpecialCircumstances/SC_AddFile/Table_Sc_AddFile' located by 'By.xpath: //*[@id="splCircumstancesDocs_files"]/table' is not present after '30' second(s)
+
+2019-07-10 10:43:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 10:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Yes' is clicked on
+
+2019-07-10 10:43:19 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_GH_DeleteUploadedFiles' was passed
+
+2019-07-10 10:43:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 10:43:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 10:43:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GridHarmonization/TC_GH_AutoSaveAsDraft" classname="Test Cases/GridHarmonization/TC_GH_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-07-10 10:43:20 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_AutoSaveAsDraft: Test Cases/GridHarmonization/TC_GH_AutoSaveAsDraft
+
+2019-07-10 10:43:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 10:43:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 10:43:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:43:20 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:43:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:43:23 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 10:43:23 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 10:43:23 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 10:43:23 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 10:43:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_GH_AutoSaveAsDraft): Run with 'gridHarmonizationForm.Runner_GH_AutoSaveAsDraft' was passed
+
+2019-07-10 10:43:24 - [TEST_CASE][PASSED] - Test Cases/GridHarmonization/TC_GH_Navigate: Test Cases/GridHarmonization/TC_GH_Navigate
+
+2019-07-10 10:43:24 - [TEST_STEP][PASSED] - runWithCucumberRunner(gridHarmonizationForm.Runner_NavigationGH): Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:43:25 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 10:43:25 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:43:30 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:43:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:43:32 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:43:32 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:43:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:43:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:43:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:43:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:43:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:43:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is present
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' successfully
+
+2019-07-10 10:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:43:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Navigation/GH_VerifyPage' is present
+
+2019-07-10 10:44:00 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_NavigationGH' was passed
+
+2019-07-10 10:44:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GridHarmonization/TC_GH_Navigate' successfully
+
+2019-07-10 10:44:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:44:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-07-10 10:44:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/input_AddFile_UploadSummary' successfully
+
+2019-07-10 10:44:10 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/input_AddFile_UploadSummary'
+
+2019-07-10 10:44:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:44:20 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-07-10 10:44:20 - [MESSAGE][PASSED] - Text '56' is set on object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PeakElectricityDemand'
+
+2019-07-10 10:44:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:44:30 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is present
+
+2019-07-10 10:44:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 10:44:28 AM  Clear draft'
+
+2019-07-10 10:44:30 - [MESSAGE][PASSED] - Text '23' is set on object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PlannedDemandReduction'
+
+2019-07-10 10:44:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is present
+
+2019-07-10 10:44:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 10:44:38 AM  Clear draft'
+
+2019-07-10 10:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/input_PercentOn-peakReduction' is clicked on
+
+2019-07-10 10:44:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is present
+
+2019-07-10 10:44:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 10:44:48 AM  Clear draft'
+
+2019-07-10 10:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/p_SC_EditorBox' is present
+
+2019-07-10 10:44:51 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-07-10 10:45:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:45:01 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is present
+
+2019-07-10 10:45:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 10:44:58 AM  Clear draft'
+
+2019-07-10 10:45:01 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 10 Jul 2019 10:44:58 AM  Clear draft' are not matched 
+
+2019-07-10 10:45:01 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is present
+
+2019-07-10 10:45:01 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/button_Save' is present
+
+2019-07-10 10:45:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Save' is clicked on
+
+2019-07-10 10:45:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:45:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GridHarmonization/Autosave/div_Form drafted and not yet saved' located by 'By.xpath: //*[@id="draftDataWarning"]' is not present after '2' second(s)
+
+2019-07-10 10:45:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GridHarmonization/PermanentLoadShifting_Case3/AddFile/p_Upload a summary' successfully
+
+2019-07-10 10:45:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:45:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:45:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 10:45:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:45:28 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/p_SC_EditorBox' is present
+
+2019-07-10 10:45:29 - [MESSAGE][PASSED] - Text 'Test Data for Special Circumstances' is set on object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-07-10 10:45:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:45:39 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is present
+
+2019-07-10 10:45:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 10:45:31 AM  Clear draft'
+
+2019-07-10 10:45:39 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 10 Jul 2019 10:45:31 AM  Clear draft' are not matched 
+
+2019-07-10 10:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 10:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Yes' is clicked on
+
+2019-07-10 10:45:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:45:44 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_SelectOption' is present
+
+2019-07-10 10:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/DemandResponseCapable_Case2/input_SelectOption' is clicked on
+
+2019-07-10 10:45:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:45:54 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/a_Clear draft' is present
+
+2019-07-10 10:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 10:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Yes' is clicked on
+
+2019-07-10 10:46:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 10:46:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GridHarmonization/Autosave/a_Clear draft' located by 'By.xpath: //*[@id="clearDraft"]' is not present after '5' second(s)
+
+2019-07-10 10:46:00 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is present
+
+2019-07-10 10:46:00 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/GridHarmonization/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-07-10 10:46:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 10:46:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 10:46:08 AM  Clear draft'
+
+2019-07-10 10:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/div_Signout' is clicked on
+
+2019-07-10 10:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/a_Sign out' is clicked on
+
+2019-07-10 10:46:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:46:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-10 10:46:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-10 10:46:14 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 10:46:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 10:46:21 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 10:46:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:46:23 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 10:46:24 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 10:46:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 10:46:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 10:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 10:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 10:46:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 10:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 10:46:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 10:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 10:46:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/div_Grid Harmonization' is clicked on
+
+2019-07-10 10:46:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Navigation/span_(V01)' is clicked on
+
+2019-07-10 10:46:44 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/div_Form drafted and not yet saved' is present
+
+2019-07-10 10:46:44 - [MESSAGE][PASSED] - Object 'Object Repository/GridHarmonization/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-07-10 10:46:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/GridHarmonization/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 10 Jul 2019 10:46:08 AM  Clear draft'
+
+2019-07-10 10:46:44 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 10 Jul 2019 10:46:08 AM  Clear draft' and expected text 'Last draft saved on: 10 Jul 2019 10:46:08 AM  Clear draft' are matched 
+
+2019-07-10 10:46:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 10:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 10:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GridHarmonization/button_Yes' is clicked on
+
+2019-07-10 10:46:46 - [MESSAGE][PASSED] - Run with 'gridHarmonizationForm.Runner_GH_AutoSaveAsDraft' was passed
+
+2019-07-10 10:46:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 10:46:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 10:46:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-10 10:25:14 - [TEST_SUITE][PASSED] - GH_SmokeTest: Test Cases/GridHarmonization/TC_GH_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

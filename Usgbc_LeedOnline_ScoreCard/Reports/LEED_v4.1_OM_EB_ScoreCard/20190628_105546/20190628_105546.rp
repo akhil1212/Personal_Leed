@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20190628_105546</name>
+   <tag></tag>
+   <displayName>20190628_105546</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/SM_SmokeTest/20190628_105546</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>Staging</profileName>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

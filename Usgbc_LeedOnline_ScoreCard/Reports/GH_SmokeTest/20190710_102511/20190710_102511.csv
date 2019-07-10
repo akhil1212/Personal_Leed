@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GH_SmokeTest,Chrome 75.0.3770.100,,2019-07-10 10:25:14,2019-07-10 10:46:47,21m - 32.855s,PASSED
+,,,,,,
+Test Cases/GridHarmonization/TC_GH_ResponseProgram,Chrome 75.0.3770.100,,2019-07-10 10:25:15,2019-07-10 10:27:32,2m - 17.197s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-10 10:25:15,2019-07-10 10:25:21,5.871s,PASSED
+runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DemandResponseProgram),Chrome 75.0.3770.100,,2019-07-10 10:25:21,2019-07-10 10:27:31,2m - 10.154s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-10 10:27:31,2019-07-10 10:27:32,0.778s,PASSED
+,,,,,,
+Test Cases/GridHarmonization/TC_GH_ResponseCapable,Chrome 75.0.3770.100,,2019-07-10 10:27:32,2019-07-10 10:29:00,1m - 28.262s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-10 10:27:32,2019-07-10 10:27:35,2.643s,PASSED
+runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DemandResponseCapable),Chrome 75.0.3770.100,,2019-07-10 10:27:35,2019-07-10 10:28:59,1m - 24.383s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-10 10:28:59,2019-07-10 10:29:00,0.959s,PASSED
+,,,,,,
+Test Cases/GridHarmonization/TC_GH_PermanentLoad,Chrome 75.0.3770.100,,2019-07-10 10:29:00,2019-07-10 10:30:56,1m - 55.335s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-10 10:29:00,2019-07-10 10:29:03,2.889s,PASSED
+runWithCucumberRunner(gridHarmonizationForm.Runner_GH_Permanent),Chrome 75.0.3770.100,,2019-07-10 10:29:04,2019-07-10 10:30:55,1m - 51.393s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-10 10:30:55,2019-07-10 10:30:56,0.812s,PASSED
+,,,,,,
+Test Cases/GridHarmonization/TC_GH_VerifyUploaddFiles,Chrome 75.0.3770.100,,2019-07-10 10:30:56,2019-07-10 10:32:04,1m - 7.786s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-10 10:30:56,2019-07-10 10:30:59,3.050s,PASSED
+runWithCucumberRunner(gridHarmonizationForm.Runner_GH_VerifyUploadedFiles),Chrome 75.0.3770.100,,2019-07-10 10:30:59,2019-07-10 10:32:02,1m - 3.228s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-10 10:32:02,2019-07-10 10:32:04,1.218s,PASSED
+,,,,,,
+Test Cases/GridHarmonization/TC_GH_DownloadFiles,Chrome 75.0.3770.100,,2019-07-10 10:32:04,2019-07-10 10:41:55,9m - 51.304s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-10 10:32:04,2019-07-10 10:32:06,2.649s,PASSED
+runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DownloadFiles),Chrome 75.0.3770.100,,2019-07-10 10:32:06,2019-07-10 10:41:54,9m - 47.534s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-10 10:41:54,2019-07-10 10:41:55,0.886s,PASSED
+,,,,,,
+Test Cases/GridHarmonization/TC_GH_DeleteUploadedFiles,Chrome 75.0.3770.100,,2019-07-10 10:41:55,2019-07-10 10:43:20,1m - 25.311s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-10 10:41:55,2019-07-10 10:41:58,3.232s,PASSED
+runWithCucumberRunner(gridHarmonizationForm.Runner_GH_DeleteUploadedFiles),Chrome 75.0.3770.100,,2019-07-10 10:41:58,2019-07-10 10:43:19,1m - 20.806s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-10 10:43:19,2019-07-10 10:43:20,1.019s,PASSED
+,,,,,,
+Test Cases/GridHarmonization/TC_GH_AutoSaveAsDraft,Chrome 75.0.3770.100,,2019-07-10 10:43:20,2019-07-10 10:46:47,3m - 26.966s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-10 10:43:20,2019-07-10 10:43:23,2.832s,PASSED
+runWithCucumberRunner(gridHarmonizationForm.Runner_GH_AutoSaveAsDraft),Chrome 75.0.3770.100,,2019-07-10 10:43:23,2019-07-10 10:46:46,3m - 22.959s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-10 10:46:46,2019-07-10 10:46:47,0.954s,PASSED

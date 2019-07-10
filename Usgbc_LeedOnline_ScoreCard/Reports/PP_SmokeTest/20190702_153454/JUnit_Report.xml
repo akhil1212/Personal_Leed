@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PP_SmokeTest" time="1244" tests="5" failures="0" errors="0">
+   <testsuite name="PP_SmokeTest" tests="5" failures="0" errors="0" time="1244" timestamp="2019-07-02 15:34:58" hostname="Promantus Inc - G10PROLT021" id="Test Suites/PP_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\PP_SmokeTest\\20190702_153454"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\PP_SmokeTest\\20190702_153454\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="4dbba0ddd3f2b1185c820e765730b21c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PurchasingPolicy/TC_PurchasingPolicyForm" classname="Test Cases/PurchasingPolicy/TC_PurchasingPolicyForm" status="PASSED">
+         <system-out><![CDATA[2019-07-02 15:34:58 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_PurchasingPolicyForm: Test Cases/PurchasingPolicy/TC_PurchasingPolicyForm
+
+2019-07-02 15:34:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-02 15:34:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-02 15:34:59 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-02 15:34:59 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-02 15:34:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-02 15:35:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-02 15:35:03 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-02 15:35:03 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-02 15:35:03 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-02 15:35:03 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-02 15:35:03 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_PP_Form): Run with 'purchasingPolicy.Runner_PP_Form' was passed
+
+2019-07-02 15:35:07 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_NavigateToPP: Test Cases/PurchasingPolicy/TC_NavigateToPP
+
+2019-07-02 15:35:07 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_NavigateToPP): Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:35:08 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-02 15:35:08 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:35:14 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-02 15:35:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:35:17 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-02 15:35:17 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-02 15:35:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:35:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-02 15:35:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-02 15:35:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-02 15:35:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-02 15:35:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-02 15:35:31 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:35:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-02 15:35:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' successfully
+
+2019-07-02 15:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is present
+
+2019-07-02 15:35:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-02 15:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is clicked on
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_Form (V01)' is clicked on
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy_Form' is present
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PurchasingPolicy/TC_NavigateToPP' successfully
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is present
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:35:36 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/input_AddFile'
+
+2019-07-02 15:35:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:35:41 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/input_AddFile'
+
+2019-07-02 15:35:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:35:52 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:35:52 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/input_AddFile'
+
+2019-07-02 15:35:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:35:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' successfully
+
+2019-07-02 15:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is present
+
+2019-07-02 15:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:35:53 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/input_AddFile'
+
+2019-07-02 15:35:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:35:58 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/input_AddFile'
+
+2019-07-02 15:35:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:04 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/input_AddFile'
+
+2019-07-02 15:36:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' successfully
+
+2019-07-02 15:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is present
+
+2019-07-02 15:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:06 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/input_AddFile'
+
+2019-07-02 15:36:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:08 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/input_AddFile'
+
+2019-07-02 15:36:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:16 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:16 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/input_AddFile'
+
+2019-07-02 15:36:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' successfully
+
+2019-07-02 15:36:17 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is present
+
+2019-07-02 15:36:17 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:17 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/input_AddFile'
+
+2019-07-02 15:36:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:20 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/input_AddFile'
+
+2019-07-02 15:36:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:26 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/input_AddFile'
+
+2019-07-02 15:36:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' successfully
+
+2019-07-02 15:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is present
+
+2019-07-02 15:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:28 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/input_AddFile'
+
+2019-07-02 15:36:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:31 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:31 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/input_AddFile'
+
+2019-07-02 15:36:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:38 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:38 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/input_AddFile'
+
+2019-07-02 15:36:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:36:39 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is present
+
+2019-07-02 15:36:39 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:39 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/input_AddFile'
+
+2019-07-02 15:36:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:43 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/input_AddFile'
+
+2019-07-02 15:36:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:50 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:50 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/input_AddFile'
+
+2019-07-02 15:36:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' successfully
+
+2019-07-02 15:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is present
+
+2019-07-02 15:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:52 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/input_AddFile'
+
+2019-07-02 15:36:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:36:56 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/input_AddFile'
+
+2019-07-02 15:36:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:03 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/input_AddFile'
+
+2019-07-02 15:37:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' successfully
+
+2019-07-02 15:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is present
+
+2019-07-02 15:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:04 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/input_AddFile'
+
+2019-07-02 15:37:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:07 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:08 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/input_AddFile'
+
+2019-07-02 15:37:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:14 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/input_AddFile'
+
+2019-07-02 15:37:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' successfully
+
+2019-07-02 15:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is present
+
+2019-07-02 15:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:15 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/input_AddFile'
+
+2019-07-02 15:37:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:21 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:21 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/input_AddFile'
+
+2019-07-02 15:37:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:29 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:29 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/input_AddFile'
+
+2019-07-02 15:37:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-07-02 15:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-07-02 15:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:30 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/input_AddFile'
+
+2019-07-02 15:37:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:35 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/input_AddFile'
+
+2019-07-02 15:37:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-07-02 15:37:43 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/input_AddFile'
+
+2019-07-02 15:37:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:37:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-07-02 15:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-07-02 15:37:48 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG' is set on object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-07-02 15:37:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:37:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG'
+
+2019-07-02 15:37:51 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG' are matched 
+
+2019-07-02 15:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/btn_Save' is visible
+
+2019-07-02 15:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/btn_Save' is clicked on
+
+2019-07-02 15:37:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:37:54 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-02 15:37:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-07-02 15:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-07-02 15:37:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-07-02 15:38:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:38:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:38:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:38:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:38:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:38:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' successfully
+
+2019-07-02 15:38:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:38:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:38:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' successfully
+
+2019-07-02 15:38:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:38:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:38:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' successfully
+
+2019-07-02 15:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:38:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:38:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' successfully
+
+2019-07-02 15:38:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:38:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:38:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:38:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:39:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' successfully
+
+2019-07-02 15:39:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:39:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' successfully
+
+2019-07-02 15:39:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:39:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' successfully
+
+2019-07-02 15:39:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:39:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-07-02 15:39:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG'
+
+2019-07-02 15:39:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:39:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-07-02 15:39:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:31 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-02 15:39:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG'
+
+2019-07-02 15:39:33 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 5RTFG' are matched 
+
+2019-07-02 15:39:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:36 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-02 15:39:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-02 15:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-07-02 15:39:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:39:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-02 15:39:43 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_PP_Form' was passed
+
+2019-07-02 15:39:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-02 15:39:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-02 15:39:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchasingPolicy/TC_PP_Verify_UploadedFiles" classname="Test Cases/PurchasingPolicy/TC_PP_Verify_UploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-02 15:39:44 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_PP_Verify_UploadedFiles: Test Cases/PurchasingPolicy/TC_PP_Verify_UploadedFiles
+
+2019-07-02 15:39:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-02 15:39:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-02 15:39:44 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-02 15:39:44 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-02 15:39:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-02 15:39:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-02 15:39:47 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-02 15:39:47 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-02 15:39:47 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-02 15:39:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_PP_Verify_UploadedFiles): Run with 'purchasingPolicy.Runner_PP_Verify_UploadedFiles' was passed
+
+2019-07-02 15:39:48 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_NavigateToPP: Test Cases/PurchasingPolicy/TC_NavigateToPP
+
+2019-07-02 15:39:48 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_NavigateToPP): Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:39:49 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-02 15:39:49 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:39:56 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-02 15:39:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:39:58 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-02 15:39:59 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-02 15:40:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:40:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-02 15:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-02 15:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-02 15:40:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-02 15:40:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-02 15:40:12 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:40:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-02 15:40:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' successfully
+
+2019-07-02 15:40:12 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is present
+
+2019-07-02 15:40:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-02 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-07-02 15:40:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:40:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-02 15:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is clicked on
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_Form (V01)' is clicked on
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy_Form' is present
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PurchasingPolicy/TC_NavigateToPP' successfully
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is present
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:24 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' successfully
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is present
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:25 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' successfully
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is present
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:26 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' successfully
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is present
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' successfully
+
+2019-07-02 15:40:27 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is present
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is present
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:28 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' successfully
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is present
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' successfully
+
+2019-07-02 15:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is present
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' successfully
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is present
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:30 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:40:31 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_PP_Verify_UploadedFiles' was passed
+
+2019-07-02 15:40:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-02 15:40:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-02 15:40:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchasingPolicy/TC_PP_Download_Files" classname="Test Cases/PurchasingPolicy/TC_PP_Download_Files" status="PASSED">
+         <system-out><![CDATA[2019-07-02 15:40:32 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_PP_Download_Files: Test Cases/PurchasingPolicy/TC_PP_Download_Files
+
+2019-07-02 15:40:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-02 15:40:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-02 15:40:32 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-02 15:40:32 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-02 15:40:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-02 15:40:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-02 15:40:35 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-02 15:40:35 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-02 15:40:35 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-02 15:40:35 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_PP_Download_Files): Run with 'purchasingPolicy.Runner_PP_Download_Files' was passed
+
+2019-07-02 15:40:36 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_NavigateToPP: Test Cases/PurchasingPolicy/TC_NavigateToPP
+
+2019-07-02 15:40:36 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_NavigateToPP): Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:40:37 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-02 15:40:37 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:40:42 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-02 15:40:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:40:44 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-02 15:40:44 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-02 15:40:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:40:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-02 15:40:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-02 15:40:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-02 15:40:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-02 15:40:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-02 15:40:57 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:40:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-02 15:40:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' successfully
+
+2019-07-02 15:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is present
+
+2019-07-02 15:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-02 15:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is clicked on
+
+2019-07-02 15:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_Form (V01)' is clicked on
+
+2019-07-02 15:41:02 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy_Form' is present
+
+2019-07-02 15:41:02 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:41:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PurchasingPolicy/TC_NavigateToPP' successfully
+
+2019-07-02 15:41:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:41:02 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is present
+
+2019-07-02 15:41:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:41:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is hovered
+
+2019-07-02 15:41:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:41:05 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:41:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is hovered
+
+2019-07-02 15:41:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is hovered
+
+2019-07-02 15:41:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:41:19 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:41:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is hovered
+
+2019-07-02 15:41:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is hovered
+
+2019-07-02 15:41:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:41:34 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:41:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is hovered
+
+2019-07-02 15:41:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:41:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:41:52 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:41:52 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:41:52 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:41:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:41:55 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:41:55 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:41:55 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:41:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:41:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:41:58 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:41:58 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:41:58 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:41:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' successfully
+
+2019-07-02 15:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is present
+
+2019-07-02 15:41:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' successfully
+
+2019-07-02 15:42:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is hovered
+
+2019-07-02 15:42:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:42:00 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:42:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is hovered
+
+2019-07-02 15:42:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is hovered
+
+2019-07-02 15:42:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:42:15 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:42:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is hovered
+
+2019-07-02 15:42:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is hovered
+
+2019-07-02 15:42:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:42:29 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:42:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is hovered
+
+2019-07-02 15:42:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:42:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:42:47 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:42:47 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:42:47 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:42:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:42:50 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:42:50 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:42:50 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:42:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:42:53 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:42:53 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:42:53 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:42:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' successfully
+
+2019-07-02 15:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is present
+
+2019-07-02 15:42:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' successfully
+
+2019-07-02 15:42:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is hovered
+
+2019-07-02 15:42:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:42:56 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:43:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is hovered
+
+2019-07-02 15:43:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is hovered
+
+2019-07-02 15:43:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:43:10 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:43:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is hovered
+
+2019-07-02 15:43:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is hovered
+
+2019-07-02 15:43:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:43:25 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:43:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is hovered
+
+2019-07-02 15:43:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:43:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:43:43 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:43:43 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:43:43 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:43:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:43:46 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:43:46 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:43:46 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:43:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:43:49 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:43:49 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:43:49 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:43:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' successfully
+
+2019-07-02 15:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is present
+
+2019-07-02 15:43:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' successfully
+
+2019-07-02 15:43:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is hovered
+
+2019-07-02 15:43:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:43:52 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:44:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is hovered
+
+2019-07-02 15:44:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is hovered
+
+2019-07-02 15:44:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:44:06 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:44:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is hovered
+
+2019-07-02 15:44:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is hovered
+
+2019-07-02 15:44:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:44:20 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:44:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is hovered
+
+2019-07-02 15:44:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:44:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:44:38 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:44:38 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:44:38 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:44:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:44:42 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:44:42 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:44:42 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:44:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:44:45 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:44:45 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:44:45 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:44:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' successfully
+
+2019-07-02 15:44:45 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is present
+
+2019-07-02 15:44:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' successfully
+
+2019-07-02 15:44:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is hovered
+
+2019-07-02 15:44:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:44:47 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:44:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is hovered
+
+2019-07-02 15:44:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is hovered
+
+2019-07-02 15:45:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:45:01 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:45:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is hovered
+
+2019-07-02 15:45:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is hovered
+
+2019-07-02 15:45:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:45:16 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:45:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is hovered
+
+2019-07-02 15:45:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:45:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:45:34 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:45:34 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:45:34 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:45:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:45:37 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:45:37 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:45:37 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:45:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:45:40 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:45:40 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:45:40 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:45:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:45:40 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is present
+
+2019-07-02 15:45:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:45:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is hovered
+
+2019-07-02 15:45:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:45:43 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:45:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is hovered
+
+2019-07-02 15:45:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is hovered
+
+2019-07-02 15:45:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:45:57 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:46:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is hovered
+
+2019-07-02 15:46:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is hovered
+
+2019-07-02 15:46:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:46:11 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:46:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is hovered
+
+2019-07-02 15:46:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:46:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:46:30 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:46:30 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:46:30 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:46:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:46:33 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:46:33 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:46:33 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:46:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:46:36 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:46:36 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:46:36 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:46:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' successfully
+
+2019-07-02 15:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is present
+
+2019-07-02 15:46:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' successfully
+
+2019-07-02 15:46:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is hovered
+
+2019-07-02 15:46:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:46:38 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:46:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is hovered
+
+2019-07-02 15:46:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is hovered
+
+2019-07-02 15:46:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:46:53 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:47:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is hovered
+
+2019-07-02 15:47:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is hovered
+
+2019-07-02 15:47:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:47:07 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:47:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is hovered
+
+2019-07-02 15:47:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:47:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:47:25 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:47:25 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:47:25 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:47:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:47:28 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:47:28 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:47:28 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:47:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:47:31 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:47:31 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:47:31 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:47:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' successfully
+
+2019-07-02 15:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is present
+
+2019-07-02 15:47:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' successfully
+
+2019-07-02 15:47:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is hovered
+
+2019-07-02 15:47:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:47:34 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:47:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:47:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is hovered
+
+2019-07-02 15:47:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is hovered
+
+2019-07-02 15:47:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:47:48 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:47:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is hovered
+
+2019-07-02 15:48:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is hovered
+
+2019-07-02 15:48:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:48:02 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:48:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is hovered
+
+2019-07-02 15:48:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:48:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:48:21 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:48:21 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:48:21 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:48:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:48:24 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:48:24 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:48:24 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:48:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:48:27 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:48:27 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:48:27 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:48:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' successfully
+
+2019-07-02 15:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is present
+
+2019-07-02 15:48:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' successfully
+
+2019-07-02 15:48:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is hovered
+
+2019-07-02 15:48:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:48:29 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:48:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is hovered
+
+2019-07-02 15:48:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is hovered
+
+2019-07-02 15:48:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:48:44 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:48:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is hovered
+
+2019-07-02 15:48:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is hovered
+
+2019-07-02 15:48:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:48:58 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:49:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is hovered
+
+2019-07-02 15:49:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:49:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:49:16 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:49:16 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:49:16 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:49:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:49:19 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:49:19 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:49:19 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:49:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:49:22 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:49:22 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:49:22 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:49:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-07-02 15:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-07-02 15:49:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-07-02 15:49:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-07-02 15:49:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:49:25 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-02 15:49:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-07-02 15:49:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-07-02 15:49:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:49:39 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-02 15:49:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-07-02 15:49:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-07-02 15:49:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:49:54 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-02 15:50:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:50:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-07-02 15:50:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:50:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:50:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:50:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:50:12 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:50:12 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:50:12 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-02 15:50:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:50:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:50:15 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:50:15 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:50:15 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-02 15:50:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:50:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:50:18 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-02 15:50:18 - [MESSAGE][PASSED] - 
+
+2019-07-02 15:50:18 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-02 15:50:18 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_PP_Download_Files' was passed
+
+2019-07-02 15:50:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-02 15:50:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-02 15:50:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchasingPolicy/TC_Delete_UploadedFiles" classname="Test Cases/PurchasingPolicy/TC_Delete_UploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-02 15:50:18 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_Delete_UploadedFiles: Test Cases/PurchasingPolicy/TC_Delete_UploadedFiles
+
+2019-07-02 15:50:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-02 15:50:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-02 15:50:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-02 15:50:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-02 15:50:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-02 15:50:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-02 15:50:21 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-02 15:50:21 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-02 15:50:21 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-02 15:50:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_PP_Delete_UploadedFiles): Run with 'purchasingPolicy.Runner_PP_Delete_UploadedFiles' was passed
+
+2019-07-02 15:50:22 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_NavigateToPP: Test Cases/PurchasingPolicy/TC_NavigateToPP
+
+2019-07-02 15:50:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_NavigateToPP): Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:50:23 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-02 15:50:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:50:31 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-02 15:50:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:50:33 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-02 15:50:33 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-02 15:50:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:50:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-02 15:50:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-02 15:50:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-02 15:50:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-02 15:50:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-02 15:50:48 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:50:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-02 15:50:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' successfully
+
+2019-07-02 15:50:48 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is present
+
+2019-07-02 15:50:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-02 15:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is clicked on
+
+2019-07-02 15:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_Form (V01)' is clicked on
+
+2019-07-02 15:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy_Form' is present
+
+2019-07-02 15:50:59 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:50:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PurchasingPolicy/TC_NavigateToPP' successfully
+
+2019-07-02 15:50:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' is present
+
+2019-07-02 15:50:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:51:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/table_EPP_Purchased' located by 'By.xpath: //*[@id="epp_mostPurchased_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:51:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' successfully
+
+2019-07-02 15:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' is present
+
+2019-07-02 15:51:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/p_AddFile_EPP_Desk' successfully
+
+2019-07-02 15:51:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_EPP_Desk/table_EPP_Desk' located by 'By.xpath: //*[@id="epp_desckAccessories_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:51:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' successfully
+
+2019-07-02 15:51:24 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' is present
+
+2019-07-02 15:51:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/p_AddFile_EPP_Lamps' successfully
+
+2019-07-02 15:51:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_EPP_Lamps/table_EPP_Lamps' located by 'By.xpath: //*[@id="epp_lamps_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:51:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' successfully
+
+2019-07-02 15:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' is present
+
+2019-07-02 15:51:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/p_AddFile_EPP_Office' successfully
+
+2019-07-02 15:51:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_EPP_Office/table_EPP_Office' located by 'By.xpath: //*[@id="epp_officeEquiAppliances_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:51:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' successfully
+
+2019-07-02 15:51:48 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' is present
+
+2019-07-02 15:51:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/p_AddFile_EPP_Electric' successfully
+
+2019-07-02 15:51:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:51:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:51:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:51:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_EPP_Electric/table_EPP_Electric' located by 'By.xpath: //*[@id="epp_electricEquipments_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:52:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' is present
+
+2019-07-02 15:52:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:52:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/table_SWM_Purchased' located by 'By.xpath: //*[@id="swm_mostPurchased_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:52:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' successfully
+
+2019-07-02 15:52:13 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' is present
+
+2019-07-02 15:52:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/p_AddFile_SWM_Office' successfully
+
+2019-07-02 15:52:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_SWM_Office/table_SWM_Office' located by 'By.xpath: //*[@id="swm_officeEquiAppliances_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:52:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' successfully
+
+2019-07-02 15:52:25 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' is present
+
+2019-07-02 15:52:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/p_AddFile_SWM_Electric' successfully
+
+2019-07-02 15:52:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_SWM_Electric/table_SWM_Electric' located by 'By.xpath: //*[@id="swm_electricEquipments_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:52:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' successfully
+
+2019-07-02 15:52:37 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' is present
+
+2019-07-02 15:52:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/p_AddFile_SWM_Lamps' successfully
+
+2019-07-02 15:52:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_SWM_Lamps/table_SWM_Lamps' located by 'By.xpath: //*[@id="swm_dispoBatteriesAndLamps_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:52:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-07-02 15:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-07-02 15:52:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-07-02 15:52:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:52:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:52:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:52:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:53:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:53:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/AddFile_SpecialCircum/table_SplCircum' located by 'By.xpath: //*[@id="splCircumstancesDocs_files"]/table' is not present after '30' second(s)
+
+2019-07-02 15:53:01 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_PP_Delete_UploadedFiles' was passed
+
+2019-07-02 15:53:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-02 15:53:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-02 15:53:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchasingPolicy/TC_PP_AutoSaveAsDraft" classname="Test Cases/PurchasingPolicy/TC_PP_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-07-02 15:53:02 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_PP_AutoSaveAsDraft: Test Cases/PurchasingPolicy/TC_PP_AutoSaveAsDraft
+
+2019-07-02 15:53:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-02 15:53:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-02 15:53:02 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-02 15:53:02 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-02 15:53:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-02 15:53:05 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-02 15:53:05 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-02 15:53:05 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-02 15:53:05 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-02 15:53:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_PP_AutoSaveAsDraft): Run with 'purchasingPolicy.Runner_PP_AutoSaveAsDraft' was passed
+
+2019-07-02 15:53:06 - [TEST_CASE][PASSED] - Test Cases/PurchasingPolicy/TC_NavigateToPP: Test Cases/PurchasingPolicy/TC_NavigateToPP
+
+2019-07-02 15:53:06 - [TEST_STEP][PASSED] - runWithCucumberRunner(purchasingPolicy.Runner_NavigateToPP): Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:53:07 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-02 15:53:07 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:53:14 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-02 15:53:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:53:16 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-02 15:53:17 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-02 15:53:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:53:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-02 15:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-02 15:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-02 15:53:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-02 15:53:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-02 15:53:33 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-02 15:53:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-02 15:53:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' successfully
+
+2019-07-02 15:53:33 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is present
+
+2019-07-02 15:53:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-02 15:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is clicked on
+
+2019-07-02 15:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_Form (V01)' is clicked on
+
+2019-07-02 15:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy_Form' is present
+
+2019-07-02 15:53:39 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_NavigateToPP' was passed
+
+2019-07-02 15:53:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PurchasingPolicy/TC_NavigateToPP' successfully
+
+2019-07-02 15:53:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:53:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '5' second(s)
+
+2019-07-02 15:53:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:53:49 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/input_AddFile'
+
+2019-07-02 15:53:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:53:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:53:52 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/input_AddFile'
+
+2019-07-02 15:54:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:54:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '5' second(s)
+
+2019-07-02 15:54:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-07-02 15:54:02 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-07-02 15:54:02 - [MESSAGE][PASSED] - Text 'Test Data 1 for Narrative for AutoSaveAsDraft functionatlity' is set on object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-07-02 15:54:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:54:12 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' is present
+
+2019-07-02 15:54:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' is: 'Last draft saved on: 02 Jul 2019 03:54:06 PM  Clear draft'
+
+2019-07-02 15:54:13 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' is present
+
+2019-07-02 15:54:13 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/btn_Save' is visible
+
+2019-07-02 15:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/btn_Save' is clicked on
+
+2019-07-02 15:54:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:54:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '5' second(s)
+
+2019-07-02 15:54:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_EPP_Purchased/p_AddFile_EPP_Purchased' successfully
+
+2019-07-02 15:54:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:54:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:54:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:54:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/AddFile_SWM_Purchased/p_AddFile_SWM_Purchased' successfully
+
+2019-07-02 15:54:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:54:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:54:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-02 15:54:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-07-02 15:54:30 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-07-02 15:54:30 - [MESSAGE][PASSED] - Text 'Test Data for Narrative for AutoSaveAsDraft functionatlity' is set on object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-07-02 15:54:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:54:40 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' is present
+
+2019-07-02 15:54:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' is: 'Last draft saved on: 02 Jul 2019 03:54:30 PM  Clear draft'
+
+2019-07-02 15:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Autosave/a_Clear draft' is clicked on
+
+2019-07-02 15:54:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Autosave/button_Yes' is clicked on
+
+2019-07-02 15:54:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-02 15:54:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-07-02 15:54:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-07-02 15:54:48 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-07-02 15:54:49 - [MESSAGE][PASSED] - Text 'Test Data for Narrative for AutoSaveAsDraft functionatlity' is set on object 'Object Repository/PurchasingPolicy/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-07-02 15:54:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-02 15:54:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Autosave/span_Last draft saved on' is: 'Last draft saved on: 02 Jul 2019 03:54:54 PM  Clear draft'
+
+2019-07-02 15:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Autosave/div_Signout' is clicked on
+
+2019-07-02 15:55:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Autosave/a_Sign out' is clicked on
+
+2019-07-02 15:55:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:55:04 - [MESSAGE][PASSED] - Browser is closed
+
+2019-07-02 15:55:04 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-02 15:55:04 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-02 15:55:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-02 15:55:10 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-02 15:55:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:55:12 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-02 15:55:12 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-02 15:55:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-02 15:55:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-02 15:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-02 15:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-02 15:55:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-02 15:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-02 15:55:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-02 15:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-02 15:55:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/div_PurchasingPolicy' is clicked on
+
+2019-07-02 15:55:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Navigation/a_Form (V01)' is clicked on
+
+2019-07-02 15:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Autosave/div_Form drafted and not yet saved' is present
+
+2019-07-02 15:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/PurchasingPolicy/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-07-02 15:55:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/PurchasingPolicy/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 02 Jul 2019 03:54:54 PM  Clear draft'
+
+2019-07-02 15:55:37 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 02 Jul 2019 03:54:54 PM  Clear draft' and expected text 'Last draft saved on: 02 Jul 2019 03:54:54 PM  Clear draft' are matched 
+
+2019-07-02 15:55:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Autosave/a_Clear draft' is clicked on
+
+2019-07-02 15:55:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-02 15:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchasingPolicy/Autosave/button_Yes' is clicked on
+
+2019-07-02 15:55:42 - [MESSAGE][PASSED] - Run with 'purchasingPolicy.Runner_PP_AutoSaveAsDraft' was passed
+
+2019-07-02 15:55:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-02 15:55:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-02 15:55:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-02 15:34:58 - [TEST_SUITE][PASSED] - PP_SmokeTest: Test Cases/PurchasingPolicy/TC_PP_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

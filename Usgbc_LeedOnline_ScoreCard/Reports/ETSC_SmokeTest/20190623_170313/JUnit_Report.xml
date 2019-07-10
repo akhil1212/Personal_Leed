@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ETSC_SmokeTest" time="875" tests="6" failures="0" errors="0">
+   <testsuite name="ETSC_SmokeTest" tests="6" failures="0" errors="0" time="875" timestamp="2019-06-23 17:03:16" hostname="Promantus Inc - G10PROLT021" id="Test Suites/ETSC_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ETSC_SmokeTest\\20190623_170313"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ETSC_SmokeTest\\20190623_170313\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="a64fe81c4f3703e87a0e6a933ccbd252"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NoSmoking" classname="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NoSmoking" status="PASSED">
+         <system-out><![CDATA[2019-06-23 17:03:17 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NoSmoking: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NoSmoking
+
+2019-06-23 17:03:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-23 17:03:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-23 17:03:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-23 17:03:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-23 17:03:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-23 17:03:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-23 17:03:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-23 17:03:21 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-23 17:03:21 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-23 17:03:21 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-23 17:03:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_NoSmoking): Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_NoSmoking' was passed
+
+2019-06-23 17:03:25 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC: Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC
+
+2019-06-23 17:03:25 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_NavigateToETSC): Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:03:26 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-23 17:03:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:03:29 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-23 17:03:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:03:31 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-23 17:03:31 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-23 17:03:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:03:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-23 17:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-23 17:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-23 17:03:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-23 17:03:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-23 17:03:41 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:03:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-23 17:03:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' successfully
+
+2019-06-23 17:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is present
+
+2019-06-23 17:03:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:03:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is clicked on
+
+2019-06-23 17:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_Form (V01)' is clicked on
+
+2019-06-23 17:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC_Form' is present
+
+2019-06-23 17:03:45 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:03:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC' successfully
+
+2019-06-23 17:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:03:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:03:46 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:03:46 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/input_AddFile'
+
+2019-06-23 17:03:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:03:47 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:03:47 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/input_AddFile'
+
+2019-06-23 17:03:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:03:51 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/input_AddFile'
+
+2019-06-23 17:03:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:03:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:03:52 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/input_AddFile'
+
+2019-06-23 17:03:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:03:53 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/input_AddFile'
+
+2019-06-23 17:03:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:03:56 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:03:56 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/input_AddFile'
+
+2019-06-23 17:03:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:03:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/p_Editor_NoSmokingPolicy' successfully
+
+2019-06-23 17:03:57 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/p_Editor_NoSmokingPolicy' is present
+
+2019-06-23 17:04:02 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' is set on object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/body_Editor_NoSmokingPolicy'
+
+2019-06-23 17:04:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:04:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/body_Editor_NoSmokingPolicy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:04:05 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' are matched 
+
+2019-06-23 17:04:05 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/input_Chk_ProjectCode' is present
+
+2019-06-23 17:04:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/input_Chk_ProjectCode' is checked
+
+2019-06-23 17:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:04:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:04:08 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/input_AddFile'
+
+2019-06-23 17:04:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:04:09 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:04:09 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/input_AddFile'
+
+2019-06-23 17:04:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:04:11 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:04:11 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/input_AddFile'
+
+2019-06-23 17:04:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:04:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/p_Editor_SmokingProhibited' successfully
+
+2019-06-23 17:04:12 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/p_Editor_SmokingProhibited' is present
+
+2019-06-23 17:04:16 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' is set on object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/body_Editor_SmokingProhibited'
+
+2019-06-23 17:04:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:04:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/body_Editor_SmokingProhibited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:04:19 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' are matched 
+
+2019-06-23 17:04:19 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/input_Chk_ResidentialUnits' is present
+
+2019-06-23 17:04:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:04:21 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/input_Chk_ResidentialUnits' is checked
+
+2019-06-23 17:04:21 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/input_RadioBtn_NoSmoking' is present
+
+2019-06-23 17:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/input_RadioBtn_NoSmoking' is clicked on
+
+2019-06-23 17:04:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:04:24 - [MESSAGE][PASSED] - Text 'Option 1. No smoking' is present on page 
+
+2019-06-23 17:04:24 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:04:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:04:24 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:04:24 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-23 17:04:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:04:25 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:04:26 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-23 17:04:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:04:28 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:04:28 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-23 17:04:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:04:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-06-23 17:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-06-23 17:04:33 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' is set on object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-06-23 17:04:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:04:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:04:36 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' are matched 
+
+2019-06-23 17:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/btn_Save' is visible
+
+2019-06-23 17:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/btn_Save' is clicked on
+
+2019-06-23 17:04:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:04:38 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-23 17:04:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-06-23 17:04:38 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-06-23 17:04:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-06-23 17:04:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:04:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:04:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:05:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:05:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:05:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:05:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/p_Editor_NoSmokingPolicy' successfully
+
+2019-06-23 17:05:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/body_Editor_NoSmokingPolicy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:05:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:05:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:05:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:05:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/p_Editor_SmokingProhibited' successfully
+
+2019-06-23 17:05:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/body_Editor_SmokingProhibited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:05:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:05:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-06-23 17:05:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:05:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:05:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:05:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:49 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-23 17:05:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/body_Editor_NoSmokingPolicy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:05:49 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' are matched 
+
+2019-06-23 17:05:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/body_Editor_SmokingProhibited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:05:50 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' are matched 
+
+2019-06-23 17:05:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:05:50 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO' are matched 
+
+2019-06-23 17:05:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-06-23 17:05:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:05:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-23 17:06:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:06:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-23 17:06:01 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_NoSmoking' was passed
+
+2019-06-23 17:06:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-23 17:06:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-23 17:06:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Compartmentalization" classname="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Compartmentalization" status="PASSED">
+         <system-out><![CDATA[2019-06-23 17:06:02 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Compartmentalization: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Compartmentalization
+
+2019-06-23 17:06:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-23 17:06:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-23 17:06:02 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-23 17:06:02 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-23 17:06:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-23 17:06:04 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-23 17:06:04 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-23 17:06:04 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-23 17:06:04 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-23 17:06:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Compartmentalization): Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Compartmentalization' was passed
+
+2019-06-23 17:06:06 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC: Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC
+
+2019-06-23 17:06:06 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_NavigateToETSC): Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:06:06 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-23 17:06:06 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:06:10 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-23 17:06:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:06:12 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-23 17:06:12 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-23 17:06:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:06:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-23 17:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-23 17:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-23 17:06:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-23 17:06:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-23 17:06:22 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:06:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-23 17:06:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' successfully
+
+2019-06-23 17:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is present
+
+2019-06-23 17:06:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-23 17:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-23 17:06:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:06:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is clicked on
+
+2019-06-23 17:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_Form (V01)' is clicked on
+
+2019-06-23 17:06:31 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC_Form' is present
+
+2019-06-23 17:06:31 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:06:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC' successfully
+
+2019-06-23 17:06:31 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/input_RadioBtn_Compartmentalization' is present
+
+2019-06-23 17:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/input_RadioBtn_Compartmentalization' is clicked on
+
+2019-06-23 17:06:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:06:34 - [MESSAGE][PASSED] - Text 'Option 2. Compartmentalization of smoking areas' is present on page 
+
+2019-06-23 17:06:34 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:06:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:06:35 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:06:35 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/input_AddFile'
+
+2019-06-23 17:06:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:06:36 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:06:36 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/input_AddFile'
+
+2019-06-23 17:06:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:06:39 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/input_AddFile'
+
+2019-06-23 17:06:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:06:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:06:40 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/input_AddFile'
+
+2019-06-23 17:06:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:06:41 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/input_AddFile'
+
+2019-06-23 17:06:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-23 17:06:45 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/input_AddFile'
+
+2019-06-23 17:06:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/btn_Save' is visible
+
+2019-06-23 17:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/btn_Save' is clicked on
+
+2019-06-23 17:06:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:06:48 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-23 17:06:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-06-23 17:06:48 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-06-23 17:06:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-06-23 17:07:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:07:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:07:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:07:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:07:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:07:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:07:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:07:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:07:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/p_Editor_NoSmokingPolicy' successfully
+
+2019-06-23 17:07:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/body_Editor_NoSmokingPolicy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:07:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:07:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:07:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:07:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:07:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:07:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/p_Editor_SmokingProhibited' successfully
+
+2019-06-23 17:07:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_SmokingProhibited/body_Editor_SmokingProhibited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:07:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:07:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:07:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:07:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:07:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:07:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:07:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:08:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:08:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-06-23 17:08:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. UK1IO'
+
+2019-06-23 17:08:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:08:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:08:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:08:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:08:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:08:12 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-06-23 17:08:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:08:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-23 17:08:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:08:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-23 17:08:19 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Compartmentalization' was passed
+
+2019-06-23 17:08:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-23 17:08:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-23 17:08:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Verify_UploadedFiles" classname="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Verify_UploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-23 17:08:20 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Verify_UploadedFiles: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Verify_UploadedFiles
+
+2019-06-23 17:08:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-23 17:08:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-23 17:08:20 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-23 17:08:20 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-23 17:08:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-23 17:08:23 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-23 17:08:23 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-23 17:08:23 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-23 17:08:23 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-23 17:08:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Verify_UploadedFiles): Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Verify_UploadedFiles' was passed
+
+2019-06-23 17:08:24 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC: Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC
+
+2019-06-23 17:08:24 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_NavigateToETSC): Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:08:24 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-23 17:08:24 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:08:27 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-23 17:08:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:08:29 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-23 17:08:30 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-23 17:08:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:08:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-23 17:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-23 17:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-23 17:08:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-23 17:08:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-23 17:08:39 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:08:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-23 17:08:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' successfully
+
+2019-06-23 17:08:40 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is present
+
+2019-06-23 17:08:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-23 17:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-23 17:08:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-23 17:08:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is clicked on
+
+2019-06-23 17:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_Form (V01)' is clicked on
+
+2019-06-23 17:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC_Form' is present
+
+2019-06-23 17:08:48 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:08:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC' successfully
+
+2019-06-23 17:08:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:08:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-23 17:08:51 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-23 17:08:52 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:08:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:08:54 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:08:55 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-23 17:08:55 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:08:55 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:08:55 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-23 17:08:55 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:08:55 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Verify_UploadedFiles' was passed
+
+2019-06-23 17:08:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-23 17:08:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-23 17:08:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Download_Files" classname="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Download_Files" status="PASSED">
+         <system-out><![CDATA[2019-06-23 17:08:56 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Download_Files: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Download_Files
+
+2019-06-23 17:08:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-23 17:08:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-23 17:08:56 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-23 17:08:56 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-23 17:08:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-23 17:08:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-23 17:08:58 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-23 17:08:58 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-23 17:08:58 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-23 17:08:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Download_Files): Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Download_Files' was passed
+
+2019-06-23 17:08:59 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC: Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC
+
+2019-06-23 17:08:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_NavigateToETSC): Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:09:00 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-23 17:09:00 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:09:03 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-23 17:09:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:09:05 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-23 17:09:05 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-23 17:09:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:09:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-23 17:09:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-23 17:09:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-23 17:09:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-23 17:09:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' successfully
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is present
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is clicked on
+
+2019-06-23 17:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_Form (V01)' is clicked on
+
+2019-06-23 17:09:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC_Form' is present
+
+2019-06-23 17:09:18 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:09:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC' successfully
+
+2019-06-23 17:09:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:09:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:09:21 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:09:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:09:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is hovered
+
+2019-06-23 17:09:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:09:23 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:09:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is hovered
+
+2019-06-23 17:09:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:09:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is hovered
+
+2019-06-23 17:09:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:09:37 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:09:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is hovered
+
+2019-06-23 17:09:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:09:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is hovered
+
+2019-06-23 17:09:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:09:52 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:10:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is hovered
+
+2019-06-23 17:10:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:10:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:10:10 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:10:10 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:10:10 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:10:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:10:13 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:10:13 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:10:13 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:10:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:10:16 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:10:16 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:10:16 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:10:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:10:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:10:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is hovered
+
+2019-06-23 17:10:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:10:19 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:10:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is hovered
+
+2019-06-23 17:10:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is hovered
+
+2019-06-23 17:10:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:10:33 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:10:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is hovered
+
+2019-06-23 17:10:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is hovered
+
+2019-06-23 17:10:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:10:48 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:10:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is hovered
+
+2019-06-23 17:11:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:11:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:11:06 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:11:06 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:11:06 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:11:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:11:09 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:11:09 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:11:09 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:11:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:11:12 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:11:12 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:11:12 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:11:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:11:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:11:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is hovered
+
+2019-06-23 17:11:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:11:14 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:11:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is hovered
+
+2019-06-23 17:11:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is hovered
+
+2019-06-23 17:11:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:11:29 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:11:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is hovered
+
+2019-06-23 17:11:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is hovered
+
+2019-06-23 17:11:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:11:43 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:11:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is hovered
+
+2019-06-23 17:11:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:11:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:12:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:12:01 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:12:01 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:12:01 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:12:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:12:04 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:12:04 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:12:04 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:12:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:12:07 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:12:07 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:12:07 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:12:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:12:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:12:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is hovered
+
+2019-06-23 17:12:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:12:10 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:12:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is hovered
+
+2019-06-23 17:12:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is hovered
+
+2019-06-23 17:12:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:12:24 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:12:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is hovered
+
+2019-06-23 17:12:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is hovered
+
+2019-06-23 17:12:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:12:39 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:12:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is hovered
+
+2019-06-23 17:12:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:12:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:12:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:12:57 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:12:57 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:12:57 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:12:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:13:00 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:13:00 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:13:00 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:13:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:13:03 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:13:03 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:13:03 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:13:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:13:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:13:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is hovered
+
+2019-06-23 17:13:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:13:05 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:13:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is hovered
+
+2019-06-23 17:13:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is hovered
+
+2019-06-23 17:13:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:13:20 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:13:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is hovered
+
+2019-06-23 17:13:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is hovered
+
+2019-06-23 17:13:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:13:34 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:13:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is hovered
+
+2019-06-23 17:13:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:13:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:13:52 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:13:52 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:13:52 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:13:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:13:55 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:13:55 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:13:55 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:13:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:13:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:13:58 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:13:58 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:13:58 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:13:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:13:58 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:13:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:14:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-06-23 17:14:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:14:01 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-23 17:14:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-06-23 17:14:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-06-23 17:14:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:14:15 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-23 17:14:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-06-23 17:14:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-06-23 17:14:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:14:30 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-23 17:14:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-23 17:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is hovered
+
+2019-06-23 17:14:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:14:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:14:48 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:14:48 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:14:48 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-23 17:14:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:14:51 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:14:51 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:14:51 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-23 17:14:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:14:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:14:54 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-23 17:14:54 - [MESSAGE][PASSED] - 
+
+2019-06-23 17:14:54 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-23 17:14:54 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Download_Files' was passed
+
+2019-06-23 17:14:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-23 17:14:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-23 17:14:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Delete_UploadedFiles" classname="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Delete_UploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-23 17:14:55 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Delete_UploadedFiles: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Delete_UploadedFiles
+
+2019-06-23 17:14:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-23 17:14:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-23 17:14:55 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-23 17:14:55 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-23 17:14:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-23 17:14:57 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-23 17:14:57 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-23 17:14:57 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-23 17:14:57 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-23 17:14:58 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Delete_UploadedFiles): Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Delete_UploadedFiles' was passed
+
+2019-06-23 17:14:58 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC: Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC
+
+2019-06-23 17:14:58 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_NavigateToETSC): Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:14:59 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-23 17:14:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:15:01 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-23 17:15:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:03 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-23 17:15:03 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-23 17:15:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:15:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-23 17:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-23 17:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-23 17:15:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-23 17:15:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-23 17:15:16 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:15:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-23 17:15:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' successfully
+
+2019-06-23 17:15:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is present
+
+2019-06-23 17:15:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:15:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is clicked on
+
+2019-06-23 17:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_Form (V01)' is clicked on
+
+2019-06-23 17:15:20 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC_Form' is present
+
+2019-06-23 17:15:20 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:15:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC' successfully
+
+2019-06-23 17:15:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:15:22 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:15:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:15:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/table_NonSmoke' located by 'By.xpath: //*[@id="nonSmokePolicy_files"]/table' is not present after '30' second(s)
+
+2019-06-23 17:15:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:15:34 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:15:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:15:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:47 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/table_ScaledSite' located by 'By.xpath: //*[@id="smokeZoneDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-23 17:15:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:15:47 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:15:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:15:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:15:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:15:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:15:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:15:59 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/table_InfoCode' located by 'By.xpath: //*[@id="codeInfoDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-23 17:15:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:15:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:16:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/table_WeatherStrip' located by 'By.xpath: //*[@id="weatherStrippingAndSealingDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-23 17:16:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:16:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:16:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/table_AirPressure' located by 'By.xpath: //*[@id="airPressureTestDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-23 17:16:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:16:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:16:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-23 17:16:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/table_SplCircum' located by 'By.xpath: //*[@id="splCircumstancesDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-23 17:16:35 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_Delete_UploadedFiles' was passed
+
+2019-06-23 17:16:35 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-23 17:16:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-23 17:16:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases" classname="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases" status="PASSED">
+         <system-out><![CDATA[2019-06-23 17:16:36 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases
+
+2019-06-23 17:16:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-23 17:16:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-23 17:16:36 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-23 17:16:36 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-23 17:16:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-23 17:16:38 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-23 17:16:38 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-23 17:16:38 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-23 17:16:38 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-23 17:16:39 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases): Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases' was passed
+
+2019-06-23 17:16:39 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC: Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC
+
+2019-06-23 17:16:39 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_NavigateToETSC): Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:16:40 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-23 17:16:40 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:16:42 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-23 17:16:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:16:44 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-23 17:16:45 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-23 17:16:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:16:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-23 17:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-23 17:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-23 17:16:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-23 17:16:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-23 17:16:54 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:16:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-23 17:16:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' successfully
+
+2019-06-23 17:16:54 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is present
+
+2019-06-23 17:16:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:16:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is clicked on
+
+2019-06-23 17:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_Form (V01)' is clicked on
+
+2019-06-23 17:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC_Form' is present
+
+2019-06-23 17:16:58 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:16:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC' successfully
+
+2019-06-23 17:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:16:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:16:58 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/input_AddFile'
+
+2019-06-23 17:17:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:00 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:17:00 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/input_AddFile'
+
+2019-06-23 17:17:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:17:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:17:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:17:05 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:17:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:07 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:17:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:17:07 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/input_AddFile'
+
+2019-06-23 17:17:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:09 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:17:09 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:17:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:17:09 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/input_AddFile'
+
+2019-06-23 17:17:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:17:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:17:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:17:13 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:17:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:17:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:17:16 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/input_AddFile'
+
+2019-06-23 17:17:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:18 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:17:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:17:18 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/input_AddFile'
+
+2019-06-23 17:17:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:17:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:17:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:17:22 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:17:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:24 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:17:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:17:25 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/input_AddFile'
+
+2019-06-23 17:17:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:27 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:17:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:17:27 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/input_AddFile'
+
+2019-06-23 17:17:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:17:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:17:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:17:31 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:17:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:17:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:17:33 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/input_AddFile'
+
+2019-06-23 17:17:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:35 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:17:36 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:17:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:17:36 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/input_AddFile'
+
+2019-06-23 17:17:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:17:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:17:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:17:40 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:17:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:42 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:17:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:17:42 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-23 17:17:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:44 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:17:44 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:17:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:17:44 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-23 17:17:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:17:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:17:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:17:49 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:17:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:17:51 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-23 17:17:51 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases' was passed
+
+2019-06-23 17:17:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-23 17:17:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-23 17:17:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-23 17:03:16 - [TEST_SUITE][PASSED] - ETSC_SmokeTest: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

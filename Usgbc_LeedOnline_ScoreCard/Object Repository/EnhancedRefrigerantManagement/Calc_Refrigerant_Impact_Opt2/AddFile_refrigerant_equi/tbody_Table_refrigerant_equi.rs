@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tbody_Table_refrigerant_equi</name>
+   <tag></tag>
+   <elementGuidId>4e92d551-a486-40ad-b421-0edbb14e429a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;commercialRefrigUpload_files&quot;]/table/tbody</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;commercialRefrigUpload_files&quot;]/table/tbody</value>
+   </webElementXpaths>
+</WebElementEntity>

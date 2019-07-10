@@ -1,0 +1,2393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="In_SmokeTest" time="890" tests="6" failures="1" errors="0">
+   <testsuite name="In_SmokeTest" tests="6" failures="1" errors="0" time="890" timestamp="2019-07-01 18:11:27" hostname="promantus inc - G10PROLT025" id="Test Suites/In_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\In_SmokeTest\\20190701_181120"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\In_SmokeTest\\20190701_181120\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="4a0d276d74294c65840c39d0eb250709"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Innovation/TC_In_Innovation_Strategy" classname="Test Cases/Innovation/TC_In_Innovation_Strategy" status="PASSED">
+         <system-out><![CDATA[2019-07-01 18:11:27 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Innovation_Strategy: Test Cases/Innovation/TC_In_Innovation_Strategy
+
+2019-07-01 18:11:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-01 18:11:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-01 18:11:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:11:28 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:11:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-01 18:11:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:11:31 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-01 18:11:31 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-01 18:11:31 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-07-01 18:11:31 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-01 18:11:32 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Innovation_Strategy): Run with 'innovation_Form.Runner_In_Innovation_Strategy' was passed
+
+2019-07-01 18:11:35 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Navigation: Test Cases/Innovation/TC_In_Navigation
+
+2019-07-01 18:11:35 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Navigation): Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:11:37 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-01 18:11:37 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:11:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:11:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:11:39 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:11:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:11:43 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:11:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:11:45 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:11:46 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:11:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:11:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:11:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:11:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:12:00 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:12:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-01 18:12:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/In_Navigation/div_Innovation' successfully
+
+2019-07-01 18:12:00 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_Innovation' is present
+
+2019-07-01 18:12:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:12:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-01 18:12:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:12:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_InnovationCredit' is present
+
+2019-07-01 18:12:08 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:12:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Innovation/TC_In_Navigation' successfully
+
+2019-07-01 18:12:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Editor_LEED_Accredited/p_LEED_Accredited_Editorbox' successfully
+
+2019-07-01 18:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Editor_LEED_Accredited/p_LEED_Accredited_Editorbox' is present
+
+2019-07-01 18:12:13 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' is set on object 'Object Repository/Innovation/Editor_LEED_Accredited/body_LEED_Accredited'
+
+2019-07-01 18:12:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:12:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Editor_LEED_Accredited/body_LEED_Accredited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:12:16 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' are matched 
+
+2019-07-01 18:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is present
+
+2019-07-01 18:12:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/Button_LEED_Accredited' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:17 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Innovation/AddFile_LEED_Accredited/input_LEED_Accredited'
+
+2019-07-01 18:12:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/Button_LEED_Accredited' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:20 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Innovation/AddFile_LEED_Accredited/input_LEED_Accredited'
+
+2019-07-01 18:12:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/Button_LEED_Accredited' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:21 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Innovation/AddFile_LEED_Accredited/input_LEED_Accredited'
+
+2019-07-01 18:12:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' successfully
+
+2019-07-01 18:12:22 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is present
+
+2019-07-01 18:12:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is checked
+
+2019-07-01 18:12:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:12:34 - [MESSAGE][PASSED] - Text 'Option 1. Innovation Strategy' is present on page 
+
+2019-07-01 18:12:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/Editor_Innovation_Strategy/p_Innovation_Strategy_Editorbox' successfully
+
+2019-07-01 18:12:34 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/Editor_Innovation_Strategy/p_Innovation_Strategy_Editorbox' is present
+
+2019-07-01 18:12:41 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' is set on object 'Object Repository/Innovation/Innovation_Strategy_Opt1/Editor_Innovation_Strategy/body_Innovation_Strategy'
+
+2019-07-01 18:12:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:12:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Innovation_Strategy_Opt1/Editor_Innovation_Strategy/body_Innovation_Strategy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:12:45 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' are matched 
+
+2019-07-01 18:12:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' successfully
+
+2019-07-01 18:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is present
+
+2019-07-01 18:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/Button_supporting_doc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:45 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/input_supporting_doc'
+
+2019-07-01 18:12:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/Button_supporting_doc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:46 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/input_supporting_doc'
+
+2019-07-01 18:12:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:52 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/Button_supporting_doc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:52 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/input_supporting_doc'
+
+2019-07-01 18:12:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:12:53 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is present
+
+2019-07-01 18:12:53 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:53 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-01 18:12:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:56 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-01 18:12:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:12:59 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-01 18:13:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:13:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-07-01 18:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-07-01 18:13:07 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' is set on object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-07-01 18:13:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:13:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Editor_LEED_Accredited/body_LEED_Accredited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:13:10 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' are matched 
+
+2019-07-01 18:13:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/btn_Save' successfully
+
+2019-07-01 18:13:10 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/btn_Save' is present
+
+2019-07-01 18:13:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:13:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:13:21 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-01 18:13:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/icon_pdf' successfully
+
+2019-07-01 18:13:21 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/icon_pdf' is present
+
+2019-07-01 18:13:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-01 18:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/icon_pdf' is clicked on
+
+2019-07-01 18:13:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:13:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-01 18:13:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Editor_LEED_Accredited/p_LEED_Accredited_Editorbox' successfully
+
+2019-07-01 18:13:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Editor_LEED_Accredited/body_LEED_Accredited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:13:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:13:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-01 18:13:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:13:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:14:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-01 18:14:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/Editor_Innovation_Strategy/p_Innovation_Strategy_Editorbox' successfully
+
+2019-07-01 18:14:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Innovation_Strategy_Opt1/Editor_Innovation_Strategy/body_Innovation_Strategy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:14:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:14:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-01 18:14:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' successfully
+
+2019-07-01 18:14:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:14:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-01 18:14:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-07-01 18:14:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/body_splCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:14:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:14:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-01 18:14:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:14:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:14:26 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-01 18:14:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Editor_LEED_Accredited/body_LEED_Accredited' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:14:28 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' are matched 
+
+2019-07-01 18:14:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Innovation_Strategy_Opt1/Editor_Innovation_Strategy/body_Innovation_Strategy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:14:28 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' are matched 
+
+2019-07-01 18:14:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/body_splCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390'
+
+2019-07-01 18:14:28 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. O3390' are matched 
+
+2019-07-01 18:14:28 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Innovation_Strategy' was passed
+
+2019-07-01 18:14:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-01 18:14:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-01 18:14:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Innovation/TC_In_Pilot_Credit" classname="Test Cases/Innovation/TC_In_Pilot_Credit" status="PASSED">
+         <system-out><![CDATA[2019-07-01 18:14:29 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Pilot_Credit: Test Cases/Innovation/TC_In_Pilot_Credit
+
+2019-07-01 18:14:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-01 18:14:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-01 18:14:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:14:29 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:14:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:14:32 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-01 18:14:32 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-01 18:14:32 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-07-01 18:14:32 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-01 18:14:32 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Pilot_Credit): Run with 'innovation_Form.Runner_In_Pilot_Credit' was passed
+
+2019-07-01 18:14:34 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Navigation: Test Cases/Innovation/TC_In_Navigation
+
+2019-07-01 18:14:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Navigation): Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:14:35 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-01 18:14:35 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:14:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:14:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:14:37 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:14:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:14:42 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:14:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:14:45 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:14:45 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:14:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:14:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:14:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:14:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:14:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:14:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/In_Navigation/div_Innovation' successfully
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_Innovation' is present
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:14:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_InnovationCredit' is present
+
+2019-07-01 18:15:02 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:15:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Innovation/TC_In_Navigation' successfully
+
+2019-07-01 18:15:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/radio_Pilot_Credit' successfully
+
+2019-07-01 18:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/radio_Pilot_Credit' is present
+
+2019-07-01 18:15:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:05 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/radio_Pilot_Credit' is checked
+
+2019-07-01 18:15:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:08 - [MESSAGE][PASSED] - Text 'Option 1. Innovation Strategy' is present on page 
+
+2019-07-01 18:15:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' successfully
+
+2019-07-01 18:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' is present
+
+2019-07-01 18:15:09 - [MESSAGE][PASSED] - Text 'credits' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_nameOfPilot'
+
+2019-07-01 18:15:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_nameOfPilot' is: 'credits'
+
+2019-07-01 18:15:12 - [MESSAGE][PASSED] - Actual text 'credits' and expected text 'credits' are matched 
+
+2019-07-01 18:15:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_numberOfPilot' successfully
+
+2019-07-01 18:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_numberOfPilot' is present
+
+2019-07-01 18:15:12 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_numberOfPilot'
+
+2019-07-01 18:15:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_numberOfPilot' is: '111'
+
+2019-07-01 18:15:15 - [MESSAGE][PASSED] - Actual text '111' and expected text '111' are matched 
+
+2019-07-01 18:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is present
+
+2019-07-01 18:15:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Button_required_doc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:15:15 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/input_required_doc'
+
+2019-07-01 18:15:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:15:17 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Button_required_doc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:15:17 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/input_required_doc'
+
+2019-07-01 18:15:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:15:19 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Button_required_doc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-01 18:15:19 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/input_required_doc'
+
+2019-07-01 18:15:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:15:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/btn_Save' successfully
+
+2019-07-01 18:15:20 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/btn_Save' is present
+
+2019-07-01 18:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:15:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:15:26 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-01 18:15:26 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-01 18:15:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:29 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_nameOfPilot' is: 'credits'
+
+2019-07-01 18:15:29 - [MESSAGE][PASSED] - Actual text 'credits' and expected text 'credits' are matched 
+
+2019-07-01 18:15:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_numberOfPilot' is: '111'
+
+2019-07-01 18:15:32 - [MESSAGE][PASSED] - Actual text '111' and expected text '111' are matched 
+
+2019-07-01 18:15:32 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Pilot_Credit' was passed
+
+2019-07-01 18:15:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-01 18:15:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-01 18:15:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Innovation/TC_In_VerifyUploadedFile" classname="Test Cases/Innovation/TC_In_VerifyUploadedFile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Innovation/TC_In_VerifyUploadedFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: chennai_Server.txt is not equal to ZZ.pdf
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.CompareExcel(projectKeywords.groovy:249)
+	at leedOnlineKeywords.projectKeywords$CompareExcel$5.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.verifyUploadedFiles(projectKeywords.groovy:827)
+	at leedOnlineKeywords.projectKeywords$verifyUploadedFiles$3.call(Unknown Source)
+	at innovation_Form.In_VerifyUploadedFiles.user_verifies_the_file_name_uploaded_with_the_file_name_present_in_the_table_of_required_documentation(In_VerifyUploadedFiles.groovy:85)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-01 18:15:33 - [TEST_CASE][FAILED] - Test Cases/Innovation/TC_In_VerifyUploadedFile: Test Cases/Innovation/TC_In_VerifyUploadedFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: chennai_Server.txt is not equal to ZZ.pdf
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.CompareExcel(projectKeywords.groovy:249)
+	at leedOnlineKeywords.projectKeywords$CompareExcel$5.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.verifyUploadedFiles(projectKeywords.groovy:827)
+	at leedOnlineKeywords.projectKeywords$verifyUploadedFiles$3.call(Unknown Source)
+	at innovation_Form.In_VerifyUploadedFiles.user_verifies_the_file_name_uploaded_with_the_file_name_present_in_the_table_of_required_documentation(In_VerifyUploadedFiles.groovy:85)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)
+
+
+2019-07-01 18:15:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-01 18:15:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-01 18:15:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:15:33 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:15:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:15:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-01 18:15:35 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-01 18:15:35 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-07-01 18:15:35 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-01 18:15:35 - [TEST_STEP][FAILED] - runWithCucumberRunner(innovation_Form.Runner_In_VerifyUploadedFile): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Actual text 'ZZ.pdf' and expected text 'chennai_Server.txt' are not matched]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)
+)
+
+2019-07-01 18:15:36 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Navigation: Test Cases/Innovation/TC_In_Navigation
+
+2019-07-01 18:15:36 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Navigation): Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:15:37 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-01 18:15:37 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:15:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:15:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:15:38 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:15:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:15:44 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:15:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:15:46 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:15:46 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:15:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:15:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:15:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:15:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/In_Navigation/div_Innovation' successfully
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_Innovation' is present
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:16:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_InnovationCredit' is present
+
+2019-07-01 18:16:03 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:16:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Innovation/TC_In_Navigation' successfully
+
+2019-07-01 18:16:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/Table_LEED_Accredited' successfully
+
+2019-07-01 18:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/Table_LEED_Accredited' is present
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Table_required_doc' successfully
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Table_required_doc' is present
+
+2019-07-01 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'chennai_Server.txt'
+
+2019-07-01 18:16:04 - [MESSAGE][FAILED] - chennai_Server.txt is not equal to ZZ.pdf
+
+2019-07-01 18:16:04 - [MESSAGE][FAILED] - Unable to verify match between actual text 'ZZ.pdf' and expected text 'chennai_Server.txt' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'ZZ.pdf' and expected text 'chennai_Server.txt' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at leedOnlineKeywords.projectKeywords.verifyUploadedFiles(projectKeywords.groovy:830)
+	at leedOnlineKeywords.projectKeywords$verifyUploadedFiles$3.call(Unknown Source)
+	at innovation_Form.In_VerifyUploadedFiles.user_verifies_the_file_name_uploaded_with_the_file_name_present_in_the_table_of_required_documentation(In_VerifyUploadedFiles.groovy:85)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)
+)
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' successfully
+
+2019-07-01 18:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is present
+
+2019-07-01 18:16:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:16:08 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is checked
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/Table_supporting_doc' successfully
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/Table_supporting_doc' is present
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-01 18:16:09 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-01 18:16:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/a_Clear draft' is present
+
+2019-07-01 18:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/a_Clear draft' is clicked on
+
+2019-07-01 18:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/button_Yes' is clicked on
+
+2019-07-01 18:16:20 - [MESSAGE][FAILED] - These following reason:
+ [Actual text 'ZZ.pdf' and expected text 'chennai_Server.txt' are not matched]
+
+2019-07-01 18:16:20 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Actual text 'ZZ.pdf' and expected text 'chennai_Server.txt' are not matched]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)
+)
+
+2019-07-01 18:16:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-01 18:16:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-01 18:16:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2019-07-01 18:15:33 - [TEST_CASE][FAILED] - Test Cases/Innovation/TC_In_VerifyUploadedFile: Test Cases/Innovation/TC_In_VerifyUploadedFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: chennai_Server.txt is not equal to ZZ.pdf
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.CompareExcel(projectKeywords.groovy:249)
+	at leedOnlineKeywords.projectKeywords$CompareExcel$5.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.verifyUploadedFiles(projectKeywords.groovy:827)
+	at leedOnlineKeywords.projectKeywords$verifyUploadedFiles$3.call(Unknown Source)
+	at innovation_Form.In_VerifyUploadedFiles.user_verifies_the_file_name_uploaded_with_the_file_name_present_in_the_table_of_required_documentation(In_VerifyUploadedFiles.groovy:85)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Innovation/TC_In_DownloadFiles" classname="Test Cases/Innovation/TC_In_DownloadFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-01 18:16:20 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_DownloadFiles: Test Cases/Innovation/TC_In_DownloadFiles
+
+2019-07-01 18:16:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-01 18:16:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-01 18:16:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:16:20 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:16:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:16:22 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-01 18:16:22 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-01 18:16:22 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-07-01 18:16:22 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-01 18:16:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_DownloadFiles): Run with 'innovation_Form.Runner_In_DownloadFiles' was passed
+
+2019-07-01 18:16:23 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Navigation: Test Cases/Innovation/TC_In_Navigation
+
+2019-07-01 18:16:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Navigation): Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:16:24 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-01 18:16:24 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:16:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:16:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:16:26 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:16:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:16:30 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:16:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:16:32 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:16:32 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:16:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:16:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:16:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:16:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/In_Navigation/div_Innovation' successfully
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_Innovation' is present
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:16:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_InnovationCredit' is present
+
+2019-07-01 18:16:50 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:16:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Innovation/TC_In_Navigation' successfully
+
+2019-07-01 18:16:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/Table_LEED_Accredited' successfully
+
+2019-07-01 18:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/Table_LEED_Accredited' is present
+
+2019-07-01 18:16:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:16:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is hovered
+
+2019-07-01 18:16:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:16:53 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-01 18:17:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is hovered
+
+2019-07-01 18:17:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is hovered
+
+2019-07-01 18:17:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:17:07 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-01 18:17:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is hovered
+
+2019-07-01 18:17:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is hovered
+
+2019-07-01 18:17:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:17:21 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-01 18:17:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is hovered
+
+2019-07-01 18:17:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:17:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:17:40 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:17:40 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:17:40 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-01 18:17:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:17:43 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:17:43 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:17:43 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-01 18:17:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:17:46 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:17:46 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:17:46 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-01 18:17:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Table_required_doc' successfully
+
+2019-07-01 18:17:46 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Table_required_doc' is present
+
+2019-07-01 18:17:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:17:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is hovered
+
+2019-07-01 18:17:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:17:48 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-01 18:17:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is hovered
+
+2019-07-01 18:18:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is hovered
+
+2019-07-01 18:18:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:18:03 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-01 18:18:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is hovered
+
+2019-07-01 18:18:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is hovered
+
+2019-07-01 18:18:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:18:17 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-01 18:18:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is hovered
+
+2019-07-01 18:18:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:18:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:18:35 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:18:35 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:18:35 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-01 18:18:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:18:38 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:18:38 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:18:38 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-01 18:18:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:18:41 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:18:41 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:18:41 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-01 18:18:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-07-01 18:18:41 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-07-01 18:18:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:18:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-01 18:18:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:18:44 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-01 18:18:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-01 18:18:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-01 18:18:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:18:58 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-01 18:19:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-01 18:19:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-01 18:19:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:19:13 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-01 18:19:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-01 18:19:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:19:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:19:31 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:19:31 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:19:31 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-01 18:19:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:19:34 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:19:34 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:19:34 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-01 18:19:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:19:37 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:19:37 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:19:37 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-01 18:19:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' successfully
+
+2019-07-01 18:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is present
+
+2019-07-01 18:19:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is checked
+
+2019-07-01 18:19:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/Table_supporting_doc' successfully
+
+2019-07-01 18:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/Table_supporting_doc' is present
+
+2019-07-01 18:19:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' successfully
+
+2019-07-01 18:19:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is hovered
+
+2019-07-01 18:19:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:19:43 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-01 18:19:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is hovered
+
+2019-07-01 18:19:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is hovered
+
+2019-07-01 18:19:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:19:57 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-01 18:20:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is hovered
+
+2019-07-01 18:20:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:20:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is hovered
+
+2019-07-01 18:20:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:20:12 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-01 18:20:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is hovered
+
+2019-07-01 18:20:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:20:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:20:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:20:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:20:30 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:20:30 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:20:30 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-01 18:20:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:20:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:20:33 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:20:33 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:20:33 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-01 18:20:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:20:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:20:36 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-01 18:20:36 - [MESSAGE][PASSED] - 
+
+2019-07-01 18:20:36 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-01 18:20:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/a_Clear draft' is present
+
+2019-07-01 18:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/a_Clear draft' is clicked on
+
+2019-07-01 18:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/button_Yes' is clicked on
+
+2019-07-01 18:20:46 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_DownloadFiles' was passed
+
+2019-07-01 18:20:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-01 18:20:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-01 18:20:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Innovation/TC_In_DeleteFiles" classname="Test Cases/Innovation/TC_In_DeleteFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-01 18:20:47 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_DeleteFiles: Test Cases/Innovation/TC_In_DeleteFiles
+
+2019-07-01 18:20:47 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-01 18:20:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-01 18:20:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:20:47 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:20:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:20:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-01 18:20:49 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-01 18:20:49 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-07-01 18:20:49 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-01 18:20:49 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_DeleteFiles): Run with 'innovation_Form.Runner_In_DeleteFiles' was passed
+
+2019-07-01 18:20:50 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Navigation: Test Cases/Innovation/TC_In_Navigation
+
+2019-07-01 18:20:50 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Navigation): Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:20:51 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-01 18:20:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:20:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:20:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:20:52 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:20:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:20:57 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:20:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:20:59 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:20:59 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:21:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:21:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:21:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:21:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:21:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:21:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/In_Navigation/div_Innovation' successfully
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_Innovation' is present
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:21:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_InnovationCredit' is present
+
+2019-07-01 18:21:16 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:21:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Innovation/TC_In_Navigation' successfully
+
+2019-07-01 18:21:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/Table_LEED_Accredited' successfully
+
+2019-07-01 18:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/Table_LEED_Accredited' is present
+
+2019-07-01 18:21:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:21:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Innovation/AddFile_LEED_Accredited/Table_LEED_Accredited' located by 'By.xpath: //*[@id="leedApDocs_files"]/table' is not present after '30' second(s)
+
+2019-07-01 18:21:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Table_required_doc' successfully
+
+2019-07-01 18:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Table_required_doc' is present
+
+2019-07-01 18:21:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:21:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/Table_required_doc' located by 'By.xpath: //*[@id="pcRequiredDocs_files"]/table' is not present after '30' second(s)
+
+2019-07-01 18:21:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-07-01 18:21:40 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-07-01 18:21:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:21:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:21:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:21:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:21:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:21:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' located by 'By.xpath: //div[@id='splCircumstancesDocs_files']/table' is not present after '30' second(s)
+
+2019-07-01 18:21:53 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_DeleteFiles' was passed
+
+2019-07-01 18:21:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-01 18:21:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-01 18:21:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Innovation/TC_In_NegativeCases" classname="Test Cases/Innovation/TC_In_NegativeCases" status="PASSED">
+         <system-out><![CDATA[2019-07-01 18:21:53 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_NegativeCases: Test Cases/Innovation/TC_In_NegativeCases
+
+2019-07-01 18:21:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-01 18:21:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-01 18:21:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:21:53 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:21:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:21:56 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-01 18:21:56 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-01 18:21:56 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-07-01 18:21:56 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-01 18:21:56 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_NegativeCases): Run with 'innovation_Form.Runner_In_NegativeCases' was passed
+
+2019-07-01 18:21:56 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Navigation: Test Cases/Innovation/TC_In_Navigation
+
+2019-07-01 18:21:56 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Navigation): Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:21:57 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-01 18:21:57 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:21:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:21:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:21:58 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:22:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:22:03 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:22:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:05 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:22:05 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:22:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:22:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:22:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:22:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:22:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:22:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/In_Navigation/div_Innovation' successfully
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_Innovation' is present
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:22:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:22:25 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_InnovationCredit' is present
+
+2019-07-01 18:22:25 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:22:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Innovation/TC_In_Navigation' successfully
+
+2019-07-01 18:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:22:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:27 - [MESSAGE][PASSED] - Text 'Please fix the highlighted errors.' is present on page 
+
+2019-07-01 18:22:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:22:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' successfully
+
+2019-07-01 18:22:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:22:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:22:29 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' is present
+
+2019-07-01 18:22:30 - [MESSAGE][PASSED] - Text 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows only 100 characters' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_nameOfPilot'
+
+2019-07-01 18:22:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Text 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows only 100 characters' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_numberOfPilot'
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_nameOfPilot' is: 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows'
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Actual text 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows only 100 characters' and expected text 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows' are not matched 
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_numberOfPilot' is: 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows'
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Actual text 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows only 100 characters' and expected text 'I am trying to capture the Error that comes after entering the characters more than 100 as it allows' are not matched 
+
+2019-07-01 18:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' successfully
+
+2019-07-01 18:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' is present
+
+2019-07-01 18:22:34 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_nameOfPilot'
+
+2019-07-01 18:22:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:22:37 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_numberOfPilot'
+
+2019-07-01 18:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-07-01 18:22:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:39 - [MESSAGE][PASSED] - Text 'Please fix the highlighted errors.' is present on page 
+
+2019-07-01 18:22:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:41 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is present
+
+2019-07-01 18:22:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:22:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:22:42 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/Innovation/AddFile_LEED_Accredited/input_LEED_Accredited'
+
+2019-07-01 18:22:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:44 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-07-01 18:22:44 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' is present
+
+2019-07-01 18:22:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:22:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:22:44 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/Innovation/AddFile_LEED_Accredited/input_LEED_Accredited'
+
+2019-07-01 18:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:22:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:22:47 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-07-01 18:22:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:49 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is present
+
+2019-07-01 18:22:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:22:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:22:49 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/input_required_doc'
+
+2019-07-01 18:22:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:51 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-07-01 18:22:52 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' is present
+
+2019-07-01 18:22:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:22:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:22:52 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/input_required_doc'
+
+2019-07-01 18:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:22:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:22:55 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-07-01 18:22:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is present
+
+2019-07-01 18:22:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:22:57 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-01 18:22:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:22:59 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-07-01 18:22:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:22:59 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is present
+
+2019-07-01 18:22:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-01 18:23:00 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/Innovation/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-01 18:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:23:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:23:03 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-07-01 18:23:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:23:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' successfully
+
+2019-07-01 18:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is present
+
+2019-07-01 18:23:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is checked
+
+2019-07-01 18:23:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' successfully
+
+2019-07-01 18:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is present
+
+2019-07-01 18:23:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/input_supporting_doc' successfully
+
+2019-07-01 18:23:08 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/input_supporting_doc'
+
+2019-07-01 18:23:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:23:11 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-07-01 18:23:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' successfully
+
+2019-07-01 18:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc' is present
+
+2019-07-01 18:23:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/input_supporting_doc' successfully
+
+2019-07-01 18:23:11 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/input_supporting_doc'
+
+2019-07-01 18:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:23:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:23:14 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-07-01 18:23:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:23:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/a_Clear draft' is present
+
+2019-07-01 18:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/a_Clear draft' is clicked on
+
+2019-07-01 18:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/button_Yes' is clicked on
+
+2019-07-01 18:23:26 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_NegativeCases' was passed
+
+2019-07-01 18:23:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-01 18:23:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-01 18:23:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Innovation/TC_In_AutoSaveAsDraft" classname="Test Cases/Innovation/TC_In_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-07-01 18:23:27 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_AutoSaveAsDraft: Test Cases/Innovation/TC_In_AutoSaveAsDraft
+
+2019-07-01 18:23:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-01 18:23:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-01 18:23:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:23:27 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:23:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:23:29 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-01 18:23:29 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-01 18:23:29 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-07-01 18:23:29 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-01 18:23:29 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_AutoSaveAsDraft): Run with 'innovation_Form.Runner_In_AutoSaveAsDraft' was passed
+
+2019-07-01 18:23:30 - [TEST_CASE][PASSED] - Test Cases/Innovation/TC_In_Navigation: Test Cases/Innovation/TC_In_Navigation
+
+2019-07-01 18:23:30 - [TEST_STEP][PASSED] - runWithCucumberRunner(innovation_Form.Runner_In_Navigation): Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:23:31 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-01 18:23:31 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:23:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:23:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:23:32 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:23:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:23:36 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:23:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:23:38 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:23:39 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:23:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:23:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:23:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:23:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/In_Navigation/div_Innovation' successfully
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_Innovation' is present
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/In_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-01 18:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:23:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:23:55 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/In_Navigation/div_InnovationCredit' is present
+
+2019-07-01 18:23:55 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_Navigation' was passed
+
+2019-07-01 18:23:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Innovation/TC_In_Navigation' successfully
+
+2019-07-01 18:24:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:24:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:24:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Innovation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '30' second(s)
+
+2019-07-01 18:24:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:24:05 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Innovation/AddFile_LEED_Accredited/input_LEED_Accredited'
+
+2019-07-01 18:24:05 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/input_required_doc'
+
+2019-07-01 18:24:20 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-07-01 18:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:24:20 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Innovation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '30' second(s)
+
+2019-07-01 18:24:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' successfully
+
+2019-07-01 18:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_nameOfPilot' is present
+
+2019-07-01 18:24:21 - [MESSAGE][PASSED] - Text 'Credit_AutoSave' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_nameOfPilot'
+
+2019-07-01 18:24:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:24:31 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is present
+
+2019-07-01 18:24:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is: 'Last draft saved on: 01 Jul 2019 06:24:24 PM  Clear draft'
+
+2019-07-01 18:24:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_numberOfPilot' successfully
+
+2019-07-01 18:24:31 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Pilot_Credit_Opt2/div_numberOfPilot' is present
+
+2019-07-01 18:24:31 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Innovation/Pilot_Credit_Opt2/input_numberOfPilot'
+
+2019-07-01 18:24:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:24:41 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is present
+
+2019-07-01 18:24:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is: 'Last draft saved on: 01 Jul 2019 06:24:34 PM  Clear draft'
+
+2019-07-01 18:24:41 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 01 Jul 2019 06:24:34 PM  Clear draft' and expected text 'null' are not matched 
+
+2019-07-01 18:24:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Editor_LEED_Accredited/p_LEED_Accredited_Editorbox' successfully
+
+2019-07-01 18:24:41 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Editor_LEED_Accredited/p_LEED_Accredited_Editorbox' is present
+
+2019-07-01 18:24:42 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/Innovation/Editor_LEED_Accredited/body_LEED_Accredited'
+
+2019-07-01 18:24:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:24:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:24:55 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is present
+
+2019-07-01 18:24:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is: 'Last draft saved on: 01 Jul 2019 06:24:44 PM  Clear draft'
+
+2019-07-01 18:24:55 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 01 Jul 2019 06:24:44 PM  Clear draft' and expected text 'null' are not matched 
+
+2019-07-01 18:24:55 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is present
+
+2019-07-01 18:24:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/btn_Save' successfully
+
+2019-07-01 18:24:55 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/btn_Save' is present
+
+2019-07-01 18:24:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/btn_Save' is clicked on
+
+2019-07-01 18:24:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Innovation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-07-01 18:24:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/AddFile_LEED_Accredited/p_LEED_Accredited' successfully
+
+2019-07-01 18:24:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:25:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:25:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:25:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Pilot_Credit_Opt2/AddFile_required_doc/p_required_doc' successfully
+
+2019-07-01 18:25:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:25:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:25:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-01 18:25:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' successfully
+
+2019-07-01 18:25:05 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is present
+
+2019-07-01 18:25:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:25:07 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Innovation_Strategy_Opt1/radio_innovation_Strategy' is checked
+
+2019-07-01 18:25:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:25:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:25:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is present
+
+2019-07-01 18:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/a_Clear draft' is clicked on
+
+2019-07-01 18:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/button_Yes' is clicked on
+
+2019-07-01 18:25:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-01 18:25:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Innovation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '30' second(s)
+
+2019-07-01 18:25:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-07-01 18:25:21 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-07-01 18:25:22 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-07-01 18:25:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/a_Clear draft' is present
+
+2019-07-01 18:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/a_Clear draft' is clicked on
+
+2019-07-01 18:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/button_Yes' is clicked on
+
+2019-07-01 18:25:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-07-01 18:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-07-01 18:25:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:25:35 - [MESSAGE][PASSED] - Text 'Test Logout and Login' is set on object 'Object Repository/Innovation/Editor_LEED_Accredited/body_LEED_Accredited'
+
+2019-07-01 18:25:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-01 18:25:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Autosave/span_Last draft saved on' is: 'Last draft saved on: 01 Jul 2019 06:25:44 PM  Clear draft'
+
+2019-07-01 18:25:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/div_Signout' is clicked on
+
+2019-07-01 18:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/a_Sign out' is clicked on
+
+2019-07-01 18:25:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:25:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-01 18:25:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-01 18:25:52 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-01 18:25:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-01 18:25:56 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-01 18:25:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:25:58 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-01 18:25:59 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-01 18:26:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-01 18:26:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-01 18:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-01 18:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-01 18:26:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-01 18:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-01 18:26:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-01 18:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-01 18:26:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/div_Innovation' is clicked on
+
+2019-07-01 18:26:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-01 18:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/In_Navigation/span_(V01)' is clicked on
+
+2019-07-01 18:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/div_Form drafted and not yet saved' is present
+
+2019-07-01 18:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/Innovation/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-07-01 18:26:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Innovation/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 01 Jul 2019 06:25:44 PM  Clear draft'
+
+2019-07-01 18:26:17 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 01 Jul 2019 06:25:44 PM  Clear draft' and expected text 'Last draft saved on: 01 Jul 2019 06:25:44 PM  Clear draft' are matched 
+
+2019-07-01 18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/a_Clear draft' is clicked on
+
+2019-07-01 18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Innovation/Autosave/button_Yes' is clicked on
+
+2019-07-01 18:26:17 - [MESSAGE][PASSED] - Run with 'innovation_Form.Runner_In_AutoSaveAsDraft' was passed
+
+2019-07-01 18:26:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-01 18:26:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-01 18:26:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-01 18:11:27 - [TEST_SUITE][FAILED] - In_SmokeTest: Test Cases/Innovation/TC_In_VerifyUploadedFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: chennai_Server.txt is not equal to ZZ.pdf
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.CompareExcel(projectKeywords.groovy:249)
+	at leedOnlineKeywords.projectKeywords$CompareExcel$5.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.verifyUploadedFiles(projectKeywords.groovy:827)
+	at leedOnlineKeywords.projectKeywords$verifyUploadedFiles$3.call(Unknown Source)
+	at innovation_Form.In_VerifyUploadedFiles.user_verifies_the_file_name_uploaded_with_the_file_name_present_in_the_table_of_required_documentation(In_VerifyUploadedFiles.groovy:85)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-01 18:11:27 - [TEST_SUITE][FAILED] - In_SmokeTest: Test Cases/Innovation/TC_In_VerifyUploadedFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: chennai_Server.txt is not equal to ZZ.pdf
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.CompareExcel(projectKeywords.groovy:249)
+	at leedOnlineKeywords.projectKeywords$CompareExcel$5.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.verifyUploadedFiles(projectKeywords.groovy:827)
+	at leedOnlineKeywords.projectKeywords$verifyUploadedFiles$3.call(Unknown Source)
+	at innovation_Form.In_VerifyUploadedFiles.user_verifies_the_file_name_uploaded_with_the_file_name_present_in_the_table_of_required_documentation(In_VerifyUploadedFiles.groovy:85)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_In_VerifyUploadedFile.run(TC_In_VerifyUploadedFile:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561984884842.run(TempTestSuite1561984884842.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

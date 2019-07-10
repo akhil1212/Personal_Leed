@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GC_SmokeTest,Chrome 74.0.3729.169,,,2019-06-18 16:12:00,2019-06-18 16:18:38,6m - 37.784s,FAILED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_Custodial,Chrome 74.0.3729.169,,,2019-06-18 16:12:00,2019-06-18 16:15:43,3m - 43.107s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:12:00,2019-06-18 16:12:05,4.561s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GreenCleaning),Chrome 74.0.3729.169,,,2019-06-18 16:12:05,2019-06-18 16:15:42,3m - 37.362s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:15:42,2019-06-18 16:15:43,0.895s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_Custodial,Chrome 74.0.3729.169,,,2019-06-18 16:15:43,2019-06-18 16:16:27,43.210s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:15:43,2019-06-18 16:15:46,2.293s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_VerifyUploadedFiles_Custodial),Chrome 74.0.3729.169,,,2019-06-18 16:15:46,2019-06-18 16:16:26,39.768s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:16:26,2019-06-18 16:16:27,0.907s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DownloadFiles_Custodial,Chrome 74.0.3729.169,,,2019-06-18 16:16:27,2019-06-18 16:18:28,2m - 1.406s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:16:27,2019-06-18 16:16:29,2.433s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DownloadFiles_Custodial),Chrome 74.0.3729.169,,,2019-06-18 16:16:29,2019-06-18 16:18:27,1m - 58.048s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:18:27,2019-06-18 16:18:28,0.764s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_Custodial,Chrome 74.0.3729.169,,,2019-06-18 16:18:28,2019-06-18 16:18:38,9.593s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:18:28,2019-06-18 16:18:30,2.411s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DeleteUploadedFiles_Custodial),Chrome 74.0.3729.169,,,2019-06-18 16:18:31,2019-06-18 16:18:37,6.221s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-18 16:18:37,2019-06-18 16:18:38,0.719s,PASSED

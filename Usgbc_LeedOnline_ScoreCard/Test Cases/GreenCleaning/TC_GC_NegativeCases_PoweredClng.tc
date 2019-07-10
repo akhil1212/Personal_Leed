@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GC_NegativeCases_PoweredClng</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52493f16-6ccc-43df-a4c6-0c2402bc3a79</testCaseGuid>
+</TestCaseEntity>

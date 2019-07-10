@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EEBM_SmokeTest,Chrome 75.0.3770.100,,,2019-06-26 14:39:16,2019-06-26 14:51:59,12m - 43.612s,PASSED
+,,,,,,,
+Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_EnergyEfficiencyBestMgmt,Chrome 75.0.3770.100,,,2019-06-26 14:39:16,2019-06-26 14:42:06,2m - 49.615s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:39:16,2019-06-26 14:39:22,5.474s,PASSED
+runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_EnergyEfficiencyBestMgmt),Chrome 75.0.3770.100,,,2019-06-26 14:39:22,2019-06-26 14:42:05,2m - 42.965s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:42:05,2019-06-26 14:42:06,0.969s,PASSED
+,,,,,,,
+Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_VerifyUploadedFiles,Chrome 75.0.3770.100,,,2019-06-26 14:42:06,2019-06-26 14:42:49,43.468s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:42:06,2019-06-26 14:42:09,3.621s,PASSED
+runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_VerifyUploadedFiles),Chrome 75.0.3770.100,,,2019-06-26 14:42:10,2019-06-26 14:42:48,38.817s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:42:48,2019-06-26 14:42:49,0.750s,PASSED
+,,,,,,,
+Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DownloadFiles,Chrome 75.0.3770.100,,,2019-06-26 14:42:49,2019-06-26 14:47:10,4m - 20.820s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:42:49,2019-06-26 14:42:52,3.170s,PASSED
+runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_DownloadFiles),Chrome 75.0.3770.100,,,2019-06-26 14:42:53,2019-06-26 14:47:09,4m - 16.681s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:47:09,2019-06-26 14:47:10,0.764s,PASSED
+,,,,,,,
+Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DeleteUploadedFiles,Chrome 75.0.3770.100,,,2019-06-26 14:47:10,2019-06-26 14:47:15,4.728s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:47:10,2019-06-26 14:47:13,2.993s,PASSED
+runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_DeleteUploadedFiles),Chrome 75.0.3770.100,,,2019-06-26 14:47:13,2019-06-26 14:47:14,0.816s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:47:14,2019-06-26 14:47:15,0.727s,PASSED
+,,,,,,,
+Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_AutoSaveAsDraft,Chrome 75.0.3770.100,,,2019-06-26 14:47:15,2019-06-26 14:51:59,4m - 44.482s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:47:15,2019-06-26 14:47:17,2.343s,PASSED
+runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_AutoSaveAsDraft),Chrome 75.0.3770.100,,,2019-06-26 14:47:17,2019-06-26 14:51:59,4m - 41.143s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 14:51:59,2019-06-26 14:51:59,0.706s,PASSED

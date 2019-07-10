@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SM_SmokeTest,Chrome 75.0.3770.100,,,2019-06-26 19:48:04,2019-06-26 19:57:03,8m - 59.188s,FAILED
+,,,,,,,
+Test Cases/SiteManagement/TC_SiteManagement,Chrome 75.0.3770.100,,,2019-06-26 19:48:04,2019-06-26 19:50:20,2m - 15.836s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:48:04,2019-06-26 19:48:10,5.801s,PASSED
+runWithCucumberRunner(siteManagementForm.Runner_SiteMngmnt),Chrome 75.0.3770.100,,,2019-06-26 19:48:11,2019-06-26 19:50:19,2m - 8.642s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:50:19,2019-06-26 19:50:20,0.733s,PASSED
+,,,,,,,
+Test Cases/SiteManagement/TC_SM_VerifyUploadFile,Chrome 75.0.3770.100,,,2019-06-26 19:50:20,2019-06-26 19:50:25,5.147s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:50:20,2019-06-26 19:50:23,2.683s,PASSED
+runWithCucumberRunner(siteManagementForm.Runner_SM_VerifyUpload),Chrome 75.0.3770.100,,,2019-06-26 19:50:23,2019-06-26 19:50:24,1.455s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:50:24,2019-06-26 19:50:25,0.720s,PASSED
+,,,,,,,
+Test Cases/SiteManagement/TC_SM_DownloadFiles,Chrome 75.0.3770.100,,,2019-06-26 19:50:25,2019-06-26 19:53:50,3m - 24.474s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:50:25,2019-06-26 19:50:28,2.588s,PASSED
+runWithCucumberRunner(siteManagementForm.Runner_SM_Download),Chrome 75.0.3770.100,,,2019-06-26 19:50:28,2019-06-26 19:53:49,3m - 20.928s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:53:49,2019-06-26 19:53:50,0.726s,PASSED
+,,,,,,,
+Test Cases/SiteManagement/TC_SM_DeleteUploadFiles,Chrome 75.0.3770.100,,,2019-06-26 19:53:50,2019-06-26 19:53:54,4.605s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:53:50,2019-06-26 19:53:52,2.377s,PASSED
+runWithCucumberRunner(siteManagementForm.Runner_SM_Delete),Chrome 75.0.3770.100,,,2019-06-26 19:53:52,2019-06-26 19:53:53,0.773s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:53:53,2019-06-26 19:53:54,1.206s,PASSED
+,,,,,,,
+Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft,Chrome 75.0.3770.100,,,2019-06-26 19:53:54,2019-06-26 19:57:03,3m - 8.644s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:53:54,2019-06-26 19:53:57,2.457s,PASSED
+runWithCucumberRunner(siteManagementForm.Runner_SM_AutoSaveDraft),Chrome 75.0.3770.100,,,2019-06-26 19:53:57,2019-06-26 19:57:02,3m - 5.247s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 19:57:02,2019-06-26 19:57:03,0.751s,PASSED

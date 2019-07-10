@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MIAQ_SmokeTest,Chrome 74.0.3729.169,,2019-06-17 18:10:11,2019-06-17 18:17:14,7m - 3.198s,PASSED
+,,,,,,
+Test Cases/MinimumIndoorAirQuality/TC_MinimumIndoorAirQualityForm,Chrome 74.0.3729.169,,2019-06-17 18:10:12,2019-06-17 18:12:24,2m - 12.504s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 18:10:12,2019-06-17 18:10:17,4.976s,PASSED
+runWithCucumberRunner(minimumIndoorAirQualityForm.Runner_MIAQ_Form),Chrome 74.0.3729.169,,2019-06-17 18:10:17,2019-06-17 18:12:23,2m - 6.525s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 18:12:23,2019-06-17 18:12:24,0.769s,PASSED
+,,,,,,
+Test Cases/MinimumIndoorAirQuality/TC_MIAQ_Verify_UploadedFiles,Chrome 74.0.3729.169,,2019-06-17 18:12:24,2019-06-17 18:13:03,38.422s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 18:12:24,2019-06-17 18:12:27,2.817s,PASSED
+runWithCucumberRunner(minimumIndoorAirQualityForm.Runner_MIAQ_Verify_UploadedFiles),Chrome 74.0.3729.169,,2019-06-17 18:12:27,2019-06-17 18:13:02,34.417s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 18:13:02,2019-06-17 18:13:03,0.930s,PASSED
+,,,,,,
+Test Cases/MinimumIndoorAirQuality/TC_MIAQ_Download_Files,Chrome 74.0.3729.169,,2019-06-17 18:13:03,2019-06-17 18:15:30,2m - 26.926s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 18:13:03,2019-06-17 18:13:05,2.314s,PASSED
+runWithCucumberRunner(minimumIndoorAirQualityForm.Runner_MIAQ_Download_Files),Chrome 74.0.3729.169,,2019-06-17 18:13:05,2019-06-17 18:15:29,2m - 23.739s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 18:15:29,2019-06-17 18:15:30,0.712s,PASSED
+,,,,,,
+Test Cases/MinimumIndoorAirQuality/TC_MIAQ_Delete_UploadedFiles,Chrome 74.0.3729.169,,2019-06-17 18:15:30,2019-06-17 18:16:24,54.867s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 18:15:30,2019-06-17 18:15:33,3.012s,PASSED
+runWithCucumberRunner(minimumIndoorAirQualityForm.Runner_MIAQ_Delete_UploadedFiles),Chrome 74.0.3729.169,,2019-06-17 18:15:33,2019-06-17 18:16:24,51.030s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 18:16:24,2019-06-17 18:16:24,0.659s,PASSED
+,,,,,,
+Test Cases/MinimumIndoorAirQuality/TC_MIAQ_NegativeCases,Chrome 74.0.3729.169,,2019-06-17 18:16:24,2019-06-17 18:17:14,49.508s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 18:16:24,2019-06-17 18:16:27,2.352s,PASSED
+runWithCucumberRunner(minimumIndoorAirQualityForm.Runner_MIAQ_NegativeCases),Chrome 74.0.3729.169,,2019-06-17 18:16:27,2019-06-17 18:17:13,46.248s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 18:17:13,2019-06-17 18:17:14,0.719s,PASSED

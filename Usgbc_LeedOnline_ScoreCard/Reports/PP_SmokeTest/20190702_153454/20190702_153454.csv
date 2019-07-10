@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PP_SmokeTest,Chrome 75.0.3770.100,,2019-07-02 15:34:58,2019-07-02 15:55:43,20m - 44.807s,PASSED
+,,,,,,
+Test Cases/PurchasingPolicy/TC_PurchasingPolicyForm,Chrome 75.0.3770.100,,2019-07-02 15:34:58,2019-07-02 15:39:44,4m - 45.786s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-02 15:34:58,2019-07-02 15:35:03,4.551s,PASSED
+runWithCucumberRunner(purchasingPolicy.Runner_PP_Form),Chrome 75.0.3770.100,,2019-07-02 15:35:03,2019-07-02 15:39:43,4m - 40.163s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-02 15:39:43,2019-07-02 15:39:44,0.696s,PASSED
+,,,,,,
+Test Cases/PurchasingPolicy/TC_PP_Verify_UploadedFiles,Chrome 75.0.3770.100,,2019-07-02 15:39:44,2019-07-02 15:40:32,47.742s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-02 15:39:44,2019-07-02 15:39:47,2.334s,PASSED
+runWithCucumberRunner(purchasingPolicy.Runner_PP_Verify_UploadedFiles),Chrome 75.0.3770.100,,2019-07-02 15:39:47,2019-07-02 15:40:31,44.577s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-02 15:40:31,2019-07-02 15:40:32,0.687s,PASSED
+,,,,,,
+Test Cases/PurchasingPolicy/TC_PP_Download_Files,Chrome 75.0.3770.100,,2019-07-02 15:40:32,2019-07-02 15:50:18,9m - 46.437s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-02 15:40:32,2019-07-02 15:40:35,2.772s,PASSED
+runWithCucumberRunner(purchasingPolicy.Runner_PP_Download_Files),Chrome 75.0.3770.100,,2019-07-02 15:40:35,2019-07-02 15:50:18,9m - 42.889s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-02 15:50:18,2019-07-02 15:50:18,0.638s,PASSED
+,,,,,,
+Test Cases/PurchasingPolicy/TC_Delete_UploadedFiles,Chrome 75.0.3770.100,,2019-07-02 15:50:18,2019-07-02 15:53:02,2m - 43.727s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-02 15:50:18,2019-07-02 15:50:21,2.964s,PASSED
+runWithCucumberRunner(purchasingPolicy.Runner_PP_Delete_UploadedFiles),Chrome 75.0.3770.100,,2019-07-02 15:50:22,2019-07-02 15:53:01,2m - 39.930s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-02 15:53:01,2019-07-02 15:53:02,0.676s,PASSED
+,,,,,,
+Test Cases/PurchasingPolicy/TC_PP_AutoSaveAsDraft,Chrome 75.0.3770.100,,2019-07-02 15:53:02,2019-07-02 15:55:42,2m - 40.266s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-07-02 15:53:02,2019-07-02 15:53:05,2.560s,PASSED
+runWithCucumberRunner(purchasingPolicy.Runner_PP_AutoSaveAsDraft),Chrome 75.0.3770.100,,2019-07-02 15:53:05,2019-07-02 15:55:42,2m - 36.736s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-07-02 15:55:42,2019-07-02 15:55:42,0.835s,PASSED

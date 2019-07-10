@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GC_SmokeTest,Chrome 75.0.3770.100,,,2019-06-21 17:46:33,2019-06-21 18:11:23,24m - 49.401s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_Custodial,Chrome 75.0.3770.100,,,2019-06-21 17:46:34,2019-06-21 17:49:04,2m - 30.037s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:46:34,2019-06-21 17:46:38,3.930s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GreenCleaning),Chrome 75.0.3770.100,,,2019-06-21 17:46:38,2019-06-21 17:49:03,2m - 25.304s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:49:03,2019-06-21 17:49:04,0.608s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_Custodial,Chrome 75.0.3770.100,,,2019-06-21 17:49:04,2019-06-21 17:49:41,36.900s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:49:04,2019-06-21 17:49:06,2.286s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_VerifyUploadedFiles_Custodial),Chrome 75.0.3770.100,,,2019-06-21 17:49:06,2019-06-21 17:49:40,33.878s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:49:40,2019-06-21 17:49:41,0.603s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DownloadFiles_Custodial,Chrome 75.0.3770.100,,,2019-06-21 17:49:41,2019-06-21 17:52:16,2m - 34.848s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:49:41,2019-06-21 17:49:43,2.096s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DownloadFiles_Custodial),Chrome 75.0.3770.100,,,2019-06-21 17:49:43,2019-06-21 17:52:15,2m - 32.041s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:52:15,2019-06-21 17:52:16,0.591s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_Custodial,Chrome 75.0.3770.100,,,2019-06-21 17:52:16,2019-06-21 17:52:56,39.806s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:52:16,2019-06-21 17:52:18,2.124s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DeleteUploadedFiles_Custodial),Chrome 75.0.3770.100,,,2019-06-21 17:52:18,2019-06-21 17:52:55,36.942s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:52:55,2019-06-21 17:52:56,0.581s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_EntrywaySystems,Chrome 75.0.3770.100,,,2019-06-21 17:52:56,2019-06-21 17:54:32,1m - 36.206s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:52:56,2019-06-21 17:52:58,2.079s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_EntrywaySystems),Chrome 75.0.3770.100,,,2019-06-21 17:52:58,2019-06-21 17:54:31,1m - 33.379s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:54:31,2019-06-21 17:54:32,0.608s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_EntrywaySys,Chrome 75.0.3770.100,,,2019-06-21 17:54:32,2019-06-21 17:55:05,33.270s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:54:32,2019-06-21 17:54:34,2.112s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_VerifyUploadedFiles_EntrywaySys),Chrome 75.0.3770.100,,,2019-06-21 17:54:34,2019-06-21 17:55:04,30.463s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:55:04,2019-06-21 17:55:05,0.583s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DownloadFiles_EntrywaySys,Chrome 75.0.3770.100,,,2019-06-21 17:55:05,2019-06-21 17:56:28,1m - 23.143s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:55:05,2019-06-21 17:55:07,2.098s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DownloadFiles_EntrywaySys),Chrome 75.0.3770.100,,,2019-06-21 17:55:07,2019-06-21 17:56:28,1m - 20.310s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:56:28,2019-06-21 17:56:28,0.624s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_EntrywaySys,Chrome 75.0.3770.100,,,2019-06-21 17:56:28,2019-06-21 17:57:09,40.310s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:56:28,2019-06-21 17:56:30,2.132s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DeleteUploadedFiles_EntrywaySys),Chrome 75.0.3770.100,,,2019-06-21 17:56:30,2019-06-21 17:57:08,37.425s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:57:08,2019-06-21 17:57:09,0.607s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_PoweredCleaning,Chrome 75.0.3770.100,,,2019-06-21 17:57:09,2019-06-21 17:58:26,1m - 17.683s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:57:09,2019-06-21 17:57:11,2.134s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_PoweredCleaning),Chrome 75.0.3770.100,,,2019-06-21 17:57:11,2019-06-21 17:58:26,1m - 14.838s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:58:26,2019-06-21 17:58:26,0.586s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_PoweredCleaning,Chrome 75.0.3770.100,,,2019-06-21 17:58:26,2019-06-21 17:58:55,28.805s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:58:26,2019-06-21 17:58:28,2.146s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_VerifyUploadedFiles_PoweredCleaning),Chrome 75.0.3770.100,,,2019-06-21 17:58:28,2019-06-21 17:58:54,25.788s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:58:54,2019-06-21 17:58:55,0.737s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DownloadFiles_PoweredCleaning,Chrome 75.0.3770.100,,,2019-06-21 17:58:55,2019-06-21 18:00:18,1m - 23.338s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 17:58:55,2019-06-21 17:58:57,2.118s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DownloadFiles_PoweredCleaning),Chrome 75.0.3770.100,,,2019-06-21 17:58:57,2019-06-21 18:00:18,1m - 20.503s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:00:18,2019-06-21 18:00:18,0.588s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_PoweredCleaning,Chrome 75.0.3770.100,,,2019-06-21 18:00:18,2019-06-21 18:00:59,40.194s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:00:18,2019-06-21 18:00:21,2.130s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DeleteUploadedFiles_PoweredCleaning),Chrome 75.0.3770.100,,,2019-06-21 18:00:21,2019-06-21 18:00:58,37.345s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:00:58,2019-06-21 18:00:59,0.591s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_CleaningProducts,Chrome 75.0.3770.100,,,2019-06-21 18:00:59,2019-06-21 18:02:57,1m - 58.081s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:00:59,2019-06-21 18:01:01,2.128s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_CleaningProducts),Chrome 75.0.3770.100,,,2019-06-21 18:01:01,2019-06-21 18:02:56,1m - 55.219s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:02:56,2019-06-21 18:02:57,0.609s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_CleaningProducts,Chrome 75.0.3770.100,,,2019-06-21 18:02:57,2019-06-21 18:03:27,30.256s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:02:57,2019-06-21 18:02:59,2.117s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_VerifyUploadedFiles_CleaningProducts),Chrome 75.0.3770.100,,,2019-06-21 18:02:59,2019-06-21 18:03:26,27.294s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:03:26,2019-06-21 18:03:27,0.689s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DownloadFiles_CleaningProducts,Chrome 75.0.3770.100,,,2019-06-21 18:03:27,2019-06-21 18:06:42,3m - 14.713s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:03:27,2019-06-21 18:03:29,2.179s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DownloadFiles_CleaningProducts),Chrome 75.0.3770.100,,,2019-06-21 18:03:29,2019-06-21 18:06:41,3m - 11.830s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:06:41,2019-06-21 18:06:42,0.592s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_CleaningProducts,Chrome 75.0.3770.100,,,2019-06-21 18:06:42,2019-06-21 18:08:03,1m - 21.094s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:06:42,2019-06-21 18:06:44,2.165s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_DeleteUploadedFiles_CleaningProducts),Chrome 75.0.3770.100,,,2019-06-21 18:06:44,2019-06-21 18:08:02,1m - 18.173s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:08:02,2019-06-21 18:08:03,0.582s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft,Chrome 75.0.3770.100,,,2019-06-21 18:08:03,2019-06-21 18:11:23,3m - 20.047s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:08:03,2019-06-21 18:08:05,2.187s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_AutoSaveAsDraft),Chrome 75.0.3770.100,,,2019-06-21 18:08:05,2019-06-21 18:11:22,3m - 17.145s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 18:11:22,2019-06-21 18:11:23,0.599s,PASSED

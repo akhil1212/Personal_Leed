@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ERM_SmokeTest,Chrome 75.0.3770.100,,,2019-07-08 18:45:30,2019-07-08 18:56:40,11m - 9.263s,FAILED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants,Chrome 75.0.3770.100,,,2019-07-08 18:45:31,2019-07-08 18:47:32,2m - 0.877s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:45:31,2019-07-08 18:45:35,4.533s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_No_Refrigerants),Chrome 75.0.3770.100,,,2019-07-08 18:45:36,2019-07-08 18:47:31,1m - 55.434s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:47:31,2019-07-08 18:47:32,0.641s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact,Chrome 75.0.3770.100,,,2019-07-08 18:47:32,2019-07-08 18:47:36,3.862s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:47:32,2019-07-08 18:47:34,2.297s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact),Chrome 75.0.3770.100,,,2019-07-08 18:47:34,2019-07-08 18:47:35,0.782s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:47:35,2019-07-08 18:47:36,0.586s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_VerifyUploadedFiles,Chrome 75.0.3770.100,,,2019-07-08 18:47:36,2019-07-08 18:48:41,1m - 5.219s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:47:36,2019-07-08 18:47:38,2.252s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_VerifyUploadedFiles),Chrome 75.0.3770.100,,,2019-07-08 18:47:38,2019-07-08 18:48:40,1m - 2.234s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:48:40,2019-07-08 18:48:41,0.599s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_DownloadedFiles,Chrome 75.0.3770.100,,,2019-07-08 18:48:41,2019-07-08 18:50:40,1m - 59.536s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:48:41,2019-07-08 18:48:43,2.279s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DownloadedFiles),Chrome 75.0.3770.100,,,2019-07-08 18:48:43,2019-07-08 18:50:40,1m - 56.467s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:50:40,2019-07-08 18:50:40,0.615s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData,Chrome 75.0.3770.100,,,2019-07-08 18:50:40,2019-07-08 18:51:47,1m - 6.600s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:50:40,2019-07-08 18:50:43,2.278s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DeleteTableData),Chrome 75.0.3770.100,,,2019-07-08 18:50:43,2019-07-08 18:51:46,1m - 3.574s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:51:46,2019-07-08 18:51:47,0.609s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteUploadedFiles,Chrome 75.0.3770.100,,,2019-07-08 18:51:47,2019-07-08 18:53:25,1m - 38.107s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:51:47,2019-07-08 18:51:49,2.090s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DeleteUploadedFiles),Chrome 75.0.3770.100,,,2019-07-08 18:51:49,2019-07-08 18:53:24,1m - 35.233s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:53:24,2019-07-08 18:53:25,0.650s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_AutoSaveAsDraft,Chrome 75.0.3770.100,,,2019-07-08 18:53:25,2019-07-08 18:56:40,3m - 14.589s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:53:25,2019-07-08 18:53:27,2.136s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_AutoSaveAsDraft),Chrome 75.0.3770.100,,,2019-07-08 18:53:27,2019-07-08 18:56:39,3m - 11.721s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 18:56:39,2019-07-08 18:56:40,0.613s,PASSED

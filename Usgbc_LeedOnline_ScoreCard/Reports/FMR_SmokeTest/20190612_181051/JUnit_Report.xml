@@ -1,0 +1,2313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FMR_SmokeTest" time="1134" tests="6" failures="0" errors="0">
+   <testsuite name="FMR_SmokeTest" tests="6" failures="0" errors="0" time="1134" timestamp="2019-06-12 18:11:03" hostname="promantus inc - G10PROLT025" id="Test Suites/FMR_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\FMR_SmokeTest\\20190612_181051"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\FMR_SmokeTest\\20190612_181051\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="ebfeba76c46ccf3126354e74bc9f1295"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation" classname="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation" status="PASSED">
+         <system-out><![CDATA[2019-06-12 18:11:04 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation
+
+2019-06-12 18:11:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-12 18:11:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-12 18:11:04 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:11:04 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:11:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-12 18:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:11:08 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-12 18:11:08 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-12 18:11:08 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-06-12 18:11:08 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-12 18:11:09 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:11:13 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-12 18:11:13 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:11:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-12 18:11:14 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:11:14 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:11:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:11:22 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-12 18:11:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:11:25 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-12 18:11:25 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-12 18:11:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:11:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-12 18:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-12 18:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-12 18:11:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-12 18:11:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' successfully
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is present
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is clicked on
+
+2019-06-12 18:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/span_(V01)' is clicked on
+
+2019-06-12 18:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli1000160337' is present
+
+2019-06-12 18:11:42 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:11:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-12 18:11:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-12 18:11:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR" classname="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR" status="PASSED">
+         <system-out><![CDATA[2019-06-12 18:11:43 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR
+
+2019-06-12 18:11:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-12 18:11:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-12 18:11:43 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:11:43 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:11:45 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-12 18:11:45 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-12 18:11:45 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-06-12 18:11:45 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-12 18:11:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FacilityMaintenanceandRenovationPoliForm): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FacilityMaintenanceandRenovationPoliForm' was passed
+
+2019-06-12 18:11:46 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation
+
+2019-06-12 18:11:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:11:47 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-12 18:11:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:11:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-12 18:11:48 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:11:48 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:11:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:11:54 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-12 18:11:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:11:56 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-12 18:11:56 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-12 18:11:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:11:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-12 18:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-12 18:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-12 18:12:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-12 18:12:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' successfully
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is present
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is clicked on
+
+2019-06-12 18:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/span_(V01)' is clicked on
+
+2019-06-12 18:12:13 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli1000160337' is present
+
+2019-06-12 18:12:13 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:12:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation' successfully
+
+2019-06-12 18:12:13 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' is present
+
+2019-06-12 18:12:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' successfully
+
+2019-06-12 18:12:14 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Button_Upload_Base building' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:14 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/input'
+
+2019-06-12 18:12:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Button_Upload_Base building' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:16 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/input'
+
+2019-06-12 18:12:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:20 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Button_Upload_Base building' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:20 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/input'
+
+2019-06-12 18:12:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' is present
+
+2019-06-12 18:12:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' successfully
+
+2019-06-12 18:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Button_Furniture' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:22 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/input'
+
+2019-06-12 18:12:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Button_Furniture' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:24 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/input'
+
+2019-06-12 18:12:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Button_Furniture' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:28 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/input'
+
+2019-06-12 18:12:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' is present
+
+2019-06-12 18:12:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' successfully
+
+2019-06-12 18:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Button_CreditPurchasing' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:30 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/input'
+
+2019-06-12 18:12:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:32 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Button_CreditPurchasing' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:32 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/input'
+
+2019-06-12 18:12:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:36 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Button_CreditPurchasing' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:36 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/input'
+
+2019-06-12 18:12:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:37 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' is present
+
+2019-06-12 18:12:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' successfully
+
+2019-06-12 18:12:37 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Button_InformationWM' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:37 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/input'
+
+2019-06-12 18:12:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Button_InformationWM' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:39 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/input'
+
+2019-06-12 18:12:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:42 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Button_InformationWM' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:42 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/input'
+
+2019-06-12 18:12:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:43 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' is present
+
+2019-06-12 18:12:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' successfully
+
+2019-06-12 18:12:43 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Button_diversion strategies' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:43 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/input'
+
+2019-06-12 18:12:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Button_diversion strategies' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:45 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/input'
+
+2019-06-12 18:12:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:49 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Button_diversion strategies' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:49 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/input'
+
+2019-06-12 18:12:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:50 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' is present
+
+2019-06-12 18:12:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' successfully
+
+2019-06-12 18:12:50 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Button_Recommended design' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:51 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/input'
+
+2019-06-12 18:12:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:52 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Button_Recommended design' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:52 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/input'
+
+2019-06-12 18:12:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Button_Recommended design' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:56 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/input'
+
+2019-06-12 18:12:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/p_Upload the procedure reoccupying the space' is present
+
+2019-06-12 18:12:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/p_Upload the procedure reoccupying the space' successfully
+
+2019-06-12 18:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Button_reoccupying' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:57 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/input'
+
+2019-06-12 18:12:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Button_reoccupying' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:12:59 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/input'
+
+2019-06-12 18:13:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Button_reoccupying' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:13:02 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/input'
+
+2019-06-12 18:13:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' is present
+
+2019-06-12 18:13:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' successfully
+
+2019-06-12 18:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Button_constructionends' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:13:04 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/input'
+
+2019-06-12 18:13:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:06 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Button_constructionends' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:13:06 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/input'
+
+2019-06-12 18:13:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Button_constructionends' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:13:10 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/input'
+
+2019-06-12 18:13:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:11 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' is present
+
+2019-06-12 18:13:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' successfully
+
+2019-06-12 18:13:11 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Button_additionaldocuments' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:13:11 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/input'
+
+2019-06-12 18:13:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:12 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Button_additionaldocuments' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:13:13 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/input'
+
+2019-06-12 18:13:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Button_additionaldocuments' has attribute 'class' with value 'tiny ui button'
+
+2019-06-12 18:13:17 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/input'
+
+2019-06-12 18:13:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:13:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' successfully
+
+2019-06-12 18:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' is present
+
+2019-06-12 18:13:22 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. NOVRK' is set on object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/body_SC_EditorBox'
+
+2019-06-12 18:13:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:13:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/body_CS_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. NOVRK'
+
+2019-06-12 18:13:25 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. NOVRK' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. NOVRK' are matched 
+
+2019-06-12 18:13:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/button_Save' is visible
+
+2019-06-12 18:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/button_Save' is clicked on
+
+2019-06-12 18:13:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:13:38 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-12 18:13:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/img' successfully
+
+2019-06-12 18:13:38 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/img' is present
+
+2019-06-12 18:13:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/img' is clicked on
+
+2019-06-12 18:13:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:13:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:13:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' successfully
+
+2019-06-12 18:14:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' successfully
+
+2019-06-12 18:14:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' successfully
+
+2019-06-12 18:14:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' successfully
+
+2019-06-12 18:14:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' successfully
+
+2019-06-12 18:14:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' successfully
+
+2019-06-12 18:14:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/p_Upload the procedure reoccupying the space' successfully
+
+2019-06-12 18:14:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' successfully
+
+2019-06-12 18:14:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:14:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:14:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' successfully
+
+2019-06-12 18:14:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. NOVRK'
+
+2019-06-12 18:15:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:15:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:15:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' successfully
+
+2019-06-12 18:15:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:15:09 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-12 18:15:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:15:13 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-06-12 18:15:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:15:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-12 18:15:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:15:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-12 18:15:20 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FacilityMaintenanceandRenovationPoliForm' was passed
+
+2019-06-12 18:15:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-12 18:15:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-12 18:15:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_VerifyUploadedFile" classname="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_VerifyUploadedFile" status="PASSED">
+         <system-out><![CDATA[2019-06-12 18:15:21 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_VerifyUploadedFile: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_VerifyUploadedFile
+
+2019-06-12 18:15:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-12 18:15:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-12 18:15:21 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:15:21 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:15:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:15:24 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-12 18:15:24 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-12 18:15:24 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-06-12 18:15:24 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-12 18:15:24 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_VerifyUploadedFiles): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_VerifyUploadedFiles' was passed
+
+2019-06-12 18:15:25 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation
+
+2019-06-12 18:15:25 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:15:26 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-12 18:15:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:15:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-12 18:15:27 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:15:27 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:15:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:15:33 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-12 18:15:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:15:35 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-12 18:15:35 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-12 18:15:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:15:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-12 18:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-12 18:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-12 18:15:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-12 18:15:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' successfully
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is present
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/divval' is: 'READY FOR REVIEW'
+
+2019-06-12 18:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_MarkReadyForReview' is clicked on
+
+2019-06-12 18:15:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:15:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is clicked on
+
+2019-06-12 18:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/span_(V01)' is clicked on
+
+2019-06-12 18:16:00 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli1000160337' is present
+
+2019-06-12 18:16:00 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:16:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation' successfully
+
+2019-06-12 18:16:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Table_Basebuilding' successfully
+
+2019-06-12 18:16:00 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Table_Basebuilding' is present
+
+2019-06-12 18:16:00 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Table_Furniture' successfully
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Table_Furniture' is present
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:01 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Table_CreditPurchasing' successfully
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Table_CreditPurchasing' is present
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:02 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Table_InformationWM' successfully
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Table_InformationWM' is present
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Table_diversionStrategies' successfully
+
+2019-06-12 18:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Table_diversionStrategies' is present
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Table_RecommendedDesign' successfully
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Table_RecommendedDesign' is present
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:04 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' successfully
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is present
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:05 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Table_ConstructionEnds' successfully
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Table_ConstructionEnds' is present
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Table_SC' successfully
+
+2019-06-12 18:16:06 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Table_SC' is present
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:16:07 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_VerifyUploadedFiles' was passed
+
+2019-06-12 18:16:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-12 18:16:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-12 18:16:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DownloadFiles" classname="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DownloadFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-12 18:16:08 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DownloadFiles: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DownloadFiles
+
+2019-06-12 18:16:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-12 18:16:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-12 18:16:08 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:16:08 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:16:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:16:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-12 18:16:10 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-12 18:16:10 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-06-12 18:16:10 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-12 18:16:10 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_DownloadUploadedFiles): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_DownloadUploadedFiles' was passed
+
+2019-06-12 18:16:11 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation
+
+2019-06-12 18:16:11 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:16:11 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-12 18:16:11 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:16:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-12 18:16:12 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:16:12 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:16:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:16:18 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-12 18:16:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:16:20 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-12 18:16:21 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-12 18:16:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:16:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-12 18:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-12 18:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-12 18:16:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-12 18:16:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' successfully
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is present
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is clicked on
+
+2019-06-12 18:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/span_(V01)' is clicked on
+
+2019-06-12 18:16:39 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli1000160337' is present
+
+2019-06-12 18:16:39 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:16:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation' successfully
+
+2019-06-12 18:16:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Table_Basebuilding' successfully
+
+2019-06-12 18:16:39 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Table_Basebuilding' is present
+
+2019-06-12 18:16:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' successfully
+
+2019-06-12 18:16:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' is hovered
+
+2019-06-12 18:16:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:16:42 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:16:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' is hovered
+
+2019-06-12 18:16:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:16:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' is hovered
+
+2019-06-12 18:16:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:16:56 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:17:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' is hovered
+
+2019-06-12 18:17:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' is hovered
+
+2019-06-12 18:17:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:17:11 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:17:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' is hovered
+
+2019-06-12 18:17:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:17:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:17:29 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:17:29 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:17:29 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:17:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:17:32 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:17:32 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:17:32 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:17:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:17:35 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:17:35 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:17:35 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:17:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Table_Furniture' successfully
+
+2019-06-12 18:17:35 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Table_Furniture' is present
+
+2019-06-12 18:17:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' successfully
+
+2019-06-12 18:17:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' is hovered
+
+2019-06-12 18:17:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:17:38 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:17:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' is hovered
+
+2019-06-12 18:17:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' is hovered
+
+2019-06-12 18:17:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:17:52 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:18:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' is hovered
+
+2019-06-12 18:18:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' is hovered
+
+2019-06-12 18:18:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:18:06 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:18:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' is hovered
+
+2019-06-12 18:18:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:18:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:18:25 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:18:25 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:18:25 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:18:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:18:28 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:18:28 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:18:28 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:18:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:18:31 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:18:31 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:18:31 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:18:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Table_CreditPurchasing' successfully
+
+2019-06-12 18:18:31 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Table_CreditPurchasing' is present
+
+2019-06-12 18:18:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' successfully
+
+2019-06-12 18:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' is hovered
+
+2019-06-12 18:18:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:18:33 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:18:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' is hovered
+
+2019-06-12 18:18:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' is hovered
+
+2019-06-12 18:18:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:18:48 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:18:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' is hovered
+
+2019-06-12 18:19:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' is hovered
+
+2019-06-12 18:19:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:19:02 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:19:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' is hovered
+
+2019-06-12 18:19:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:19:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:19:21 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:19:21 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:19:21 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:19:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:19:24 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:19:24 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:19:24 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:19:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:19:27 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:19:27 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:19:27 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:19:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Table_InformationWM' successfully
+
+2019-06-12 18:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Table_InformationWM' is present
+
+2019-06-12 18:19:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' successfully
+
+2019-06-12 18:19:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' is hovered
+
+2019-06-12 18:19:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:19:29 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:19:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' is hovered
+
+2019-06-12 18:19:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' is hovered
+
+2019-06-12 18:19:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:19:44 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:19:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' is hovered
+
+2019-06-12 18:19:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' is hovered
+
+2019-06-12 18:19:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:19:58 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:20:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' is hovered
+
+2019-06-12 18:20:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:20:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:20:17 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:20:17 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:20:17 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:20:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:20:20 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:20:20 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:20:20 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:20:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:20:23 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:20:23 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:20:23 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:20:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Table_diversionStrategies' successfully
+
+2019-06-12 18:20:23 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Table_diversionStrategies' is present
+
+2019-06-12 18:20:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' successfully
+
+2019-06-12 18:20:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' is hovered
+
+2019-06-12 18:20:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:20:25 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:20:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' is hovered
+
+2019-06-12 18:20:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' is hovered
+
+2019-06-12 18:20:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:20:40 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:20:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' is hovered
+
+2019-06-12 18:20:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' is hovered
+
+2019-06-12 18:20:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:20:54 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:21:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' is hovered
+
+2019-06-12 18:21:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:21:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:21:12 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:21:12 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:21:12 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:21:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:21:16 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:21:16 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:21:16 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:21:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:21:19 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:21:19 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:21:19 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:21:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Table_RecommendedDesign' successfully
+
+2019-06-12 18:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Table_RecommendedDesign' is present
+
+2019-06-12 18:21:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' successfully
+
+2019-06-12 18:21:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' is hovered
+
+2019-06-12 18:21:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:21:21 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:21:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' is hovered
+
+2019-06-12 18:21:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' is hovered
+
+2019-06-12 18:21:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:21:36 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:21:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' is hovered
+
+2019-06-12 18:21:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' is hovered
+
+2019-06-12 18:21:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:21:50 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:22:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' is hovered
+
+2019-06-12 18:22:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:22:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:22:08 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:22:08 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:22:08 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:22:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:22:11 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:22:11 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:22:11 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:22:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:22:14 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:22:14 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:22:14 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:22:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' successfully
+
+2019-06-12 18:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is present
+
+2019-06-12 18:22:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' successfully
+
+2019-06-12 18:22:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is hovered
+
+2019-06-12 18:22:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:22:17 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:22:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is hovered
+
+2019-06-12 18:22:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is hovered
+
+2019-06-12 18:22:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:22:31 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:22:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is hovered
+
+2019-06-12 18:22:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is hovered
+
+2019-06-12 18:22:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:22:46 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:22:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is hovered
+
+2019-06-12 18:22:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:23:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:23:04 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:23:04 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:23:04 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:23:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:23:07 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:23:07 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:23:07 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:23:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:23:10 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:23:10 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:23:10 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:23:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Table_ConstructionEnds' successfully
+
+2019-06-12 18:23:10 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Table_ConstructionEnds' is present
+
+2019-06-12 18:23:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' successfully
+
+2019-06-12 18:23:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' is hovered
+
+2019-06-12 18:23:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:23:12 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:23:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' is hovered
+
+2019-06-12 18:23:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' is hovered
+
+2019-06-12 18:23:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:23:27 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:23:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' is hovered
+
+2019-06-12 18:23:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' is hovered
+
+2019-06-12 18:23:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:23:41 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:23:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' is hovered
+
+2019-06-12 18:23:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:23:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:23:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:23:59 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:23:59 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:23:59 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:24:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:24:02 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:24:02 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:24:02 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:24:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:24:05 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:24:05 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:24:05 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:24:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Table_SC' successfully
+
+2019-06-12 18:24:06 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Table_SC' is present
+
+2019-06-12 18:24:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' successfully
+
+2019-06-12 18:24:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' is hovered
+
+2019-06-12 18:24:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:24:08 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-12 18:24:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' is hovered
+
+2019-06-12 18:24:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' is hovered
+
+2019-06-12 18:24:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:24:22 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-12 18:24:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' is hovered
+
+2019-06-12 18:24:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' is hovered
+
+2019-06-12 18:24:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:24:37 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-12 18:24:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' is hovered
+
+2019-06-12 18:24:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:24:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:24:55 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:24:55 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:24:55 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-12 18:24:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:24:58 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:24:58 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:24:58 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-12 18:25:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:01 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-12 18:25:01 - [MESSAGE][PASSED] - 
+
+2019-06-12 18:25:01 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-12 18:25:01 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_DownloadUploadedFiles' was passed
+
+2019-06-12 18:25:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-12 18:25:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-12 18:25:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DeleteUploadedFiles" classname="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DeleteUploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-12 18:25:02 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DeleteUploadedFiles: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_DeleteUploadedFiles
+
+2019-06-12 18:25:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-12 18:25:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-12 18:25:02 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:25:02 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:25:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:25:04 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-12 18:25:04 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-12 18:25:04 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-06-12 18:25:04 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-12 18:25:04 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_DeleteUploadedFiles): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_DeleteUploadedFiles' was passed
+
+2019-06-12 18:25:04 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation
+
+2019-06-12 18:25:04 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:25:05 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-12 18:25:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:25:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-12 18:25:06 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:25:06 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:25:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:25:11 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-12 18:25:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:14 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-12 18:25:14 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-12 18:25:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:25:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-12 18:25:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-12 18:25:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-12 18:25:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-12 18:25:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' successfully
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is present
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is clicked on
+
+2019-06-12 18:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/span_(V01)' is clicked on
+
+2019-06-12 18:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli1000160337' is present
+
+2019-06-12 18:25:30 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:25:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation' successfully
+
+2019-06-12 18:25:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Table_Basebuilding' successfully
+
+2019-06-12 18:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Table_Basebuilding' is present
+
+2019-06-12 18:25:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' successfully
+
+2019-06-12 18:25:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:25:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:25:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:25:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/Table_Basebuilding' located by 'By.xpath: //*[@id="baseBuildingElem_files"]/table' is not present after '30' second(s)
+
+2019-06-12 18:25:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Table_Furniture' successfully
+
+2019-06-12 18:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Table_Furniture' is present
+
+2019-06-12 18:25:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/p_Upload Furniture and furnishings' successfully
+
+2019-06-12 18:25:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:25:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:25:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:25:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Furniture/Table_Furniture' located by 'By.xpath: //div[@id='furnitureComponents_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:25:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Table_CreditPurchasing' successfully
+
+2019-06-12 18:25:54 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Table_CreditPurchasing' is present
+
+2019-06-12 18:25:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/p_Upload Criteria in MR Credit Purchasing' successfully
+
+2019-06-12 18:25:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:25:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:25:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:25:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_CreditPurchasing/Table_CreditPurchasing' located by 'By.xpath: //div[@id='mrCreditPurchase_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:26:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Table_InformationWM' successfully
+
+2019-06-12 18:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Table_InformationWM' is present
+
+2019-06-12 18:26:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' successfully
+
+2019-06-12 18:26:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:19 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/Table_InformationWM' located by 'By.xpath: //div[@id='informations_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:26:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Table_diversionStrategies' successfully
+
+2019-06-12 18:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Table_diversionStrategies' is present
+
+2019-06-12 18:26:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/p_Upload the description of the procedure diversion strategies' successfully
+
+2019-06-12 18:26:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_diversion strategiesWM/Table_diversionStrategies' located by 'By.xpath: //div[@id='procedureDesc_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:26:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Table_RecommendedDesign' successfully
+
+2019-06-12 18:26:31 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Table_RecommendedDesign' is present
+
+2019-06-12 18:26:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' successfully
+
+2019-06-12 18:26:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:43 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/Table_RecommendedDesign' located by 'By.xpath: //div[@id='smacnaGuide_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:26:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' successfully
+
+2019-06-12 18:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' is present
+
+2019-06-12 18:26:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' successfully
+
+2019-06-12 18:26:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:26:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_reoccupying the space/Table_Reoccupying' located by 'By.xpath: //div[@id='replaceProcedure_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:26:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Table_ConstructionEnds' successfully
+
+2019-06-12 18:26:55 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Table_ConstructionEnds' is present
+
+2019-06-12 18:26:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/p_Upload constructionends' successfully
+
+2019-06-12 18:26:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:26:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:26:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:27:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:27:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:27:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:27:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:27:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:27:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:27:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_construction ends/Table_ConstructionEnds' located by 'By.xpath: //div[@id='qualityTestPlan_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:27:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Table_SC' successfully
+
+2019-06-12 18:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Table_SC' is present
+
+2019-06-12 18:27:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/p_Upload any additional documentation' successfully
+
+2019-06-12 18:27:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:27:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:27:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:27:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:27:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:27:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:27:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:27:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:27:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:27:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:20 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_additional documentation/Table_SC' located by 'By.xpath: //div[@id='splCircumstancesDocs_files']/table' is not present after '30' second(s)
+
+2019-06-12 18:27:20 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_DeleteUploadedFiles' was passed
+
+2019-06-12 18:27:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-12 18:27:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-12 18:27:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_AutoSaveAsDraft" classname="Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-06-12 18:27:20 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_AutoSaveAsDraft: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_AutoSaveAsDraft
+
+2019-06-12 18:27:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-12 18:27:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-12 18:27:20 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:27:20 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:27:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:27:22 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-12 18:27:22 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-12 18:27:22 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-06-12 18:27:22 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-12 18:27:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_AutoSaveAsDraft): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_AutoSaveAsDraft' was passed
+
+2019-06-12 18:27:23 - [TEST_CASE][PASSED] - Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation
+
+2019-06-12 18:27:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation): Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:27:23 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-12 18:27:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:27:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-12 18:27:24 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:27:24 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:27:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:27:30 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-12 18:27:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:27:32 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-12 18:27:32 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-12 18:27:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:27:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-12 18:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-12 18:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-12 18:27:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-12 18:27:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' successfully
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is present
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-12 18:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is clicked on
+
+2019-06-12 18:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/span_(V01)' is clicked on
+
+2019-06-12 18:27:50 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli1000160337' is present
+
+2019-06-12 18:27:50 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_Navigation' was passed
+
+2019-06-12 18:27:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_Navigation' successfully
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-12 18:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/input' successfully
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/input'
+
+2019-06-12 18:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' successfully
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/input'
+
+2019-06-12 18:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' successfully
+
+2019-06-12 18:28:00 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/input'
+
+2019-06-12 18:28:15 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-06-12 18:28:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-12 18:28:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' successfully
+
+2019-06-12 18:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' is present
+
+2019-06-12 18:28:16 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/body_SC_EditorBox'
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:28:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' successfully
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' is present
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' is: 'Last draft saved on: 12 Jun 2019 06:28:20 PM  Clear draft'
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' is present
+
+2019-06-12 18:28:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/button_Save' is present
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/button_Save' is clicked on
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/FacilityMaintenanceandRenovationPoli/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-06-12 18:28:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Base building/p_Upload the Base building element' successfully
+
+2019-06-12 18:28:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:28:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:28:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:28:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:28:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_InformationWM/p_Upload the Information' successfully
+
+2019-06-12 18:28:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:28:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:28:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:28:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-12 18:28:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/AddFile_Upload_Recommended design/p_Upload the Recommended design' successfully
+
+2019-06-12 18:28:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:28:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:28:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-12 18:28:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:28:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' successfully
+
+2019-06-12 18:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' is present
+
+2019-06-12 18:28:50 - [MESSAGE][PASSED] - Text 'Test data for save' is set on object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/body_SC_EditorBox'
+
+2019-06-12 18:29:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:29:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-12 18:29:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' successfully
+
+2019-06-12 18:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' is present
+
+2019-06-12 18:29:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' is: 'Last draft saved on: 12 Jun 2019 06:28:57 PM  Clear draft'
+
+2019-06-12 18:29:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' is clicked on
+
+2019-06-12 18:29:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' successfully
+
+2019-06-12 18:29:10 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/p_Describe the circumstances' is present
+
+2019-06-12 18:29:11 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/FacilityMaintenanceandRenovationPoli/SC_Editor Box/body_SC_EditorBox'
+
+2019-06-12 18:29:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-12 18:29:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/span_Last draft saved on' is: 'Last draft saved on: 12 Jun 2019 06:29:17 PM  Clear draft'
+
+2019-06-12 18:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/div_Signout' is clicked on
+
+2019-06-12 18:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/a_Sign out' is clicked on
+
+2019-06-12 18:29:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:29:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-12 18:29:25 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-12 18:29:25 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-12 18:29:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-12 18:29:30 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-12 18:29:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:29:32 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-12 18:29:32 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-12 18:29:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-12 18:29:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-12 18:29:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-12 18:29:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-12 18:29:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-12 18:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-12 18:29:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-12 18:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-12 18:29:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/FMR_Navigation/div_Facility Maintenance and Renovation Poli' is clicked on
+
+2019-06-12 18:29:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/span_(V01)' is clicked on
+
+2019-06-12 18:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/div_Form drafted and not yet saved' is present
+
+2019-06-12 18:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/FacilityMaintenanceandRenovationPoli/Last draft saved dateTime_warningDiv' is present
+
+2019-06-12 18:29:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/FacilityMaintenanceandRenovationPoli/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 12 Jun 2019 06:29:17 PM  Clear draft'
+
+2019-06-12 18:29:55 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 12 Jun 2019 06:29:17 PM  Clear draft' and expected text 'Last draft saved on: 12 Jun 2019 06:29:17 PM  Clear draft' are matched 
+
+2019-06-12 18:29:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-12 18:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/a_Clear draft' is clicked on
+
+2019-06-12 18:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FacilityMaintenanceandRenovationPoli/button_Yes' is clicked on
+
+2019-06-12 18:29:57 - [MESSAGE][PASSED] - Run with 'facilityMaintenanceandRenovationPoliForm.Runner_FMR_AutoSaveAsDraft' was passed
+
+2019-06-12 18:29:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-12 18:29:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-12 18:29:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-12 18:11:03 - [TEST_SUITE][PASSED] - FMR_SmokeTest: Test Cases/FacilityMaintenanceandRenovationPolicy/TC_FMR_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ETSC_SmokeTest,Chrome 75.0.3770.100,,2019-06-23 17:03:16,2019-06-23 17:17:51,14m - 35.135s,PASSED
+,,,,,,
+Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NoSmoking,Chrome 75.0.3770.100,,2019-06-23 17:03:17,2019-06-23 17:06:02,2m - 44.386s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-23 17:03:17,2019-06-23 17:03:22,4.392s,PASSED
+runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_NoSmoking),Chrome 75.0.3770.100,,2019-06-23 17:03:22,2019-06-23 17:06:01,2m - 39.111s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-23 17:06:01,2019-06-23 17:06:02,0.699s,PASSED
+,,,,,,
+Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Compartmentalization,Chrome 75.0.3770.100,,2019-06-23 17:06:02,2019-06-23 17:08:20,2m - 18.374s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-23 17:06:02,2019-06-23 17:06:04,2.800s,PASSED
+runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Compartmentalization),Chrome 75.0.3770.100,,2019-06-23 17:06:05,2019-06-23 17:08:19,2m - 14.647s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-23 17:08:19,2019-06-23 17:08:20,0.662s,PASSED
+,,,,,,
+Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Verify_UploadedFiles,Chrome 75.0.3770.100,,2019-06-23 17:08:20,2019-06-23 17:08:56,35.572s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-23 17:08:20,2019-06-23 17:08:23,2.921s,PASSED
+runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Verify_UploadedFiles),Chrome 75.0.3770.100,,2019-06-23 17:08:23,2019-06-23 17:08:55,31.695s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-23 17:08:55,2019-06-23 17:08:56,0.825s,PASSED
+,,,,,,
+Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Download_Files,Chrome 75.0.3770.100,,2019-06-23 17:08:56,2019-06-23 17:14:55,5m - 59.033s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-23 17:08:56,2019-06-23 17:08:58,2.895s,PASSED
+runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Download_Files),Chrome 75.0.3770.100,,2019-06-23 17:08:59,2019-06-23 17:14:54,5m - 55.338s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-23 17:14:54,2019-06-23 17:14:55,0.636s,PASSED
+,,,,,,
+Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_Delete_UploadedFiles,Chrome 75.0.3770.100,,2019-06-23 17:14:55,2019-06-23 17:16:36,1m - 41.531s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-23 17:14:55,2019-06-23 17:14:57,2.825s,PASSED
+runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_Delete_UploadedFiles),Chrome 75.0.3770.100,,2019-06-23 17:14:58,2019-06-23 17:16:35,1m - 37.888s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-23 17:16:35,2019-06-23 17:16:36,0.636s,PASSED
+,,,,,,
+Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases,Chrome 75.0.3770.100,,2019-06-23 17:16:36,2019-06-23 17:17:51,1m - 15.315s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-23 17:16:36,2019-06-23 17:16:38,2.308s,PASSED
+runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases),Chrome 75.0.3770.100,,2019-06-23 17:16:39,2019-06-23 17:17:51,1m - 12.199s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-23 17:17:51,2019-06-23 17:17:51,0.648s,PASSED

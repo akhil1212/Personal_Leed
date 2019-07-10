@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IPM_SmokeTest" time="103" tests="1" failures="0" errors="0">
+   <testsuite name="IPM_SmokeTest" tests="1" failures="0" errors="0" time="103" timestamp="2019-06-10 14:58:33" hostname="Promantus Inc - G10PROLT021" id="Test Suites/IPM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190610_145824"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190610_145824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="b9941b020132ef28c4bce1ff58da733d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram" classname="Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram" status="PASSED">
+         <system-out><![CDATA[2019-06-10 14:58:34 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram: Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram
+
+2019-06-10 14:58:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-10 14:58:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-10 14:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-10 14:58:35 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-10 14:58:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-10 14:59:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-10 14:59:00 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-10 14:59:01 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-10 14:59:01 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-10 14:59:01 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-10 14:59:03 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram): Run with 'integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram' was passed
+
+2019-06-10 14:59:22 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-10 14:59:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-10 14:59:33 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-10 14:59:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-10 14:59:39 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-10 14:59:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-10 14:59:43 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-10 14:59:43 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-10 14:59:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-10 14:59:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-10 14:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-10 14:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-10 14:59:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 14:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-10 14:59:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-10 14:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-10 14:59:56 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-10 14:59:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-10 14:59:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-10 14:59:57 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-10 14:59:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-10 14:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-10 15:00:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-10 15:00:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-10 15:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-10 15:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-10 15:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-10 15:00:06 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-10 15:00:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-10 15:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is clicked on
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' successfully
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' is present
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-10 15:00:12 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' successfully
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' is present
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-10 15:00:13 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' successfully
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' is present
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-10 15:00:14 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-10 15:00:15 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram' was passed
+
+2019-06-10 15:00:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-10 15:00:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-10 15:00:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-10 14:58:33 - [TEST_SUITE][PASSED] - IPM_SmokeTest: Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

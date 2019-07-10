@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_EEBM_DeleteUploadedFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8dbbe82-3857-4273-9239-107b05527b5b</testCaseGuid>
+</TestCaseEntity>

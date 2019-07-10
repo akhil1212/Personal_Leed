@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Delay,Chrome 75.0.3770.100,,2019-06-25 11:29:25,2019-06-25 11:29:35,10.361s,FAILED
+,,,,,,
+Test Cases/Common/TC_Delay,Chrome 75.0.3770.100,,2019-06-25 11:29:26,2019-06-25 11:29:35,9.474s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-25 11:29:26,2019-06-25 11:29:33,6.954s,PASSED
+navigateToUrl(Url),Chrome 75.0.3770.100,,2019-06-25 11:29:33,2019-06-25 11:29:33,0.398s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-25 11:29:33,2019-06-25 11:29:35,1.797s,PASSED

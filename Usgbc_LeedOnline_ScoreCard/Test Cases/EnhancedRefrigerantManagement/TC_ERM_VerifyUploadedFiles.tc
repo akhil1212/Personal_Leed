@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ERM_VerifyUploadedFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea354583-619f-459d-9869-91eb2cb3400d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GC_SmokeTest" time="476" tests="4" failures="0" errors="0">
+   <testsuite name="GC_SmokeTest" tests="4" failures="0" errors="0" time="476" timestamp="2019-06-19 19:31:17" hostname="promantus inc - G10PROLT025" id="Test Suites/GC_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190619_193110"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190619_193110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="ea1309243629228c791078aadc7c7ef9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GreenCleaning/TC_GC_CleaningProducts" classname="Test Cases/GreenCleaning/TC_GC_CleaningProducts" status="PASSED">
+         <system-out><![CDATA[2019-06-19 19:31:17 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_CleaningProducts: Test Cases/GreenCleaning/TC_GC_CleaningProducts
+
+2019-06-19 19:31:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-19 19:31:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 19:31:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-19 19:31:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-19 19:31:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-19 19:31:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 19:31:22 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-19 19:31:22 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-19 19:31:22 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-19 19:31:22 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-19 19:31:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_GC_CleaningProducts): Run with 'greenCleaningForm.Runner_GC_CleaningProducts' was passed
+
+2019-06-19 19:31:26 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_Navigate: Test Cases/GreenCleaning/TC_GC_Navigate
+
+2019-06-19 19:31:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_NavigationGC): Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:31:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-19 19:31:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:31:30 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-19 19:31:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:31:32 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-19 19:31:33 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-19 19:31:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:31:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-19 19:31:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-19 19:31:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-19 19:31:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-19 19:31:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-19 19:31:44 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:31:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-19 19:31:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' successfully
+
+2019-06-19 19:31:44 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is present
+
+2019-06-19 19:31:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:31:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-19 19:31:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is clicked on
+
+2019-06-19 19:31:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/span_(V01)' is clicked on
+
+2019-06-19 19:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_GreenCleaningPolicyCreditLib' is present
+
+2019-06-19 19:31:52 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:31:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaning/TC_GC_Navigate' successfully
+
+2019-06-19 19:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_option4' is present
+
+2019-06-19 19:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_option4' is clicked on
+
+2019-06-19 19:31:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:31:54 - [MESSAGE][PASSED] - Text 'Option 4: Cleaning products and materials' is present on page 
+
+2019-06-19 19:31:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' successfully
+
+2019-06-19 19:31:54 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' is present
+
+2019-06-19 19:31:55 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/btn_GC_calculator' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:31:55 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/input_GC_Calc'
+
+2019-06-19 19:31:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/btn_GC_calculator' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:31:57 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/input_GC_Calc'
+
+2019-06-19 19:31:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:31:59 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/btn_GC_calculator' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:31:59 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/input_GC_Calc'
+
+2019-06-19 19:32:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:32:00 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' is present
+
+2019-06-19 19:32:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' successfully
+
+2019-06-19 19:32:00 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Button_executedContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:32:00 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/input_executedContract'
+
+2019-06-19 19:32:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:32:02 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Button_executedContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:32:02 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/input_executedContract'
+
+2019-06-19 19:32:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Button_executedContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:32:04 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/input_executedContract'
+
+2019-06-19 19:32:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:32:05 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' is present
+
+2019-06-19 19:32:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' successfully
+
+2019-06-19 19:32:05 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Button_msds' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:32:05 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/input_MSDS'
+
+2019-06-19 19:32:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:32:06 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Button_msds' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:32:06 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/input_MSDS'
+
+2019-06-19 19:32:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:32:08 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Button_msds' has attribute 'class' with value 'tiny ui button'
+
+2019-06-19 19:32:08 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/input_MSDS'
+
+2019-06-19 19:32:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:32:09 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost' is present
+
+2019-06-19 19:32:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost' successfully
+
+2019-06-19 19:32:09 - [MESSAGE][PASSED] - Text '141' is set on object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost'
+
+2019-06-19 19:32:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:32:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost' is: '141'
+
+2019-06-19 19:32:12 - [MESSAGE][PASSED] - Actual text '141' and expected text '141' are matched 
+
+2019-06-19 19:32:12 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' is present
+
+2019-06-19 19:32:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' successfully
+
+2019-06-19 19:32:13 - [MESSAGE][PASSED] - Text '141' is set on object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products'
+
+2019-06-19 19:32:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:32:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' is: '141'
+
+2019-06-19 19:32:16 - [MESSAGE][PASSED] - Actual text '141' and expected text '141' are matched 
+
+2019-06-19 19:32:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:32:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/button_Save' successfully
+
+2019-06-19 19:32:26 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/button_Save' is visible
+
+2019-06-19 19:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/button_Save' is clicked on
+
+2019-06-19 19:32:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:32:28 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-19 19:32:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/icon_pdf' successfully
+
+2019-06-19 19:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/icon_pdf' is present
+
+2019-06-19 19:32:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 19:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/icon_pdf' is clicked on
+
+2019-06-19 19:32:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:32:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 19:32:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' successfully
+
+2019-06-19 19:32:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:32:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 19:32:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' successfully
+
+2019-06-19 19:33:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:33:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 19:33:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' successfully
+
+2019-06-19 19:33:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:33:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost' is: '141'
+
+2019-06-19 19:33:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:33:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' is: '141'
+
+2019-06-19 19:33:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:33:14 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_GC_CleaningProducts' was passed
+
+2019-06-19 19:33:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-19 19:33:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-19 19:33:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_CleaningProducts" classname="Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_CleaningProducts" status="PASSED">
+         <system-out><![CDATA[2019-06-19 19:33:15 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_CleaningProducts: Test Cases/GreenCleaning/TC_GC_VerifyUploadedFiles_CleaningProducts
+
+2019-06-19 19:33:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-19 19:33:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 19:33:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-19 19:33:15 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-19 19:33:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 19:33:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-19 19:33:18 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-19 19:33:18 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-19 19:33:18 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-19 19:33:18 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_GC_VerifyUploadedFiles_CleaningProducts): Run with 'greenCleaningForm.Runner_GC_VerifyUploadedFiles_CleaningProducts' was passed
+
+2019-06-19 19:33:19 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_Navigate: Test Cases/GreenCleaning/TC_GC_Navigate
+
+2019-06-19 19:33:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_NavigationGC): Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:33:19 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-19 19:33:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:33:22 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-19 19:33:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:33:25 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-19 19:33:25 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-19 19:33:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:33:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-19 19:33:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-19 19:33:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-19 19:33:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-19 19:33:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' successfully
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is present
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is clicked on
+
+2019-06-19 19:33:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/span_(V01)' is clicked on
+
+2019-06-19 19:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_GreenCleaningPolicyCreditLib' is present
+
+2019-06-19 19:33:42 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:33:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaning/TC_GC_Navigate' successfully
+
+2019-06-19 19:33:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/Table_GC_Calc' successfully
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/Table_GC_Calc' is present
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-19 19:33:43 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Table_executedContract' successfully
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Table_executedContract' is present
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-19 19:33:44 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Table_msds' successfully
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Table_msds' is present
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-19 19:33:45 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_GC_VerifyUploadedFiles_CleaningProducts' was passed
+
+2019-06-19 19:33:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-19 19:33:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-19 19:33:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GreenCleaning/TC_GC_DownloadFiles_CleaningProducts" classname="Test Cases/GreenCleaning/TC_GC_DownloadFiles_CleaningProducts" status="PASSED">
+         <system-out><![CDATA[2019-06-19 19:33:46 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_DownloadFiles_CleaningProducts: Test Cases/GreenCleaning/TC_GC_DownloadFiles_CleaningProducts
+
+2019-06-19 19:33:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-19 19:33:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 19:33:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-19 19:33:46 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-19 19:33:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 19:33:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-19 19:33:49 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-19 19:33:49 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-19 19:33:49 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-19 19:33:49 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_GC_DownloadFiles_CleaningProducts): Run with 'greenCleaningForm.Runner_GC_DownloadFiles_CleaningProducts' was passed
+
+2019-06-19 19:33:50 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_Navigate: Test Cases/GreenCleaning/TC_GC_Navigate
+
+2019-06-19 19:33:50 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_NavigationGC): Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:33:50 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-19 19:33:50 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:33:53 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-19 19:33:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:33:55 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-19 19:33:55 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-19 19:33:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:33:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-19 19:33:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-19 19:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-19 19:34:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-19 19:34:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' successfully
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is present
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is clicked on
+
+2019-06-19 19:34:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/span_(V01)' is clicked on
+
+2019-06-19 19:34:13 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_GreenCleaningPolicyCreditLib' is present
+
+2019-06-19 19:34:13 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:34:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaning/TC_GC_Navigate' successfully
+
+2019-06-19 19:34:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/Table_GC_Calc' successfully
+
+2019-06-19 19:34:13 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/Table_GC_Calc' is present
+
+2019-06-19 19:34:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' successfully
+
+2019-06-19 19:34:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' is hovered
+
+2019-06-19 19:34:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:34:16 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-19 19:34:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' is hovered
+
+2019-06-19 19:34:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:34:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' is hovered
+
+2019-06-19 19:34:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:34:31 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-19 19:34:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' is hovered
+
+2019-06-19 19:34:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:34:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' is hovered
+
+2019-06-19 19:34:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:34:45 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-19 19:34:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' is hovered
+
+2019-06-19 19:34:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:35:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:35:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:35:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:35:04 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:35:04 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:35:04 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-19 19:35:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:35:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:35:07 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:35:07 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:35:07 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-19 19:35:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:35:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:35:10 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:35:10 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:35:10 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-19 19:35:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Table_executedContract' successfully
+
+2019-06-19 19:35:10 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Table_executedContract' is present
+
+2019-06-19 19:35:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' successfully
+
+2019-06-19 19:35:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' is hovered
+
+2019-06-19 19:35:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:35:13 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-19 19:35:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' is hovered
+
+2019-06-19 19:35:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:35:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' is hovered
+
+2019-06-19 19:35:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:35:27 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-19 19:35:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:35:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:35:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' is hovered
+
+2019-06-19 19:35:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' is hovered
+
+2019-06-19 19:36:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:36:02 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-19 19:36:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' is hovered
+
+2019-06-19 19:36:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:36:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:36:20 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:36:20 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:36:20 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-19 19:36:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:36:23 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:36:23 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:36:23 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-19 19:36:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:36:26 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:36:26 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:36:26 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-19 19:36:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Table_msds' successfully
+
+2019-06-19 19:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Table_msds' is present
+
+2019-06-19 19:36:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' successfully
+
+2019-06-19 19:36:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' is hovered
+
+2019-06-19 19:36:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:36:29 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-19 19:36:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' is hovered
+
+2019-06-19 19:36:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' is hovered
+
+2019-06-19 19:36:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:36:44 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-19 19:36:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:37:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:37:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' is hovered
+
+2019-06-19 19:37:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:37:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' is hovered
+
+2019-06-19 19:37:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:37:18 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-19 19:37:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-19 19:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' is hovered
+
+2019-06-19 19:37:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:37:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:37:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:37:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:37:37 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:37:37 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:37:37 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-19 19:37:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:37:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:37:40 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:37:40 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:37:40 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-19 19:37:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:37:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:37:43 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-19 19:37:43 - [MESSAGE][PASSED] - 
+
+2019-06-19 19:37:43 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-19 19:37:43 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_GC_DownloadFiles_CleaningProducts' was passed
+
+2019-06-19 19:37:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-19 19:37:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-19 19:37:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_CleaningProducts" classname="Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_CleaningProducts" status="PASSED">
+         <system-out><![CDATA[2019-06-19 19:37:44 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_CleaningProducts: Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_CleaningProducts
+
+2019-06-19 19:37:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-19 19:37:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 19:37:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-19 19:37:44 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-19 19:37:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 19:37:46 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-19 19:37:46 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-19 19:37:46 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-19 19:37:46 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-19 19:37:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_GC_DeleteUploadedFiles_CleaningProducts): Run with 'greenCleaningForm.Runner_GC_DeleteUploadedFiles_CleaningProducts' was passed
+
+2019-06-19 19:37:47 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_Navigate: Test Cases/GreenCleaning/TC_GC_Navigate
+
+2019-06-19 19:37:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_NavigationGC): Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:37:47 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-19 19:37:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:37:50 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-19 19:37:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:37:52 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-19 19:37:52 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-19 19:37:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:37:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-19 19:37:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-19 19:37:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-19 19:37:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-19 19:38:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' successfully
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is present
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-19 19:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is clicked on
+
+2019-06-19 19:38:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-19 19:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/span_(V01)' is clicked on
+
+2019-06-19 19:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_GreenCleaningPolicyCreditLib' is present
+
+2019-06-19 19:38:10 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-19 19:38:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaning/TC_GC_Navigate' successfully
+
+2019-06-19 19:38:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/Table_GC_Calc' successfully
+
+2019-06-19 19:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/Table_GC_Calc' is present
+
+2019-06-19 19:38:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' successfully
+
+2019-06-19 19:38:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/Table_GC_Calc' located by 'By.xpath: //*[@id='esPlanDocs_files' or @id='pceCalculatorDocs_files' or @id='cpmCalculatorDocs_files']/table' is not present after '30' second(s)
+
+2019-06-19 19:38:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Table_executedContract' successfully
+
+2019-06-19 19:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Table_executedContract' is present
+
+2019-06-19 19:38:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' successfully
+
+2019-06-19 19:38:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/Table_executedContract' located by 'By.xpath: //*[@id="executedContract_files"]/table' is not present after '30' second(s)
+
+2019-06-19 19:38:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Table_msds' successfully
+
+2019-06-19 19:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Table_msds' is present
+
+2019-06-19 19:38:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' successfully
+
+2019-06-19 19:38:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/Table_msds' located by 'By.xpath: //*[@id="msdsSheet_files"]/table' is not present after '30' second(s)
+
+2019-06-19 19:38:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/Table_SC' successfully
+
+2019-06-19 19:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/Table_SC' is present
+
+2019-06-19 19:38:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/p_SC_additionalDoc' successfully
+
+2019-06-19 19:38:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:38:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:38:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:38:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:39:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:39:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:39:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:39:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:39:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:39:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:39:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 19:39:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-19 19:39:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-19 19:39:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 19:39:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Green_Cleaning/SpecialCircumstances/AddFile_additionalDoc_Sc/Table_SC' located by 'By.xpath: //*[@id="splCircumstancesDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-19 19:39:12 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_GC_DeleteUploadedFiles_CleaningProducts' was passed
+
+2019-06-19 19:39:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-19 19:39:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-19 19:39:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-19 19:31:17 - [TEST_SUITE][PASSED] - GC_SmokeTest: Test Cases/GreenCleaning/TC_GC_DeleteUploadedFiles_CleaningProducts]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

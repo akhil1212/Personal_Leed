@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_EEBM_VerifyUploadedFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef127793-defb-409e-b6ca-991ec5b46417</testCaseGuid>
+</TestCaseEntity>

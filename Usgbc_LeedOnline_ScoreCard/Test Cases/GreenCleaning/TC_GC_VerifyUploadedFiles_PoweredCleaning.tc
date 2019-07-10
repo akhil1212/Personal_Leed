@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GC_VerifyUploadedFiles_PoweredCleaning</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de4bed4c-9b5e-4e57-9303-812e4552d5db</testCaseGuid>
+</TestCaseEntity>

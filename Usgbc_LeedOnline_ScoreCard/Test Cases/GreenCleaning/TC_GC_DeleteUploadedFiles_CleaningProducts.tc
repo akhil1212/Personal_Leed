@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GC_DeleteUploadedFiles_CleaningProducts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbf16324-400b-4def-92e8-aff86c23fe76</testCaseGuid>
+</TestCaseEntity>

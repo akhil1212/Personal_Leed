@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_AddFile_SC</name>
+   <tag></tag>
+   <elementGuidId>aad5644b-883e-4e9a-9aeb-28abaa1fcd71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;splCircumstancesDocs_files&quot;]/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;splCircumstancesDocs_files&quot;]/div/button</value>
+   </webElementXpaths>
+</WebElementEntity>

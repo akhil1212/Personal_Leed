@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SM_DeleteUploadFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0cc14904-baa6-4fd5-9509-9a32ac778b51</testCaseGuid>
+</TestCaseEntity>

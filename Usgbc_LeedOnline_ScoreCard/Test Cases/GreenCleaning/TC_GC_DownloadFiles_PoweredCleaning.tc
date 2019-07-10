@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GC_DownloadFiles_PoweredCleaning</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6ef224a-c073-4668-9752-c6bdf06e5c91</testCaseGuid>
+</TestCaseEntity>

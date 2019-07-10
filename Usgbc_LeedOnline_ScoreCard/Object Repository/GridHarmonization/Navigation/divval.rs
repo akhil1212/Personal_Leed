@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>divval</name>
+   <tag></tag>
+   <elementGuidId>506a5772-d954-4ccb-85b7-7d60f0f4d898</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;89a2ad02651dcefe7f062390f199f043&quot;]/div[4]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;89a2ad02651dcefe7f062390f199f043&quot;]/div[4]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GC_SmokeTest,Chrome 75.0.3770.100,,,2019-06-21 10:19:46,2019-06-21 10:22:14,2m - 28.581s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_Custodial,Chrome 75.0.3770.100,,,2019-06-21 10:19:46,2019-06-21 10:22:14,2m - 28.279s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-21 10:19:46,2019-06-21 10:19:50,3.981s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GreenCleaning),Chrome 75.0.3770.100,,,2019-06-21 10:19:50,2019-06-21 10:22:14,2m - 23.254s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-21 10:22:14,2019-06-21 10:22:14,0.683s,PASSED

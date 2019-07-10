@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ERM_SmokeTest" time="880" tests="6" failures="1" errors="0">
+   <testsuite name="ERM_SmokeTest" tests="6" failures="1" errors="0" time="880" timestamp="2019-07-10 16:15:43" hostname="promantus inc - G10PROLT025" id="Test Suites/ERM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ERM_SmokeTest\\20190710_161536"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ERM_SmokeTest\\20190710_161536\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="c806706e4c980f57ce6d76a22b31f558"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants" status="FAILED">
+         <failure type="FAILED" message="Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_ERM_No_Refrigerants.run(TC_ERM_No_Refrigerants:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562755541117.run(TempTestSuite1562755541117.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-10 16:15:44 - [TEST_CASE][FAILED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants: Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_ERM_No_Refrigerants.run(TC_ERM_No_Refrigerants:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562755541117.run(TempTestSuite1562755541117.groovy:35)
+
+
+2019-07-10 16:15:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 16:15:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 16:15:44 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:15:44 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:15:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-10 16:15:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:15:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 16:15:47 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 16:15:47 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 16:15:47 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 16:15:48 - [TEST_STEP][FAILED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_No_Refrigerants): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_ERM_No_Refrigerants.run(TC_ERM_No_Refrigerants:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562755541117.run(TempTestSuite1562755541117.groovy:35)
+)
+
+2019-07-10 16:15:50 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-10 16:15:50 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:15:52 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 16:15:52 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:15:58 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:16:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:16:00 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:16:00 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:16:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:16:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:16:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:16:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:16:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-10 16:16:59 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:16:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-10 16:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/input_No_Refrigerants' is present
+
+2019-07-10 16:17:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/input_No_Refrigerants' is checked
+
+2019-07-10 16:17:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:17:06 - [MESSAGE][PASSED] - Text 'Option 1. No Refrigerants or Low-Impact Refrigerants.' is present on page 
+
+2019-07-10 16:17:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/Editor_low_impact_refrigerants/p_low_impact_refrigerants' successfully
+
+2019-07-10 16:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/Editor_low_impact_refrigerants/p_low_impact_refrigerants' is present
+
+2019-07-10 16:17:10 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' is set on object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/Editor_low_impact_refrigerants/body_low_impact'
+
+2019-07-10 16:17:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:17:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/Editor_low_impact_refrigerants/body_low_impact' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9'
+
+2019-07-10 16:17:13 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' are matched 
+
+2019-07-10 16:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:17:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-10 16:17:13 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is present
+
+2019-07-10 16:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 16:17:14 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-10 16:17:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 16:17:16 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-10 16:17:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 16:17:18 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-07-10 16:17:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:17:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-07-10 16:17:19 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-07-10 16:17:23 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' is set on object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-07-10 16:17:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:17:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9'
+
+2019-07-10 16:17:26 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' are matched 
+
+2019-07-10 16:17:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:17:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/button_Save' successfully
+
+2019-07-10 16:17:36 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/button_Save' is visible
+
+2019-07-10 16:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/button_Save' is clicked on
+
+2019-07-10 16:17:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:17:38 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-10 16:17:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' successfully
+
+2019-07-10 16:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' is present
+
+2019-07-10 16:17:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' is clicked on
+
+2019-07-10 16:17:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:18:01 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-10 16:18:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/Editor_low_impact_refrigerants/body_low_impact' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9'
+
+2019-07-10 16:18:01 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' are matched 
+
+2019-07-10 16:18:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9'
+
+2019-07-10 16:18:01 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' are matched 
+
+2019-07-10 16:18:01 - [MESSAGE][FAILED] - These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+
+2019-07-10 16:18:01 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_ERM_No_Refrigerants.run(TC_ERM_No_Refrigerants:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562755541117.run(TempTestSuite1562755541117.groovy:35)
+)
+
+2019-07-10 16:18:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 16:18:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 16:18:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2019-07-10 16:15:44 - [TEST_CASE][FAILED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants: Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_ERM_No_Refrigerants.run(TC_ERM_No_Refrigerants:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562755541117.run(TempTestSuite1562755541117.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact" status="PASSED">
+         <system-out><![CDATA[2019-07-10 16:18:02 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact: Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact
+
+2019-07-10 16:18:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 16:18:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 16:18:02 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:18:02 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:18:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:18:04 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 16:18:04 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 16:18:04 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 16:18:04 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 16:18:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact): Run with 'enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact' was passed
+
+2019-07-10 16:18:05 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-10 16:18:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:18:06 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 16:18:06 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:18:15 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:18:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:18:17 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:18:17 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:18:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:18:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:18:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:18:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:18:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-10 16:18:56 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:18:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-10 16:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/input_Calc_Refrigerant_Impact' is present
+
+2019-07-10 16:18:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:18:59 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/input_Calc_Refrigerant_Impact' is checked
+
+2019-07-10 16:19:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:19:02 - [MESSAGE][PASSED] - Text 'Option 2. Calculation of Refrigerant Impact.' is present on page 
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' successfully
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' is present
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - All options with value 'Split AC or heat pump' are selected in object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_EquipmentType' 
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Units' is cleared
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Units'
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit' is cleared
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - Text '56' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit'
+
+2019-07-10 16:19:03 - [MESSAGE][PASSED] - All options with value 'R-12' are selected in object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_Refrigerant' 
+
+2019-07-10 16:19:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:19:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/RC' is cleared
+
+2019-07-10 16:19:06 - [MESSAGE][PASSED] - Text '57' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/RC'
+
+2019-07-10 16:19:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Life' is cleared
+
+2019-07-10 16:19:06 - [MESSAGE][PASSED] - Text '57' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Life'
+
+2019-07-10 16:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/i_plus_Button' is clicked on
+
+2019-07-10 16:19:06 - [MESSAGE][PASSED] - All options with value 'Split AC or heat pump' are selected in object ''  using regular expression
+
+2019-07-10 16:19:07 - [MESSAGE][PASSED] - Text '50' is set on object ''
+
+2019-07-10 16:19:07 - [MESSAGE][PASSED] - Text '25' is set on object ''
+
+2019-07-10 16:19:07 - [MESSAGE][PASSED] - All options with value 'R-114' are selected in object ''  using regular expression
+
+2019-07-10 16:19:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:19:10 - [MESSAGE][PASSED] - Text '55' is set on object ''
+
+2019-07-10 16:19:10 - [MESSAGE][PASSED] - Text '35' is set on object ''
+
+2019-07-10 16:19:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:19:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:19:12 - [MESSAGE][PASSED] - All options with value 'Reciprocating compressor' are selected in object ''  using regular expression
+
+2019-07-10 16:19:12 - [MESSAGE][PASSED] - Text '40' is set on object ''
+
+2019-07-10 16:19:12 - [MESSAGE][PASSED] - Text '20' is set on object ''
+
+2019-07-10 16:19:12 - [MESSAGE][PASSED] - All options with value 'R-500' are selected in object ''  using regular expression
+
+2019-07-10 16:19:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:19:16 - [MESSAGE][PASSED] - Text '45' is set on object ''
+
+2019-07-10 16:19:16 - [MESSAGE][PASSED] - Text '25' is set on object ''
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/GWPr' is: '10,720'
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/ODPr' is: '1'
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Lr' is: '2'
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Mr' is: '10'
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/LCGWP' is: '13,292.8'
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/LCODP' is: '124,000'
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Impact' is: '137,292.8'
+
+2019-07-10 16:19:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/ImpactTotal' is: '422,861,824'
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' successfully
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' is present
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' is checked
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/Project_requirements' successfully
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/Project_requirements' is present
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/Project_requirements' is checked
+
+2019-07-10 16:19:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' successfully
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is present
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Button_refrigerant_equi' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 16:19:18 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi'
+
+2019-07-10 16:19:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:19:20 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Button_refrigerant_equi' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 16:19:20 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi'
+
+2019-07-10 16:19:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Button_refrigerant_equi' has attribute 'class' with value 'tiny ui button'
+
+2019-07-10 16:19:22 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi'
+
+2019-07-10 16:19:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:19:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:19:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/button_Save' successfully
+
+2019-07-10 16:19:33 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/button_Save' is visible
+
+2019-07-10 16:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/button_Save' is clicked on
+
+2019-07-10 16:19:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:19:35 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-10 16:19:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit(tr)' is: 'Qunit
+(tons)'
+
+2019-07-10 16:19:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:19:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Rc(tr)' is: 'Rc
+(lb/ton)'
+
+2019-07-10 16:19:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-10 16:19:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/a_Details' is clicked on
+
+2019-07-10 16:19:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/Edit_Btn' is clicked on
+
+2019-07-10 16:19:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/input_SI' is clicked on
+
+2019-07-10 16:19:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/update_Btn' is clicked on
+
+2019-07-10 16:19:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/a_Credits' is clicked on
+
+2019-07-10 16:20:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:20:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:20:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:20:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit(tr)' is: 'Qunit
+(kW)'
+
+2019-07-10 16:20:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:20:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Rc(tr)' is: 'Rc
+(kg/kW)'
+
+2019-07-10 16:20:14 - [MESSAGE][PASSED] - Actual text 'Qunit
+(tons)' and expected text 'Qunit
+(kW)' are not matched 
+
+2019-07-10 16:20:14 - [MESSAGE][PASSED] - Actual text 'Rc
+(lb/ton)' and expected text 'Rc
+(kg/kW)' are not matched 
+
+2019-07-10 16:20:23 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-10 16:20:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/a_Details' is clicked on
+
+2019-07-10 16:20:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/Edit_Btn' is clicked on
+
+2019-07-10 16:20:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/input_IP' is clicked on
+
+2019-07-10 16:20:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/update_Btn' is clicked on
+
+2019-07-10 16:20:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/UnitTypes/a_Credits' is clicked on
+
+2019-07-10 16:20:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:20:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:21:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Split AC or heat pump'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '50'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '25'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'R-114'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '55'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '35'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text 'Split AC or heat pump' and expected text 'Split AC or heat pump' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '50' and expected text '50' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '25' and expected text '25' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text 'R-114' and expected text 'R-114' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '55' and expected text '55' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '35' and expected text '35' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Reciprocating compressor'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '40'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '20'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'R-500'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '45'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '25'
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text 'Reciprocating compressor' and expected text 'Reciprocating compressor' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '40' and expected text '40' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '20' and expected text '20' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text 'R-500' and expected text 'R-500' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '45' and expected text '45' are matched 
+
+2019-07-10 16:21:05 - [MESSAGE][PASSED] - Actual text '25' and expected text '25' are matched 
+
+2019-07-10 16:21:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' successfully
+
+2019-07-10 16:21:06 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' is present
+
+2019-07-10 16:21:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' is clicked on
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/iframe' successfully
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_EquipmentType' is: 'Split AC or heat pump'
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Units' is: '55'
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit' is: '56'
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_Refrigerant' is: 'R-11
+R-12
+R-22
+R-23
+R-114
+R-123
+R-134a
+R-245fa
+R-404A
+R-407C
+R-410A
+R-500
+R-502
+R-507A
+Carbon dioxide
+Ammonia (NH3)
+Propane
+None'
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/RC' is: '57'
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Life' is: ''
+
+2019-07-10 16:21:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/ImpactTotal' is: '422,861,824'
+
+2019-07-10 16:21:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:21:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:21:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' successfully
+
+2019-07-10 16:21:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:21:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:21:36 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-10 16:21:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:21:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/a_MarkReadyForReview' is clicked on
+
+2019-07-10 16:21:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:21:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-10 16:21:43 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact' was passed
+
+2019-07-10 16:21:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 16:21:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 16:21:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_VerifyUploadedFiles" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_VerifyUploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-10 16:21:44 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_VerifyUploadedFiles: Test Cases/EnhancedRefrigerantManagement/TC_ERM_VerifyUploadedFiles
+
+2019-07-10 16:21:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 16:21:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 16:21:44 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:21:44 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:21:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:21:46 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 16:21:46 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 16:21:46 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 16:21:46 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 16:21:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_VerifyUploadedFiles): Run with 'enhancedRefrigerantManagement.Runner_ERM_VerifyUploadedFiles' was passed
+
+2019-07-10 16:21:47 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-10 16:21:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:21:48 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 16:21:48 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:21:51 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:21:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:21:53 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:21:54 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:21:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:21:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:21:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:22:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'READY FOR REVIEW'
+
+2019-07-10 16:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/a_MarkReadyForReview' is clicked on
+
+2019-07-10 16:22:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:22:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:22:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Table_refrigerant_equi' successfully
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Table_refrigerant_equi' is present
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 16:22:21 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 16:22:22 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_VerifyUploadedFiles' was passed
+
+2019-07-10 16:22:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 16:22:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 16:22:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DownloadedFiles" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DownloadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-10 16:22:23 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_DownloadedFiles: Test Cases/EnhancedRefrigerantManagement/TC_ERM_DownloadedFiles
+
+2019-07-10 16:22:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 16:22:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 16:22:23 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:22:23 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:22:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:22:25 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 16:22:25 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 16:22:25 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 16:22:25 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 16:22:25 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DownloadedFiles): Run with 'enhancedRefrigerantManagement.Runner_ERM_DownloadedFiles' was passed
+
+2019-07-10 16:22:26 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-10 16:22:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:22:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 16:22:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:22:30 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:22:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:22:32 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:22:32 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:22:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:22:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:22:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:22:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:22:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:22:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:22:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:22:56 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-10 16:22:56 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:22:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-10 16:22:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Table_refrigerant_equi' successfully
+
+2019-07-10 16:22:56 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Table_refrigerant_equi' is present
+
+2019-07-10 16:22:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' successfully
+
+2019-07-10 16:22:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is hovered
+
+2019-07-10 16:22:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:22:59 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 16:23:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is hovered
+
+2019-07-10 16:23:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is hovered
+
+2019-07-10 16:23:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:23:14 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 16:23:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is hovered
+
+2019-07-10 16:23:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is hovered
+
+2019-07-10 16:23:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:23:28 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 16:23:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is hovered
+
+2019-07-10 16:23:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:23:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:23:46 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 16:23:46 - [MESSAGE][PASSED] - 
+
+2019-07-10 16:23:46 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 16:23:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:23:49 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 16:23:49 - [MESSAGE][PASSED] - 
+
+2019-07-10 16:23:49 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 16:23:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:23:52 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 16:23:52 - [MESSAGE][PASSED] - 
+
+2019-07-10 16:23:52 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 16:23:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-07-10 16:23:53 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-07-10 16:23:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-10 16:23:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-10 16:23:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:23:55 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-10 16:24:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-10 16:24:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-10 16:24:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:24:10 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-10 16:24:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-10 16:24:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-10 16:24:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:24:24 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-10 16:24:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:24:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-07-10 16:24:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:24:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:24:52 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 16:24:52 - [MESSAGE][PASSED] - 
+
+2019-07-10 16:24:52 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-10 16:24:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:24:55 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 16:24:55 - [MESSAGE][PASSED] - 
+
+2019-07-10 16:24:55 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-10 16:24:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:24:58 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-10 16:24:58 - [MESSAGE][PASSED] - 
+
+2019-07-10 16:24:58 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-10 16:24:58 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_DownloadedFiles' was passed
+
+2019-07-10 16:24:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 16:24:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 16:24:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData" status="PASSED">
+         <system-out><![CDATA[2019-07-10 16:24:59 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData: Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData
+
+2019-07-10 16:24:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 16:24:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 16:24:59 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:24:59 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:25:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:25:01 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 16:25:01 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 16:25:01 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 16:25:01 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 16:25:01 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DeleteTableData): Run with 'enhancedRefrigerantManagement.Runner_ERM_DeleteTableData' was passed
+
+2019-07-10 16:25:02 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-10 16:25:02 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:25:03 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 16:25:03 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:25:06 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:25:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:25:08 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:25:09 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:25:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:25:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:25:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:25:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:25:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:25:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:25:25 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:25:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 16:25:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-10 16:25:26 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-10 16:25:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:25:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 16:25:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:25:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-10 16:25:32 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:25:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-10 16:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/input_Calc_Refrigerant_Impact' is clicked on
+
+2019-07-10 16:25:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' successfully
+
+2019-07-10 16:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' is present
+
+2019-07-10 16:25:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:25:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:25:36 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-10 16:25:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:25:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:25:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:25:39 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-10 16:25:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:25:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:25:41 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //*[@id="refrigerantTable"]/tbody/tr[2]/td[1]/select' is not present after '30' second(s)
+
+2019-07-10 16:25:41 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_EquipmentType' is present
+
+2019-07-10 16:25:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-10 16:25:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/button_Save' successfully
+
+2019-07-10 16:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/button_Save' is clicked on
+
+2019-07-10 16:25:47 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_DeleteTableData' was passed
+
+2019-07-10 16:25:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 16:25:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 16:25:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteUploadedFiles" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteUploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-10 16:25:47 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteUploadedFiles: Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteUploadedFiles
+
+2019-07-10 16:25:47 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 16:25:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 16:25:47 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:25:47 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:25:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:25:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 16:25:49 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 16:25:49 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 16:25:49 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 16:25:50 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DeleteUploadedFiles): Run with 'enhancedRefrigerantManagement.Runner_ERM_DeleteUploadedFiles' was passed
+
+2019-07-10 16:25:50 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-10 16:25:50 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:25:51 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 16:25:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:25:54 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:25:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:25:57 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:25:57 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:26:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:26:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:26:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:26:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:26:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-10 16:26:19 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:26:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-10 16:26:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Table_refrigerant_equi' successfully
+
+2019-07-10 16:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Table_refrigerant_equi' is present
+
+2019-07-10 16:26:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' successfully
+
+2019-07-10 16:26:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:26:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:26:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 16:26:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:26:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:26:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 16:26:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:26:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:26:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 16:26:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Table_refrigerant_equi' located by 'By.xpath: //*[@id="commercialRefrigUpload_files"]/table' is not present after '30' second(s)
+
+2019-07-10 16:26:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-07-10 16:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-07-10 16:26:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-07-10 16:26:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:26:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:26:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 16:26:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:26:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:26:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 16:26:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:26:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:26:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 16:26:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' located by 'By.xpath: //div[@id='splCircumstancesDocs_files']/table' is not present after '30' second(s)
+
+2019-07-10 16:26:44 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_DeleteUploadedFiles' was passed
+
+2019-07-10 16:26:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 16:26:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 16:26:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_AutoSaveAsDraft" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-07-10 16:26:45 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_AutoSaveAsDraft: Test Cases/EnhancedRefrigerantManagement/TC_ERM_AutoSaveAsDraft
+
+2019-07-10 16:26:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-10 16:26:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-10 16:26:45 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:26:45 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:26:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:26:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-10 16:26:47 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-10 16:26:47 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-10 16:26:47 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-10 16:26:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_AutoSaveAsDraft): Run with 'enhancedRefrigerantManagement.Runner_ERM_AutoSaveAsDraft' was passed
+
+2019-07-10 16:26:48 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-10 16:26:48 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:26:49 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-10 16:26:49 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:26:53 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:26:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:26:55 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:26:56 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:26:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:26:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:26:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:26:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:27:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:27:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-10 16:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:27:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:27:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-10 16:27:16 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-10 16:27:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-10 16:27:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:27:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-07-10 16:27:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:27:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:27:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi' successfully
+
+2019-07-10 16:27:37 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi'
+
+2019-07-10 16:27:52 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-07-10 16:27:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-07-10 16:27:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' successfully
+
+2019-07-10 16:27:52 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' is present
+
+2019-07-10 16:27:52 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' is checked
+
+2019-07-10 16:28:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:28:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 04:27:56 PM  Clear draft'
+
+2019-07-10 16:28:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-07-10 16:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-07-10 16:28:06 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. WCVP9' is set on object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-07-10 16:28:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:28:17 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is present
+
+2019-07-10 16:28:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 04:28:16 PM  Clear draft'
+
+2019-07-10 16:28:17 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 10 Jul 2019 04:28:16 PM  Clear draft' are not matched 
+
+2019-07-10 16:28:17 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/input_No_Refrigerants' is present
+
+2019-07-10 16:28:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:28:20 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/No_Refrigerants_Opt1/input_No_Refrigerants' is checked
+
+2019-07-10 16:28:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:28:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:28:33 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is present
+
+2019-07-10 16:28:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 04:28:26 PM  Clear draft'
+
+2019-07-10 16:28:33 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 10 Jul 2019 04:28:26 PM  Clear draft' are not matched 
+
+2019-07-10 16:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 16:28:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/button_Yes' is clicked on
+
+2019-07-10 16:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is present
+
+2019-07-10 16:28:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:28:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/button_Save' successfully
+
+2019-07-10 16:28:46 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/button_Save' is visible
+
+2019-07-10 16:28:46 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/button_Save' is clicked on
+
+2019-07-10 16:28:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnhancedRefrigerantManagement/Autosave/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-07-10 16:28:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' successfully
+
+2019-07-10 16:28:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:28:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:28:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-10 16:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum' is present
+
+2019-07-10 16:28:50 - [MESSAGE][PASSED] - Text 'Testing Narrative' is set on object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-07-10 16:29:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:29:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 04:28:57 PM  Clear draft'
+
+2019-07-10 16:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Autosave/a_Clear draft' is present
+
+2019-07-10 16:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 16:29:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/button_Yes' is clicked on
+
+2019-07-10 16:29:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:29:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnhancedRefrigerantManagement/Autosave/a_Clear draft' located by 'By.xpath: //a[@id='clearDraft']' is not present after '30' second(s)
+
+2019-07-10 16:29:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:29:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:29:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum' is present
+
+2019-07-10 16:29:09 - [MESSAGE][PASSED] - Text 'Test Logout and Login' is set on object 'Object Repository/EnhancedRefrigerantManagement/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-07-10 16:29:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-10 16:29:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Autosave/span_Last draft saved on' is: 'Last draft saved on: 10 Jul 2019 04:29:18 PM  Clear draft'
+
+2019-07-10 16:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/div_Signout' is clicked on
+
+2019-07-10 16:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/a_Sign out' is clicked on
+
+2019-07-10 16:29:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:29:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-10 16:29:25 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-07-10 16:29:25 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-10 16:29:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-10 16:29:33 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-10 16:29:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:29:35 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-10 16:29:35 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-10 16:29:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-10 16:29:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-10 16:29:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-10 16:29:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-10 16:29:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-10 16:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-10 16:30:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-10 16:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-10 16:30:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-10 16:30:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-10 16:30:19 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Autosave/div_Form drafted and not yet saved' is present
+
+2019-07-10 16:30:19 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-07-10 16:30:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 10 Jul 2019 04:29:18 PM  Clear draft'
+
+2019-07-10 16:30:19 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 10 Jul 2019 04:29:18 PM  Clear draft' and expected text 'Last draft saved on: 10 Jul 2019 04:29:18 PM  Clear draft' are matched 
+
+2019-07-10 16:30:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/a_Clear draft' is clicked on
+
+2019-07-10 16:30:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-10 16:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Autosave/button_Yes' is clicked on
+
+2019-07-10 16:30:23 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_AutoSaveAsDraft' was passed
+
+2019-07-10 16:30:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-10 16:30:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-10 16:30:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-10 16:15:43 - [TEST_SUITE][FAILED] - ERM_SmokeTest: Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_ERM_No_Refrigerants.run(TC_ERM_No_Refrigerants:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562755541117.run(TempTestSuite1562755541117.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-10 16:15:43 - [TEST_SUITE][FAILED] - ERM_SmokeTest: Test Cases/EnhancedRefrigerantManagement/TC_ERM_No_Refrigerants FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified)]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_ERM_No_Refrigerants.run(TC_ERM_No_Refrigerants:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562755541117.run(TempTestSuite1562755541117.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

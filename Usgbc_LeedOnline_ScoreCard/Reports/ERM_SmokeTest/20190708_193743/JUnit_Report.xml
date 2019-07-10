@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ERM_SmokeTest" time="162" tests="2" failures="0" errors="0">
+   <testsuite name="ERM_SmokeTest" tests="2" failures="0" errors="0" time="162" timestamp="2019-07-08 19:37:53" hostname="promantus inc - G10PROLT025" id="Test Suites/ERM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ERM_SmokeTest\\20190708_193743"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ERM_SmokeTest\\20190708_193743\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="c0f297f9b6d74a369136cff0a9357178"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact" status="PASSED">
+         <system-out><![CDATA[2019-07-08 19:37:54 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact: Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact
+
+2019-07-08 19:37:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-08 19:37:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-08 19:37:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-08 19:37:54 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-08 19:37:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-08 19:37:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-08 19:37:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-08 19:37:58 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-08 19:37:58 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-08 19:37:58 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-08 19:37:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact): Run with 'enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact' was passed
+
+2019-07-08 19:38:01 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-08 19:38:02 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-08 19:38:04 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-08 19:38:04 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-08 19:38:08 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-08 19:38:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:38:10 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-08 19:38:11 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-08 19:38:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:38:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-08 19:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-08 19:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-08 19:38:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-08 19:38:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-08 19:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-08 19:38:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-08 19:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-08 19:38:29 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-08 19:38:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-08 19:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/input_Calc_Refrigerant_Impact' is present
+
+2019-07-08 19:38:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/input_Calc_Refrigerant_Impact' is checked
+
+2019-07-08 19:38:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:38:35 - [MESSAGE][PASSED] - Text 'Option 2. Calculation of Refrigerant Impact.' is present on page 
+
+2019-07-08 19:38:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' successfully
+
+2019-07-08 19:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' is present
+
+2019-07-08 19:38:35 - [MESSAGE][PASSED] - All options with value 'Split AC or heat pump' are selected in object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_EquipmentType' 
+
+2019-07-08 19:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Units' is cleared
+
+2019-07-08 19:38:36 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Units'
+
+2019-07-08 19:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit' is cleared
+
+2019-07-08 19:38:36 - [MESSAGE][PASSED] - Text '56' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit'
+
+2019-07-08 19:38:36 - [MESSAGE][PASSED] - All options with value 'R-12' are selected in object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_Refrigerant' 
+
+2019-07-08 19:38:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:38:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/RC' is cleared
+
+2019-07-08 19:38:38 - [MESSAGE][PASSED] - Text '57' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/RC'
+
+2019-07-08 19:38:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Life' is cleared
+
+2019-07-08 19:38:38 - [MESSAGE][PASSED] - Text '57' is set on object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Life'
+
+2019-07-08 19:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/i_plus_Button' is clicked on
+
+2019-07-08 19:38:39 - [MESSAGE][PASSED] - All options with value 'Split AC or heat pump' are selected in object ''  using regular expression
+
+2019-07-08 19:38:39 - [MESSAGE][PASSED] - Text '50' is set on object ''
+
+2019-07-08 19:38:39 - [MESSAGE][PASSED] - Text '25' is set on object ''
+
+2019-07-08 19:38:40 - [MESSAGE][PASSED] - All options with value 'R-114' are selected in object ''  using regular expression
+
+2019-07-08 19:38:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:38:43 - [MESSAGE][PASSED] - Text '55' is set on object ''
+
+2019-07-08 19:38:43 - [MESSAGE][PASSED] - Text '35' is set on object ''
+
+2019-07-08 19:38:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:38:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-08 19:38:44 - [MESSAGE][PASSED] - All options with value 'Reciprocating compressor' are selected in object ''  using regular expression
+
+2019-07-08 19:38:45 - [MESSAGE][PASSED] - Text '40' is set on object ''
+
+2019-07-08 19:38:45 - [MESSAGE][PASSED] - Text '20' is set on object ''
+
+2019-07-08 19:38:45 - [MESSAGE][PASSED] - All options with value 'R-500' are selected in object ''  using regular expression
+
+2019-07-08 19:38:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:38:48 - [MESSAGE][PASSED] - Text '45' is set on object ''
+
+2019-07-08 19:38:48 - [MESSAGE][PASSED] - Text '25' is set on object ''
+
+2019-07-08 19:38:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:38:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/GWPr' is: '10,720'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/ODPr' is: '1'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Lr' is: '2'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Mr' is: '10'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/LCGWP' is: '13,292.8'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/LCODP' is: '124,000'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Impact' is: '137,292.8'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/ImpactTotal' is: '422,861,824'
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' successfully
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' is present
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/GreenChills_silver_level' is checked
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/Project_requirements' successfully
+
+2019-07-08 19:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/Project_requirements' is present
+
+2019-07-08 19:38:51 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/select_one_radio/Project_requirements' is checked
+
+2019-07-08 19:38:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-08 19:38:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' successfully
+
+2019-07-08 19:38:51 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' is present
+
+2019-07-08 19:38:51 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Button_refrigerant_equi' has attribute 'class' with value 'tiny ui button'
+
+2019-07-08 19:38:51 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi'
+
+2019-07-08 19:38:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Button_refrigerant_equi' has attribute 'class' with value 'tiny ui button'
+
+2019-07-08 19:38:53 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi'
+
+2019-07-08 19:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:38:56 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/Button_refrigerant_equi' has attribute 'class' with value 'tiny ui button'
+
+2019-07-08 19:38:56 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/input_refrigerant_equi'
+
+2019-07-08 19:38:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:39:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-08 19:39:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/button_Save' successfully
+
+2019-07-08 19:39:07 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/button_Save' is visible
+
+2019-07-08 19:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/button_Save' is clicked on
+
+2019-07-08 19:39:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:39:09 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-08 19:39:10 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Split AC or heat pump'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '50'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '25'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'R-114'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '55'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '35'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text 'Split AC or heat pump' and expected text 'Split AC or heat pump' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '50' and expected text '50' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '25' and expected text '25' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text 'R-114' and expected text 'R-114' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '55' and expected text '55' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '35' and expected text '35' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Reciprocating compressor'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '40'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '20'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'R-500'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '45'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '25'
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text 'Reciprocating compressor' and expected text 'Reciprocating compressor' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '40' and expected text '40' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '20' and expected text '20' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text 'R-500' and expected text 'R-500' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '45' and expected text '45' are matched 
+
+2019-07-08 19:39:11 - [MESSAGE][PASSED] - Actual text '25' and expected text '25' are matched 
+
+2019-07-08 19:39:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' successfully
+
+2019-07-08 19:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' is present
+
+2019-07-08 19:39:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-08 19:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/icon_pdf' is clicked on
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/iframe' successfully
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_EquipmentType' is: 'Split AC or heat pump'
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Units' is: '55'
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Qunit' is: '56'
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_Refrigerant' is: 'R-11
+R-12
+R-22
+R-23
+R-114
+R-123
+R-134a
+R-245fa
+R-404A
+R-407C
+R-410A
+R-500
+R-502
+R-507A
+Carbon dioxide
+Ammonia (NH3)
+Propane
+None'
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/RC' is: '57'
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Life' is: ''
+
+2019-07-08 19:39:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/ImpactTotal' is: '422,861,824'
+
+2019-07-08 19:39:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:39:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-08 19:39:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/AddFile_refrigerant_equi/p_refrigerant_equi' successfully
+
+2019-07-08 19:39:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:39:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:39:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-08 19:39:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:39:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-08 19:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/a_MarkReadyForReview' is clicked on
+
+2019-07-08 19:39:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-08 19:39:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-08 19:39:47 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact' was passed
+
+2019-07-08 19:39:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-08 19:39:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-08 19:39:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData" classname="Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData" status="PASSED">
+         <system-out><![CDATA[2019-07-08 19:39:48 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData: Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData
+
+2019-07-08 19:39:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-08 19:39:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-08 19:39:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-08 19:39:48 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-08 19:39:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-08 19:39:50 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-08 19:39:50 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-08 19:39:50 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-08 19:39:50 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-08 19:39:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DeleteTableData): Run with 'enhancedRefrigerantManagement.Runner_ERM_DeleteTableData' was passed
+
+2019-07-08 19:39:51 - [TEST_CASE][PASSED] - Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation: Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation
+
+2019-07-08 19:39:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_Navigation): Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-08 19:39:52 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-08 19:39:52 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-08 19:39:56 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-08 19:39:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:39:58 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-08 19:39:58 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-08 19:40:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:40:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-08 19:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-08 19:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-08 19:40:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-08 19:40:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' successfully
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is present
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/divval' is: 'READY FOR REVIEW'
+
+2019-07-08 19:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/a_MarkReadyForReview' is clicked on
+
+2019-07-08 19:40:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-08 19:40:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-08 19:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_Enhanced Refrigerant Management' is clicked on
+
+2019-07-08 19:40:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-08 19:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/span_(V01)' is clicked on
+
+2019-07-08 19:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/ERM_Navigation/div_EnhancedRefrigerantManagement_Credit' is present
+
+2019-07-08 19:40:21 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_Navigation' was passed
+
+2019-07-08 19:40:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnhancedRefrigerantManagement/TC_ERM_Navigation' successfully
+
+2019-07-08 19:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/input_Calc_Refrigerant_Impact' is clicked on
+
+2019-07-08 19:40:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' successfully
+
+2019-07-08 19:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/Table_MechanicalCooling' is present
+
+2019-07-08 19:40:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:40:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:40:25 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-08 19:40:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-08 19:40:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:40:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-08 19:40:28 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-08 19:40:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-08 19:40:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-08 19:40:30 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //*[@id="refrigerantTable"]/tbody/tr[2]/td[1]/select' is not present after '30' second(s)
+
+2019-07-08 19:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/EnhancedRefrigerantManagement/Calc_Refrigerant_Impact_Opt2/Table_MechanicalCooling/select_EquipmentType' is present
+
+2019-07-08 19:40:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-08 19:40:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnhancedRefrigerantManagement/button_Save' successfully
+
+2019-07-08 19:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/EnhancedRefrigerantManagement/button_Save' is clicked on
+
+2019-07-08 19:40:35 - [MESSAGE][PASSED] - Run with 'enhancedRefrigerantManagement.Runner_ERM_DeleteTableData' was passed
+
+2019-07-08 19:40:35 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-08 19:40:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-08 19:40:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-08 19:37:53 - [TEST_SUITE][PASSED] - ERM_SmokeTest: Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

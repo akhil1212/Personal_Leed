@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GC_SmokeTest,Chrome 74.0.3729.169,,,2019-06-19 17:49:35,2019-06-19 17:56:51,7m - 16.114s,FAILED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_NegativeCases_Custodial,Chrome 74.0.3729.169,,,2019-06-19 17:49:36,2019-06-19 17:51:38,2m - 2.170s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:49:36,2019-06-19 17:49:41,5.212s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_NegativeCases_Custodial),Chrome 74.0.3729.169,,,2019-06-19 17:49:41,2019-06-19 17:51:37,1m - 55.643s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:51:37,2019-06-19 17:51:38,0.839s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_NegativeCases_EntrywaySys,Chrome 74.0.3729.169,,,2019-06-19 17:51:38,2019-06-19 17:53:19,1m - 41.574s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:51:38,2019-06-19 17:51:41,2.633s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_NegativeCases_EntrywaySys),Chrome 74.0.3729.169,,,2019-06-19 17:51:41,2019-06-19 17:53:19,1m - 37.825s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:53:19,2019-06-19 17:53:19,0.879s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_NegativeCases_PoweredClng,Chrome 74.0.3729.169,,,2019-06-19 17:53:19,2019-06-19 17:54:07,47.253s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:53:19,2019-06-19 17:53:22,2.430s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_NegativeCases_PoweredClng),Chrome 74.0.3729.169,,,2019-06-19 17:53:22,2019-06-19 17:54:06,43.593s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:54:06,2019-06-19 17:54:07,0.972s,PASSED
+,,,,,,,
+Test Cases/GreenCleaning/TC_GC_NegativeCases_CleaningPrdts,Chrome 74.0.3729.169,,,2019-06-19 17:54:07,2019-06-19 17:56:51,2m - 44.597s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:54:07,2019-06-19 17:54:09,2.575s,PASSED
+runWithCucumberRunner(greenCleaningForm.Runner_GC_NegativeCases_CleaningPrdts),Chrome 74.0.3729.169,,,2019-06-19 17:54:09,2019-06-19 17:56:51,2m - 41.009s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,,2019-06-19 17:56:51,2019-06-19 17:56:51,0.778s,PASSED

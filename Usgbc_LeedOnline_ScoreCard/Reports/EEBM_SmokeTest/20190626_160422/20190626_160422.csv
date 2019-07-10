@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EEBM_SmokeTest,Chrome 75.0.3770.100,,,2019-06-26 16:04:32,2019-06-26 16:07:50,3m - 17.645s,FAILED
+,,,,,,,
+Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DeleteUploadedFiles,Chrome 75.0.3770.100,,,2019-06-26 16:04:33,2019-06-26 16:07:50,3m - 17.213s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-06-26 16:04:33,2019-06-26 16:04:39,5.981s,PASSED
+runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_DeleteUploadedFiles),Chrome 75.0.3770.100,,,2019-06-26 16:04:39,2019-06-26 16:07:49,3m - 10.037s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-06-26 16:07:49,2019-06-26 16:07:50,0.782s,PASSED

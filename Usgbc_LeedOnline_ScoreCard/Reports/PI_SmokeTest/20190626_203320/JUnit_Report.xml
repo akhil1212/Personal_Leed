@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PI_SmokeTest" time="589" tests="6" failures="0" errors="0">
+   <testsuite name="PI_SmokeTest" tests="6" failures="0" errors="0" time="589" timestamp="2019-06-26 20:33:25" hostname="Promantus Inc - G10PROLT021" id="Test Suites/PI_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\PI_SmokeTest\\20190626_203320"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\PI_SmokeTest\\20190626_203320\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="2c29c5134deab9dabe1c2c7bb6c6efb0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProjectInformation/TC_ProjectInformationForm" classname="Test Cases/ProjectInformation/TC_ProjectInformationForm" status="PASSED">
+         <system-out><![CDATA[2019-06-26 20:33:25 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_ProjectInformationForm: Test Cases/ProjectInformation/TC_ProjectInformationForm
+
+2019-06-26 20:33:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 20:33:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 20:33:26 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-26 20:33:26 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 20:33:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-26 20:33:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 20:33:30 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 20:33:30 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 20:33:30 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 20:33:30 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 20:33:31 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_PI_Form): Run with 'projectInformation.Runner_PI_Form' was passed
+
+2019-06-26 20:33:35 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_NavigateToPI: Test Cases/ProjectInformation/TC_NavigateToPI
+
+2019-06-26 20:33:35 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_NavigateToPI): Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:33:36 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 20:33:37 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:33:42 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 20:33:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:33:44 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 20:33:45 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 20:33:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:33:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 20:33:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 20:33:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 20:33:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 20:33:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 20:33:56 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:33:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 20:33:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/Navigation/div_Project Information' successfully
+
+2019-06-26 20:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information' is present
+
+2019-06-26 20:33:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 20:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/div_Project Information' is clicked on
+
+2019-06-26 20:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_Form (V01)' is clicked on
+
+2019-06-26 20:34:00 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information_Form' is present
+
+2019-06-26 20:34:00 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:34:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProjectInformation/TC_NavigateToPI' successfully
+
+2019-06-26 20:34:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/EditorBox_ProjectGeneral/p_Editor_PrjGeneral' successfully
+
+2019-06-26 20:34:00 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/EditorBox_ProjectGeneral/p_Editor_PrjGeneral' is present
+
+2019-06-26 20:34:06 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' is set on object 'Object Repository/ProjectInformation/EditorBox_ProjectGeneral/body_Editor_PrjGeneral'
+
+2019-06-26 20:34:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:34:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/body_Editor_NoSmokingPolicy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38'
+
+2019-06-26 20:34:09 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' are matched 
+
+2019-06-26 20:34:09 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' is present
+
+2019-06-26 20:34:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' successfully
+
+2019-06-26 20:34:10 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:10 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/ProjectInformation/AddFile_SitePlan/input_AddFile'
+
+2019-06-26 20:34:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:12 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/ProjectInformation/AddFile_SitePlan/input_AddFile'
+
+2019-06-26 20:34:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:15 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_SitePlan/input_AddFile'
+
+2019-06-26 20:34:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' is present
+
+2019-06-26 20:34:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:34:17 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:17 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/ProjectInformation/AddFile_FloorPlans/input_AddFile'
+
+2019-06-26 20:34:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:18 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/ProjectInformation/AddFile_FloorPlans/input_AddFile'
+
+2019-06-26 20:34:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:21 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:21 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_FloorPlans/input_AddFile'
+
+2019-06-26 20:34:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:22 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' is present
+
+2019-06-26 20:34:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:34:22 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:22 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/input_AddFile'
+
+2019-06-26 20:34:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:24 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/input_AddFile'
+
+2019-06-26 20:34:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:26 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/input_AddFile'
+
+2019-06-26 20:34:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' is present
+
+2019-06-26 20:34:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:28 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/input_AddFile'
+
+2019-06-26 20:34:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:30 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/input_AddFile'
+
+2019-06-26 20:34:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:33 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/input_AddFile'
+
+2019-06-26 20:34:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:34 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' is present
+
+2019-06-26 20:34:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:34:34 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:34 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/input_AddFile'
+
+2019-06-26 20:34:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:36 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/input_AddFile'
+
+2019-06-26 20:34:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:39 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/input_AddFile'
+
+2019-06-26 20:34:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-26 20:34:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:40 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/ProjectInformation/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-26 20:34:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:41 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:42 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/ProjectInformation/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-26 20:34:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 20:34:44 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-26 20:34:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:34:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-06-26 20:34:46 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-06-26 20:34:52 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' is set on object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-06-26 20:34:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:34:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38'
+
+2019-06-26 20:34:55 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' are matched 
+
+2019-06-26 20:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/btn_Save' is visible
+
+2019-06-26 20:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/btn_Save' is clicked on
+
+2019-06-26 20:34:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:34:59 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-26 20:34:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-06-26 20:34:59 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-06-26 20:35:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-06-26 20:35:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 20:35:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:35:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/EditorBox_ProjectGeneral/p_Editor_PrjGeneral' successfully
+
+2019-06-26 20:35:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/EditorBox_ProjectGeneral/body_Editor_PrjGeneral' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38'
+
+2019-06-26 20:35:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:35:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:35:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' successfully
+
+2019-06-26 20:35:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:35:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:35:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:35:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:35:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:35:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:35:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:35:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:35:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:35:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:36:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:36:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:36:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:36:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:36:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-06-26 20:36:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38'
+
+2019-06-26 20:36:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:36:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:36:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:36:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:36:19 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-26 20:36:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Editor_NoSmokingPolicy/body_Editor_NoSmokingPolicy' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38'
+
+2019-06-26 20:36:20 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' are matched 
+
+2019-06-26 20:36:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/body_Editor_SplCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38'
+
+2019-06-26 20:36:20 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 06O38' are matched 
+
+2019-06-26 20:36:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:36:23 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-06-26 20:36:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:36:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 20:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-26 20:36:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:36:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-26 20:36:30 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_PI_Form' was passed
+
+2019-06-26 20:36:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 20:36:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 20:36:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProjectInformation/TC_PI_Verify_UploadedFiles" classname="Test Cases/ProjectInformation/TC_PI_Verify_UploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-26 20:36:31 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_PI_Verify_UploadedFiles: Test Cases/ProjectInformation/TC_PI_Verify_UploadedFiles
+
+2019-06-26 20:36:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 20:36:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 20:36:31 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-26 20:36:31 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 20:36:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 20:36:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 20:36:35 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 20:36:35 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 20:36:35 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 20:36:35 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_PI_Verify_UploadedFiles): Run with 'projectInformation.Runner_PI_Verify_UploadedFiles' was passed
+
+2019-06-26 20:36:36 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_NavigateToPI: Test Cases/ProjectInformation/TC_NavigateToPI
+
+2019-06-26 20:36:36 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_NavigateToPI): Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:36:38 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 20:36:38 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:36:42 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 20:36:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:36:44 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 20:36:45 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 20:36:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:36:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 20:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 20:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 20:36:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 20:36:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 20:36:57 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:36:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 20:36:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/Navigation/div_Project Information' successfully
+
+2019-06-26 20:36:57 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information' is present
+
+2019-06-26 20:36:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-26 20:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_MarkReadyForReview' is clicked on
+
+2019-06-26 20:37:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:37:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 20:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/div_Project Information' is clicked on
+
+2019-06-26 20:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_Form (V01)' is clicked on
+
+2019-06-26 20:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information_Form' is present
+
+2019-06-26 20:37:06 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:37:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProjectInformation/TC_NavigateToPI' successfully
+
+2019-06-26 20:37:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:37:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' successfully
+
+2019-06-26 20:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' is present
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:09 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' is present
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:10 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' is present
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' is present
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' is present
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:14 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_PI_Verify_UploadedFiles' was passed
+
+2019-06-26 20:37:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 20:37:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 20:37:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProjectInformation/TC_PI_Download_Files" classname="Test Cases/ProjectInformation/TC_PI_Download_Files" status="PASSED">
+         <system-out><![CDATA[2019-06-26 20:37:15 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_PI_Download_Files: Test Cases/ProjectInformation/TC_PI_Download_Files
+
+2019-06-26 20:37:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 20:37:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 20:37:15 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-26 20:37:15 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 20:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 20:37:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 20:37:18 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 20:37:18 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 20:37:18 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 20:37:18 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_PI_Verify_UploadedFiles): Run with 'projectInformation.Runner_PI_Verify_UploadedFiles' was passed
+
+2019-06-26 20:37:19 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_NavigateToPI: Test Cases/ProjectInformation/TC_NavigateToPI
+
+2019-06-26 20:37:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_NavigateToPI): Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:37:20 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 20:37:20 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:37:23 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 20:37:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:37:25 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 20:37:25 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 20:37:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:37:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 20:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 20:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 20:37:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 20:37:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 20:37:36 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:37:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 20:37:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/Navigation/div_Project Information' successfully
+
+2019-06-26 20:37:36 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information' is present
+
+2019-06-26 20:37:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 20:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/div_Project Information' is clicked on
+
+2019-06-26 20:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_Form (V01)' is clicked on
+
+2019-06-26 20:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information_Form' is present
+
+2019-06-26 20:37:40 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:37:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProjectInformation/TC_NavigateToPI' successfully
+
+2019-06-26 20:37:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:37:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' successfully
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' is present
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:43 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:44 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' is present
+
+2019-06-26 20:37:44 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:44 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' is present
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:45 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' is present
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:46 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' is present
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:47 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 20:37:48 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_PI_Verify_UploadedFiles' was passed
+
+2019-06-26 20:37:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 20:37:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 20:37:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProjectInformation/TC_PI_Delete_UploadedFiles" classname="Test Cases/ProjectInformation/TC_PI_Delete_UploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-26 20:37:49 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_PI_Delete_UploadedFiles: Test Cases/ProjectInformation/TC_PI_Delete_UploadedFiles
+
+2019-06-26 20:37:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 20:37:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 20:37:49 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-26 20:37:49 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 20:37:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 20:37:52 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 20:37:52 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 20:37:52 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 20:37:52 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 20:37:52 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_PI_Delete_UploadedFiles): Run with 'projectInformation.Runner_PI_Delete_UploadedFiles' was passed
+
+2019-06-26 20:37:53 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_NavigateToPI: Test Cases/ProjectInformation/TC_NavigateToPI
+
+2019-06-26 20:37:53 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_NavigateToPI): Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:37:54 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 20:37:54 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:37:56 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 20:37:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:37:58 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 20:37:59 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 20:38:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:38:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 20:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 20:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 20:38:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 20:38:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 20:38:09 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:38:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 20:38:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/Navigation/div_Project Information' successfully
+
+2019-06-26 20:38:09 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information' is present
+
+2019-06-26 20:38:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 20:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/div_Project Information' is clicked on
+
+2019-06-26 20:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_Form (V01)' is clicked on
+
+2019-06-26 20:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information_Form' is present
+
+2019-06-26 20:38:14 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:38:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProjectInformation/TC_NavigateToPI' successfully
+
+2019-06-26 20:38:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' successfully
+
+2019-06-26 20:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' is present
+
+2019-06-26 20:38:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' successfully
+
+2019-06-26 20:38:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/AddFile_SitePlan/table_SitePlan' located by 'By.xpath: //*[@id="sitePlanDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-26 20:38:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' is present
+
+2019-06-26 20:38:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:38:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/AddFile_FloorPlans/table_FloorPlans' located by 'By.xpath: //*[@id="floorPlansDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-26 20:38:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' is present
+
+2019-06-26 20:38:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:38:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/table_MechanicalPlans' located by 'By.xpath: //*[@id="mechanicalPlansDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-26 20:38:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' is present
+
+2019-06-26 20:38:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:38:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:38:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:38:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:38:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/table_ProjectGraphics' located by 'By.xpath: //*[@id="projectGraphicsDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-26 20:39:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:39:06 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' is present
+
+2019-06-26 20:39:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:39:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:18 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/table_PerformancePeriods' located by 'By.xpath: //*[@id="perforPeriodsTblDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-26 20:39:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-26 20:39:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:39:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:39:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/AddFile_SpecialCircum/table_SplCircum' located by 'By.xpath: //*[@id="splCircumstancesDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-26 20:39:30 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_PI_Delete_UploadedFiles' was passed
+
+2019-06-26 20:39:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 20:39:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 20:39:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProjectInformation/TC_PI_NegativeCases" classname="Test Cases/ProjectInformation/TC_PI_NegativeCases" status="PASSED">
+         <system-out><![CDATA[2019-06-26 20:39:31 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_PI_NegativeCases: Test Cases/ProjectInformation/TC_PI_NegativeCases
+
+2019-06-26 20:39:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 20:39:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 20:39:31 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-26 20:39:31 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 20:39:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 20:39:33 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 20:39:33 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 20:39:33 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 20:39:33 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 20:39:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_PI_NegativeCases): Run with 'projectInformation.Runner_PI_NegativeCases' was passed
+
+2019-06-26 20:39:34 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_NavigateToPI: Test Cases/ProjectInformation/TC_NavigateToPI
+
+2019-06-26 20:39:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_NavigateToPI): Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:39:35 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 20:39:35 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:39:37 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 20:39:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:40 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 20:39:40 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 20:39:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:39:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 20:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 20:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 20:39:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 20:39:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 20:39:50 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:39:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 20:39:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/Navigation/div_Project Information' successfully
+
+2019-06-26 20:39:50 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information' is present
+
+2019-06-26 20:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 20:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/div_Project Information' is clicked on
+
+2019-06-26 20:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_Form (V01)' is clicked on
+
+2019-06-26 20:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information_Form' is present
+
+2019-06-26 20:39:55 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:39:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProjectInformation/TC_NavigateToPI' successfully
+
+2019-06-26 20:39:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information_Form' is present
+
+2019-06-26 20:39:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/btn_Save' successfully
+
+2019-06-26 20:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/btn_Save' is clicked on
+
+2019-06-26 20:40:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:00 - [MESSAGE][PASSED] - Text 'Please fix the highlighted errors.' is present on page 
+
+2019-06-26 20:40:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' is present
+
+2019-06-26 20:40:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' successfully
+
+2019-06-26 20:40:02 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_SitePlan/input_AddFile'
+
+2019-06-26 20:40:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:04 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-26 20:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SitePlan/p_AddFile_SitePlan' is present
+
+2019-06-26 20:40:04 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/ProjectInformation/AddFile_SitePlan/input_AddFile'
+
+2019-06-26 20:40:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-26 20:40:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-26 20:40:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:40:09 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-26 20:40:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' is present
+
+2019-06-26 20:40:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:40:11 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_FloorPlans/input_AddFile'
+
+2019-06-26 20:40:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:13 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-26 20:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' is present
+
+2019-06-26 20:40:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_FloorPlans/p_AddFile_FloorPlans' successfully
+
+2019-06-26 20:40:13 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/ProjectInformation/AddFile_FloorPlans/input_AddFile'
+
+2019-06-26 20:40:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-26 20:40:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-26 20:40:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:40:18 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-26 20:40:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:20 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' is present
+
+2019-06-26 20:40:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:40:20 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/input_AddFile'
+
+2019-06-26 20:40:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:22 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-26 20:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' is present
+
+2019-06-26 20:40:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:40:22 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/input_AddFile'
+
+2019-06-26 20:40:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-26 20:40:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-26 20:40:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:40:26 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-26 20:40:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' is present
+
+2019-06-26 20:40:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:40:29 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/input_AddFile'
+
+2019-06-26 20:40:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:31 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-26 20:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' is present
+
+2019-06-26 20:40:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:40:31 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/input_AddFile'
+
+2019-06-26 20:40:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-26 20:40:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-26 20:40:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:40:35 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-26 20:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:37 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' is present
+
+2019-06-26 20:40:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:40:38 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/input_AddFile'
+
+2019-06-26 20:40:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:40 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-26 20:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' is present
+
+2019-06-26 20:40:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/p_AddFile_PerformancePeriods' successfully
+
+2019-06-26 20:40:40 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/ProjectInformation/AddFile_PerformancePeriods/input_AddFile'
+
+2019-06-26 20:40:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-26 20:40:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-26 20:40:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:40:44 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-26 20:40:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:46 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-26 20:40:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:40:46 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-26 20:40:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:49 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-26 20:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-26 20:40:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-26 20:40:49 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/ProjectInformation/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-26 20:40:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-26 20:40:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-26 20:40:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:40:53 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-26 20:40:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:40:55 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-26 20:40:55 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_PI_NegativeCases' was passed
+
+2019-06-26 20:40:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 20:40:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 20:40:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProjectInformation/TC_PI_AutoSaveAsDraft" classname="Test Cases/ProjectInformation/TC_PI_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-06-26 20:40:56 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_PI_AutoSaveAsDraft: Test Cases/ProjectInformation/TC_PI_AutoSaveAsDraft
+
+2019-06-26 20:40:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 20:40:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 20:40:56 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-26 20:40:56 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 20:40:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 20:40:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 20:40:58 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 20:40:58 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 20:40:58 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 20:40:58 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_PI_AutoSaveAsDraft): Run with 'projectInformation.Runner_PI_AutoSaveAsDraft' was passed
+
+2019-06-26 20:40:59 - [TEST_CASE][PASSED] - Test Cases/ProjectInformation/TC_NavigateToPI: Test Cases/ProjectInformation/TC_NavigateToPI
+
+2019-06-26 20:40:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(projectInformation.Runner_NavigateToPI): Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:41:00 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 20:41:00 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:41:03 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 20:41:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:41:05 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 20:41:05 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 20:41:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:41:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 20:41:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 20:41:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 20:41:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 20:41:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 20:41:16 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 20:41:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 20:41:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/Navigation/div_Project Information' successfully
+
+2019-06-26 20:41:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information' is present
+
+2019-06-26 20:41:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 20:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/div_Project Information' is clicked on
+
+2019-06-26 20:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_Form (V01)' is clicked on
+
+2019-06-26 20:41:20 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Navigation/div_Project Information_Form' is present
+
+2019-06-26 20:41:20 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_NavigateToPI' was passed
+
+2019-06-26 20:41:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProjectInformation/TC_NavigateToPI' successfully
+
+2019-06-26 20:41:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 20:41:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '5' second(s)
+
+2019-06-26 20:41:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:41:30 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/input_AddFile'
+
+2019-06-26 20:41:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:41:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:41:32 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/input_AddFile'
+
+2019-06-26 20:41:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 20:41:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '5' second(s)
+
+2019-06-26 20:41:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/EditorBox_ProjectGeneral/p_Editor_PrjGeneral' successfully
+
+2019-06-26 20:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/EditorBox_ProjectGeneral/p_Editor_PrjGeneral' is present
+
+2019-06-26 20:41:43 - [MESSAGE][PASSED] - Text 'Test Data 1 for Narrative for AutoSaveAsDraft functionatlity' is set on object 'Object Repository/MinimumIndoorAirQuality/EditorBox_DescribeMethod/body_Editor_DescrMethod'
+
+2019-06-26 20:41:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 20:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' is present
+
+2019-06-26 20:41:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' is: 'Last draft saved on: 26 Jun 2019 08:41:49 PM  Clear draft'
+
+2019-06-26 20:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' is present
+
+2019-06-26 20:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/btn_Save' is visible
+
+2019-06-26 20:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/btn_Save' is clicked on
+
+2019-06-26 20:42:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 20:42:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '5' second(s)
+
+2019-06-26 20:42:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_MechanicalPlans/p_AddFile_MechanicalPlans' successfully
+
+2019-06-26 20:42:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:42:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:42:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:42:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/AddFile_ProjectGraphics/p_AddFile_ProjectGraphics' successfully
+
+2019-06-26 20:42:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:42:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:42:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 20:42:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-06-26 20:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-06-26 20:42:11 - [MESSAGE][PASSED] - Text 'Test Data 1 for Narrative for AutoSaveAsDraft functionatlity' is set on object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-06-26 20:42:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 20:42:21 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' is present
+
+2019-06-26 20:42:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' is: 'Last draft saved on: 26 Jun 2019 08:42:13 PM  Clear draft'
+
+2019-06-26 20:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Autosave/a_Clear draft' is clicked on
+
+2019-06-26 20:42:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Autosave/button_Yes' is clicked on
+
+2019-06-26 20:42:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 20:42:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-26 20:42:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/p_Editor_SplCircum' successfully
+
+2019-06-26 20:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/p_Editor_SplCircum' is present
+
+2019-06-26 20:42:30 - [MESSAGE][PASSED] - Text 'Test Data 1 for Narrative for AutoSaveAsDraft functionatlity' is set on object 'Object Repository/ProjectInformation/EditorBox_SplCircumstances/body_Editor_SplCircum'
+
+2019-06-26 20:42:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 20:42:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Autosave/span_Last draft saved on' is: 'Last draft saved on: 26 Jun 2019 08:42:37 PM  Clear draft'
+
+2019-06-26 20:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Autosave/div_Signout' is clicked on
+
+2019-06-26 20:42:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Autosave/a_Sign out' is clicked on
+
+2019-06-26 20:42:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:42:44 - [MESSAGE][PASSED] - Browser is closed
+
+2019-06-26 20:42:44 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-26 20:42:44 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 20:42:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 20:42:48 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 20:42:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:42:51 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 20:42:51 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 20:42:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 20:42:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 20:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 20:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 20:42:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 20:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 20:43:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 20:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 20:43:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/div_Project Information' is clicked on
+
+2019-06-26 20:43:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ProjectInformation/Navigation/a_Form (V01)' is clicked on
+
+2019-06-26 20:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Autosave/div_Form drafted and not yet saved' is present
+
+2019-06-26 20:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/ProjectInformation/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-06-26 20:43:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/ProjectInformation/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 26 Jun 2019 08:42:37 PM  Clear draft'
+
+2019-06-26 20:43:09 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 26 Jun 2019 08:42:37 PM  Clear draft' and expected text 'Last draft saved on: 26 Jun 2019 08:42:37 PM  Clear draft' are matched 
+
+2019-06-26 20:43:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MinimumIndoorAirQuality/Autosave/a_Clear draft' is clicked on
+
+2019-06-26 20:43:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 20:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MinimumIndoorAirQuality/Autosave/button_Yes' is clicked on
+
+2019-06-26 20:43:13 - [MESSAGE][PASSED] - Run with 'projectInformation.Runner_PI_AutoSaveAsDraft' was passed
+
+2019-06-26 20:43:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 20:43:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 20:43:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-26 20:33:25 - [TEST_SUITE][PASSED] - PI_SmokeTest: Test Cases/ProjectInformation/TC_PI_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PI_SmokeTest,Chrome 75.0.3770.100,,2019-06-26 20:33:25,2019-06-26 20:43:14,9m - 49.230s,PASSED
+,,,,,,
+Test Cases/ProjectInformation/TC_ProjectInformationForm,Chrome 75.0.3770.100,,2019-06-26 20:33:25,2019-06-26 20:36:31,3m - 5.794s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-26 20:33:25,2019-06-26 20:33:30,5.096s,PASSED
+runWithCucumberRunner(projectInformation.Runner_PI_Form),Chrome 75.0.3770.100,,2019-06-26 20:33:31,2019-06-26 20:36:30,2m - 59.679s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-26 20:36:30,2019-06-26 20:36:31,0.729s,PASSED
+,,,,,,
+Test Cases/ProjectInformation/TC_PI_Verify_UploadedFiles,Chrome 75.0.3770.100,,2019-06-26 20:36:31,2019-06-26 20:37:15,43.595s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-26 20:36:31,2019-06-26 20:36:35,3.390s,PASSED
+runWithCucumberRunner(projectInformation.Runner_PI_Verify_UploadedFiles),Chrome 75.0.3770.100,,2019-06-26 20:36:35,2019-06-26 20:37:14,39.205s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-26 20:37:14,2019-06-26 20:37:15,0.714s,PASSED
+,,,,,,
+Test Cases/ProjectInformation/TC_PI_Download_Files,Chrome 75.0.3770.100,,2019-06-26 20:37:15,2019-06-26 20:37:49,34.262s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-26 20:37:15,2019-06-26 20:37:18,2.954s,PASSED
+runWithCucumberRunner(projectInformation.Runner_PI_Verify_UploadedFiles),Chrome 75.0.3770.100,,2019-06-26 20:37:18,2019-06-26 20:37:48,30.374s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-26 20:37:48,2019-06-26 20:37:49,0.740s,PASSED
+,,,,,,
+Test Cases/ProjectInformation/TC_PI_Delete_UploadedFiles,Chrome 75.0.3770.100,,2019-06-26 20:37:49,2019-06-26 20:39:31,1m - 42.142s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-26 20:37:49,2019-06-26 20:37:52,2.707s,PASSED
+runWithCucumberRunner(projectInformation.Runner_PI_Delete_UploadedFiles),Chrome 75.0.3770.100,,2019-06-26 20:37:52,2019-06-26 20:39:30,1m - 38.525s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-26 20:39:30,2019-06-26 20:39:31,0.722s,PASSED
+,,,,,,
+Test Cases/ProjectInformation/TC_PI_NegativeCases,Chrome 75.0.3770.100,,2019-06-26 20:39:31,2019-06-26 20:40:56,1m - 24.732s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-26 20:39:31,2019-06-26 20:39:33,2.303s,PASSED
+runWithCucumberRunner(projectInformation.Runner_PI_NegativeCases),Chrome 75.0.3770.100,,2019-06-26 20:39:34,2019-06-26 20:40:55,1m - 21.664s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-26 20:40:55,2019-06-26 20:40:56,0.622s,PASSED
+,,,,,,
+Test Cases/ProjectInformation/TC_PI_AutoSaveAsDraft,Chrome 75.0.3770.100,,2019-06-26 20:40:56,2019-06-26 20:43:14,2m - 17.811s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-26 20:40:56,2019-06-26 20:40:58,2.378s,PASSED
+runWithCucumberRunner(projectInformation.Runner_PI_AutoSaveAsDraft),Chrome 75.0.3770.100,,2019-06-26 20:40:58,2019-06-26 20:43:13,2m - 14.625s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-26 20:43:13,2019-06-26 20:43:14,0.660s,PASSED

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ETSC_SmokeTest" time="82" tests="1" failures="0" errors="0">
+   <testsuite name="ETSC_SmokeTest" tests="1" failures="0" errors="0" time="82" timestamp="2019-06-23 17:01:11" hostname="Promantus Inc - G10PROLT021" id="Test Suites/ETSC_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ETSC_SmokeTest\\20190623_170108"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\ETSC_SmokeTest\\20190623_170108\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="4f7364b8454c59823d24b68c33af5ee6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases" classname="Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases" status="PASSED">
+         <system-out><![CDATA[2019-06-23 17:01:11 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases
+
+2019-06-23 17:01:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-23 17:01:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-23 17:01:12 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-23 17:01:12 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-23 17:01:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-23 17:01:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-23 17:01:15 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-23 17:01:15 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-23 17:01:15 - [TEST_STEP][PASSED] - downloadPath = "G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-23 17:01:15 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-23 17:01:16 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases): Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases' was passed
+
+2019-06-23 17:01:18 - [TEST_CASE][PASSED] - Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC: Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC
+
+2019-06-23 17:01:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(environmentalTobaccoSmokeControl.Runner_NavigateToETSC): Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:01:19 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-23 17:01:20 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:01:22 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-23 17:01:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:01:25 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-23 17:01:25 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-23 17:01:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:01:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-23 17:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-23 17:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-23 17:01:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-23 17:01:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' successfully
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is present
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-23 17:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC' is clicked on
+
+2019-06-23 17:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/a_Form (V01)' is clicked on
+
+2019-06-23 17:01:39 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/Navigation/div_ETSC_Form' is present
+
+2019-06-23 17:01:39 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_NavigateToETSC' was passed
+
+2019-06-23 17:01:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnvironmentalTobaccoSmokeControl/TC_NavigateToETSC' successfully
+
+2019-06-23 17:01:39 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:01:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' successfully
+
+2019-06-23 17:01:39 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/input_AddFile'
+
+2019-06-23 17:01:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:01:41 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:01:41 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/p_AddFile_NonSmokePolicy' is present
+
+2019-06-23 17:01:41 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_NonSmokePolicy/input_AddFile'
+
+2019-06-23 17:01:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:01:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:01:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:01:46 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:01:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:01:48 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:01:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:01:48 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/input_AddFile'
+
+2019-06-23 17:01:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:01:50 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' is present
+
+2019-06-23 17:01:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/p_AddFile_ScaledSite' successfully
+
+2019-06-23 17:01:50 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_ScaledSite/input_AddFile'
+
+2019-06-23 17:01:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:01:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:01:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:01:55 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:01:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:01:57 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:01:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:01:57 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/input_AddFile'
+
+2019-06-23 17:01:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:01:59 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' is present
+
+2019-06-23 17:01:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/p_AddFile_InfoCode' successfully
+
+2019-06-23 17:01:59 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_InformationCode/input_AddFile'
+
+2019-06-23 17:01:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:02:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:02:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:02:03 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:02:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:02:05 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:02:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:02:06 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/input_AddFile'
+
+2019-06-23 17:02:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:02:08 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' is present
+
+2019-06-23 17:02:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/p_AddFile_WeatherStrip' successfully
+
+2019-06-23 17:02:08 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_WeatherStripping/input_AddFile'
+
+2019-06-23 17:02:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:02:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:02:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:02:12 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:02:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:02:14 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:02:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:02:14 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/input_AddFile'
+
+2019-06-23 17:02:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:02:17 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' is present
+
+2019-06-23 17:02:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/p_AddFile_AirPressure' successfully
+
+2019-06-23 17:02:17 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_AirPressure/input_AddFile'
+
+2019-06-23 17:02:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:02:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:02:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:02:21 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:02:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:02:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:02:23 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-23 17:02:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:02:25 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-06-23 17:02:26 - [MESSAGE][PASSED] - Object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' is present
+
+2019-06-23 17:02:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/p_AddFile_SplCircum' successfully
+
+2019-06-23 17:02:26 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/EnvironmentalTobaccoSmokeControl/AddFile_SpecialCircum/input_AddFile'
+
+2019-06-23 17:02:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-06-23 17:02:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-23 17:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-23 17:02:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-23 17:02:30 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-06-23 17:02:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-23 17:02:32 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-23 17:02:32 - [MESSAGE][PASSED] - Run with 'environmentalTobaccoSmokeControl.Runner_ETSC_NegativeCases' was passed
+
+2019-06-23 17:02:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-23 17:02:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-23 17:02:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-23 17:01:11 - [TEST_SUITE][PASSED] - ETSC_SmokeTest: Test Cases/EnvironmentalTobaccoSmokeControl/TC_ETSC_NegativeCases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

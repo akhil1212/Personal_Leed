@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ETSC_Delete_UploadedFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>012e11a9-6d18-4f13-932e-85fb5e33d03f</testCaseGuid>
+</TestCaseEntity>

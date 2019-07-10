@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GCP_SmokeTest,Chrome 74.0.3729.169,,,2019-06-09 21:09:55,2019-06-09 21:17:58,8m - 3.121s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_In-house,Chrome 74.0.3729.169,,,2019-06-09 21:09:56,2019-06-09 21:12:38,2m - 42.455s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_In_house),Chrome 74.0.3729.169,,,2019-06-09 21:09:56,2019-06-09 21:12:38,2m - 42.032s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option1,Chrome 74.0.3729.169,,,2019-06-09 21:12:38,2019-06-09 21:13:22,43.972s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_VerifyUploadFile_option1),Chrome 74.0.3729.169,,,2019-06-09 21:12:38,2019-06-09 21:13:22,43.774s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option1,Chrome 74.0.3729.169,,,2019-06-09 21:13:22,2019-06-09 21:14:19,57.355s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option1),Chrome 74.0.3729.169,,,2019-06-09 21:13:22,2019-06-09 21:14:19,57.074s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService,Chrome 74.0.3729.169,,,2019-06-09 21:14:19,2019-06-09 21:16:19,1m - 59.365s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_CertifiedCleaningService),Chrome 74.0.3729.169,,,2019-06-09 21:14:20,2019-06-09 21:16:19,1m - 59.201s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option2,Chrome 74.0.3729.169,,,2019-06-09 21:16:19,2019-06-09 21:16:54,35.148s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_VerifyUploadedFile_option2),Chrome 74.0.3729.169,,,2019-06-09 21:16:19,2019-06-09 21:16:54,34.937s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option2,Chrome 74.0.3729.169,,,2019-06-09 21:16:54,2019-06-09 21:17:58,1m - 3.816s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option2),Chrome 74.0.3729.169,,,2019-06-09 21:16:54,2019-06-09 21:17:58,1m - 3.662s,PASSED

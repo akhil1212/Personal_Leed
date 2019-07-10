@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LPR_SmokeTest,Chrome 75.0.3770.100,,2019-06-24 15:04:53,2019-06-24 15:18:01,13m - 8.676s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm,Chrome 75.0.3770.100,,2019-06-24 15:04:54,2019-06-24 15:07:23,2m - 29.204s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-24 15:04:54,2019-06-24 15:05:01,6.684s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm),Chrome 75.0.3770.100,,2019-06-24 15:05:01,2019-06-24 15:07:22,2m - 21.169s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-24 15:07:22,2019-06-24 15:07:23,1.017s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_VerifyLPR,Chrome 75.0.3770.100,,2019-06-24 15:07:23,2019-06-24 15:08:18,54.626s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-24 15:07:23,2019-06-24 15:07:26,3.213s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_VerifyLPR),Chrome 75.0.3770.100,,2019-06-24 15:07:27,2019-06-24 15:08:17,50.122s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-24 15:08:17,2019-06-24 15:08:18,1.062s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DownloadLPR,Chrome 75.0.3770.100,,2019-06-24 15:08:18,2019-06-24 15:13:48,5m - 30.506s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-24 15:08:18,2019-06-24 15:08:20,2.587s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DownloadLPR),Chrome 75.0.3770.100,,2019-06-24 15:08:21,2019-06-24 15:13:47,5m - 26.479s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-24 15:13:47,2019-06-24 15:13:48,1.091s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements,Chrome 75.0.3770.100,,2019-06-24 15:13:48,2019-06-24 15:15:38,1m - 50.027s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-24 15:13:48,2019-06-24 15:13:51,3.267s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements),Chrome 75.0.3770.100,,2019-06-24 15:13:52,2019-06-24 15:15:37,1m - 44.962s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-24 15:15:37,2019-06-24 15:15:38,1.456s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteLPR,Chrome 75.0.3770.100,,2019-06-24 15:15:38,2019-06-24 15:17:07,1m - 28.623s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-24 15:15:38,2019-06-24 15:15:41,2.636s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteLPR),Chrome 75.0.3770.100,,2019-06-24 15:15:41,2019-06-24 15:17:06,1m - 24.546s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-24 15:17:06,2019-06-24 15:17:07,1.103s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteTableData,Chrome 75.0.3770.100,,2019-06-24 15:17:07,2019-06-24 15:18:01,54.288s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,2019-06-24 15:17:07,2019-06-24 15:17:10,2.818s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteTableData),Chrome 75.0.3770.100,,2019-06-24 15:17:10,2019-06-24 15:18:00,50.209s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,2019-06-24 15:18:00,2019-06-24 15:18:01,0.953s,PASSED

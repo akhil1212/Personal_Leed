@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ERM_SmokeTest,Chrome 75.0.3770.100,,,2019-07-08 19:37:53,2019-07-08 19:40:36,2m - 42.913s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_CalculationofRefrigerantImpact,Chrome 75.0.3770.100,,,2019-07-08 19:37:54,2019-07-08 19:39:48,1m - 54.279s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 19:37:54,2019-07-08 19:37:59,4.909s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_CalculationofRefrigerantImpact),Chrome 75.0.3770.100,,,2019-07-08 19:37:59,2019-07-08 19:39:47,1m - 48.344s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 19:39:47,2019-07-08 19:39:48,0.781s,PASSED
+,,,,,,,
+Test Cases/EnhancedRefrigerantManagement/TC_ERM_DeleteTableData,Chrome 75.0.3770.100,,,2019-07-08 19:39:48,2019-07-08 19:40:36,48.174s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-08 19:39:48,2019-07-08 19:39:50,2.285s,PASSED
+runWithCucumberRunner(enhancedRefrigerantManagement.Runner_ERM_DeleteTableData),Chrome 75.0.3770.100,,,2019-07-08 19:39:51,2019-07-08 19:40:35,44.856s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-08 19:40:35,2019-07-08 19:40:36,0.775s,PASSED

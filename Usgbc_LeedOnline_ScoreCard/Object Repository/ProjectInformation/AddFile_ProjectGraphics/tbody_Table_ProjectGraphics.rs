@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tbody_Table_ProjectGraphics</name>
+   <tag></tag>
+   <elementGuidId>3436d503-3e9d-4fac-b028-099021bb278c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;projectGraphicsDocs_files&quot;]/table/tbody</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//*[@id=&quot;projectGraphicsDocs_files&quot;]/table/tbody</value>
+   </webElementXpaths>
+</WebElementEntity>

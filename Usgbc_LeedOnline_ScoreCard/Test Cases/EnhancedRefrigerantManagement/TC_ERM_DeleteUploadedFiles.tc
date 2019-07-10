@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ERM_DeleteUploadedFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea516efb-146f-4bf2-a9f7-bbd61f0e2c8f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tbody_Table_MechanicalPlans</name>
+   <tag></tag>
+   <elementGuidId>f12442c5-fb70-4c6a-9483-2bb0ab653335</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mechanicalPlansDocs_files&quot;]/table/tbody</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//*[@id=&quot;mechanicalPlansDocs_files&quot;]/table/tbody</value>
+   </webElementXpaths>
+</WebElementEntity>

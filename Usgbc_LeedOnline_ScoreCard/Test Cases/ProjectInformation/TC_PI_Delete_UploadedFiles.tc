@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PI_Delete_UploadedFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e6d9d43-5df2-420f-831d-a30d8037821f</testCaseGuid>
+</TestCaseEntity>

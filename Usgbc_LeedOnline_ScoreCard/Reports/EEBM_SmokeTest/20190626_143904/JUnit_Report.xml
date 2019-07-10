@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EEBM_SmokeTest" time="763" tests="5" failures="0" errors="0">
+   <testsuite name="EEBM_SmokeTest" tests="5" failures="0" errors="0" time="763" timestamp="2019-06-26 14:39:16" hostname="promantus inc - G10PROLT025" id="Test Suites/EEBM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\EEBM_SmokeTest\\20190626_143904"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\EEBM_SmokeTest\\20190626_143904\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="a82571e7b4234eb9d06f1a25672ab7a4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_EnergyEfficiencyBestMgmt" classname="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_EnergyEfficiencyBestMgmt" status="PASSED">
+         <system-out><![CDATA[2019-06-26 14:39:16 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_EnergyEfficiencyBestMgmt: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_EnergyEfficiencyBestMgmt
+
+2019-06-26 14:39:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 14:39:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 14:39:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-26 14:39:16 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 14:39:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-26 14:39:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 14:39:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 14:39:21 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 14:39:21 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 14:39:21 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 14:39:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_EnergyEfficiencyBestMgmt): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_EnergyEfficiencyBestMgmt' was passed
+
+2019-06-26 14:39:25 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation
+
+2019-06-26 14:39:25 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:39:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 14:39:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:39:34 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 14:39:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:39:36 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 14:39:36 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 14:39:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:39:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 14:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 14:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 14:39:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 14:39:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' successfully
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is present
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is clicked on
+
+2019-06-26 14:39:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/span_(V01)' is clicked on
+
+2019-06-26 14:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_EnergyEfficiencyBestManagement_Credit' is present
+
+2019-06-26 14:40:04 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:40:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation' successfully
+
+2019-06-26 14:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input' is present
+
+2019-06-26 14:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input' is checked
+
+2019-06-26 14:40:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input' is checked
+
+2019-06-26 14:40:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-26 14:40:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/div_Date of Audit' successfully
+
+2019-06-26 14:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/div_Date of Audit' is present
+
+2019-06-26 14:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input_date' is clicked on
+
+2019-06-26 14:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/span_18' is clicked on
+
+2019-06-26 14:40:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input_date' is: '13 Jun 2019'
+
+2019-06-26 14:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' is present
+
+2019-06-26 14:40:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' successfully
+
+2019-06-26 14:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/Button_ASHRAE_priliminary' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:07 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/input_ASHRAE_preliminary'
+
+2019-06-26 14:40:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/Button_ASHRAE_priliminary' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:09 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/input_ASHRAE_preliminary'
+
+2019-06-26 14:40:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/Button_ASHRAE_priliminary' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:15 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/input_ASHRAE_preliminary'
+
+2019-06-26 14:40:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' is present
+
+2019-06-26 14:40:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' successfully
+
+2019-06-26 14:40:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/Button_CFR' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:16 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/input_current_facility_requirements'
+
+2019-06-26 14:40:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/Button_CFR' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:20 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/input_current_facility_requirements'
+
+2019-06-26 14:40:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/Button_CFR' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:24 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/input_current_facility_requirements'
+
+2019-06-26 14:40:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' is present
+
+2019-06-26 14:40:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' successfully
+
+2019-06-26 14:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/Button_DC_Pro' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:25 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/input_DC_Pro'
+
+2019-06-26 14:40:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/Button_DC_Pro' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:28 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/input_DC_Pro'
+
+2019-06-26 14:40:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:34 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/Button_DC_Pro' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:34 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/input_DC_Pro'
+
+2019-06-26 14:40:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is present
+
+2019-06-26 14:40:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-06-26 14:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:35 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-06-26 14:40:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:39 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-06-26 14:40:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/Button_additionalDoc' has attribute 'class' with value 'tiny ui button'
+
+2019-06-26 14:40:45 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-06-26 14:40:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:40:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-06-26 14:40:46 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-06-26 14:40:50 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B' is set on object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-06-26 14:40:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:40:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/body_splCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B'
+
+2019-06-26 14:40:53 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B' are matched 
+
+2019-06-26 14:41:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:41:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/btn_Save' successfully
+
+2019-06-26 14:41:03 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/btn_Save' is visible
+
+2019-06-26 14:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/btn_Save' is clicked on
+
+2019-06-26 14:41:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:41:06 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-26 14:41:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/icon_pdf' successfully
+
+2019-06-26 14:41:06 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/icon_pdf' is present
+
+2019-06-26 14:41:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 14:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/icon_pdf' is clicked on
+
+2019-06-26 14:41:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:41:21 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input_date' is: '13 Jun 2019'
+
+2019-06-26 14:41:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:41:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 14:41:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' successfully
+
+2019-06-26 14:41:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:41:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 14:41:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' successfully
+
+2019-06-26 14:41:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:41:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 14:41:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' successfully
+
+2019-06-26 14:41:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:41:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 14:41:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-06-26 14:41:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:42:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 14:42:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/p_EditorBox' successfully
+
+2019-06-26 14:42:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/body_splCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B'
+
+2019-06-26 14:42:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:42:05 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-26 14:42:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/body_splCircum' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B'
+
+2019-06-26 14:42:05 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. CDA3B' are matched 
+
+2019-06-26 14:42:05 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_EnergyEfficiencyBestMgmt' was passed
+
+2019-06-26 14:42:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 14:42:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 14:42:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_VerifyUploadedFiles" classname="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_VerifyUploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-26 14:42:06 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_VerifyUploadedFiles: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_VerifyUploadedFiles
+
+2019-06-26 14:42:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 14:42:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 14:42:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-26 14:42:06 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 14:42:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 14:42:09 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 14:42:09 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 14:42:09 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 14:42:09 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 14:42:10 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_VerifyUploadedFiles): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_VerifyUploadedFiles' was passed
+
+2019-06-26 14:42:11 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation
+
+2019-06-26 14:42:11 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:42:12 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 14:42:12 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:42:19 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 14:42:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:42:21 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 14:42:22 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 14:42:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:42:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 14:42:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 14:42:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 14:42:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 14:42:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' successfully
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is present
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is clicked on
+
+2019-06-26 14:42:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/span_(V01)' is clicked on
+
+2019-06-26 14:42:44 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_EnergyEfficiencyBestManagement_Credit' is present
+
+2019-06-26 14:42:44 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:42:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation' successfully
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/table_ASHRAE_preliminary' successfully
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/table_ASHRAE_preliminary' is present
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:42:45 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/Table_CFR' successfully
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/Table_CFR' is present
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:42:46 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/Table_DC_Pro' successfully
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/Table_DC_Pro' is present
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:42:47 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:42:48 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_VerifyUploadedFiles' was passed
+
+2019-06-26 14:42:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 14:42:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 14:42:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DownloadFiles" classname="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DownloadFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-26 14:42:49 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DownloadFiles: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DownloadFiles
+
+2019-06-26 14:42:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 14:42:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 14:42:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-26 14:42:49 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 14:42:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 14:42:52 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 14:42:52 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 14:42:52 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 14:42:52 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 14:42:53 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_DownloadFiles): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_DownloadFiles' was passed
+
+2019-06-26 14:42:53 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation
+
+2019-06-26 14:42:53 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:42:55 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 14:42:55 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:42:59 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 14:43:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:43:01 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 14:43:02 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 14:43:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:43:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 14:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 14:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 14:43:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 14:43:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' successfully
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is present
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is clicked on
+
+2019-06-26 14:43:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/span_(V01)' is clicked on
+
+2019-06-26 14:43:25 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_EnergyEfficiencyBestManagement_Credit' is present
+
+2019-06-26 14:43:25 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:43:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation' successfully
+
+2019-06-26 14:43:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/table_ASHRAE_preliminary' successfully
+
+2019-06-26 14:43:25 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/table_ASHRAE_preliminary' is present
+
+2019-06-26 14:43:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' successfully
+
+2019-06-26 14:43:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' is hovered
+
+2019-06-26 14:43:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:43:27 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:43:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' is hovered
+
+2019-06-26 14:43:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:43:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' is hovered
+
+2019-06-26 14:43:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:43:42 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:43:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' is hovered
+
+2019-06-26 14:43:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:43:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' is hovered
+
+2019-06-26 14:43:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:43:56 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:44:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' is hovered
+
+2019-06-26 14:44:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:44:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:44:15 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:44:15 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:44:15 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:44:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:44:18 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:44:18 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:44:18 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:44:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:44:21 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:44:21 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:44:21 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:44:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/Table_CFR' successfully
+
+2019-06-26 14:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/Table_CFR' is present
+
+2019-06-26 14:44:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' successfully
+
+2019-06-26 14:44:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' is hovered
+
+2019-06-26 14:44:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:44:24 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:44:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' is hovered
+
+2019-06-26 14:44:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' is hovered
+
+2019-06-26 14:44:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:44:38 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:44:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' is hovered
+
+2019-06-26 14:44:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' is hovered
+
+2019-06-26 14:44:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:44:53 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:45:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' is hovered
+
+2019-06-26 14:45:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:45:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:45:11 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:45:11 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:45:11 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:45:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:45:14 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:45:14 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:45:14 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:45:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:45:17 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:45:17 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:45:17 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:45:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/Table_DC_Pro' successfully
+
+2019-06-26 14:45:17 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/Table_DC_Pro' is present
+
+2019-06-26 14:45:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' successfully
+
+2019-06-26 14:45:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' is hovered
+
+2019-06-26 14:45:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:45:20 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:45:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' is hovered
+
+2019-06-26 14:45:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' is hovered
+
+2019-06-26 14:45:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:45:34 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:45:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' is hovered
+
+2019-06-26 14:45:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' is hovered
+
+2019-06-26 14:45:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:45:49 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:45:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' is hovered
+
+2019-06-26 14:46:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:46:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:46:07 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:46:07 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:46:07 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:46:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:46:10 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:46:10 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:46:10 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:46:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:46:13 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:46:13 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:46:13 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:46:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' successfully
+
+2019-06-26 14:46:13 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/Table_additionalDoc' is present
+
+2019-06-26 14:46:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-06-26 14:46:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-06-26 14:46:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:46:16 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-26 14:46:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-06-26 14:46:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-06-26 14:46:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:46:30 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-26 14:46:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-06-26 14:46:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-06-26 14:46:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:46:45 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-26 14:46:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:46:55 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' is hovered
+
+2019-06-26 14:46:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:47:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:47:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:47:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:47:03 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:47:03 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:47:03 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-26 14:47:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:47:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:47:06 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:47:06 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:47:06 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-26 14:47:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:47:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:47:09 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-26 14:47:09 - [MESSAGE][PASSED] - 
+
+2019-06-26 14:47:09 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-26 14:47:09 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_DownloadFiles' was passed
+
+2019-06-26 14:47:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 14:47:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 14:47:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DeleteUploadedFiles" classname="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DeleteUploadedFiles" status="PASSED">
+         <system-out><![CDATA[2019-06-26 14:47:10 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DeleteUploadedFiles: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_DeleteUploadedFiles
+
+2019-06-26 14:47:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 14:47:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 14:47:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-26 14:47:10 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 14:47:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 14:47:13 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 14:47:13 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 14:47:13 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 14:47:13 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 14:47:13 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_DeleteUploadedFiles): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_DeleteUploadedFiles' was passed
+
+2019-06-26 14:47:14 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_DeleteUploadedFiles' was passed
+
+2019-06-26 14:47:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 14:47:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 14:47:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_AutoSaveAsDraft" classname="Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-06-26 14:47:15 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_AutoSaveAsDraft: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_AutoSaveAsDraft
+
+2019-06-26 14:47:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-26 14:47:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-26 14:47:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-26 14:47:15 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 14:47:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 14:47:17 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-26 14:47:17 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-26 14:47:17 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-26 14:47:17 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-26 14:47:17 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_AutoSaveAsDraft): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_AutoSaveAsDraft' was passed
+
+2019-06-26 14:47:19 - [TEST_CASE][PASSED] - Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation
+
+2019-06-26 14:47:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation): Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:47:20 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-26 14:47:20 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:47:26 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 14:47:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:47:28 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 14:47:29 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 14:47:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:47:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 14:47:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 14:47:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 14:47:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 14:47:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' successfully
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is present
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-26 14:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is clicked on
+
+2019-06-26 14:47:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/span_(V01)' is clicked on
+
+2019-06-26 14:47:50 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_EnergyEfficiencyBestManagement_Credit' is present
+
+2019-06-26 14:47:50 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_Navigation' was passed
+
+2019-06-26 14:47:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_Navigation' successfully
+
+2019-06-26 14:48:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:48:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/input_ASHRAE_preliminary' successfully
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/input_ASHRAE_preliminary'
+
+2019-06-26 14:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/input_current_facility_requirements' successfully
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/input_current_facility_requirements'
+
+2019-06-26 14:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/input_DC_Pro' successfully
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/input_DC_Pro'
+
+2019-06-26 14:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-26 14:48:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/input_additionalDoc' successfully
+
+2019-06-26 14:48:12 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/input_additionalDoc'
+
+2019-06-26 14:48:27 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-06-26 14:48:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-26 14:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input' is present
+
+2019-06-26 14:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input' is un-checked
+
+2019-06-26 14:48:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:48:37 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is present
+
+2019-06-26 14:48:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is: 'Last draft saved on: 26 Jun 2019 02:48:30 PM  Clear draft'
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input_date' is present
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/input_date' is clicked on
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/checkbox_date_EEBM/span_16' is clicked on
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is present
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is: 'Last draft saved on: 26 Jun 2019 02:48:30 PM  Clear draft'
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 26 Jun 2019 02:48:30 PM  Clear draft' are not matched 
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-06-26 14:48:38 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-06-26 14:48:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is present
+
+2019-06-26 14:48:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is: 'Last draft saved on: 26 Jun 2019 02:48:40 PM  Clear draft'
+
+2019-06-26 14:48:49 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 26 Jun 2019 02:48:40 PM  Clear draft' are not matched 
+
+2019-06-26 14:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is present
+
+2019-06-26 14:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/btn_Save' is present
+
+2019-06-26 14:48:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/btn_Save' is clicked on
+
+2019-06-26 14:49:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:49:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-06-26 14:49:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_ASHRAE_preliminary/p_Upload the ASHRAE preliminary' successfully
+
+2019-06-26 14:49:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_CFR/p_current_facility_requirements' successfully
+
+2019-06-26 14:49:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/AddFile_DC_Pro/p_DC_Pro' successfully
+
+2019-06-26 14:49:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/AddFile_additionalDoc/p_Upload any additional documentation' successfully
+
+2019-06-26 14:49:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:49:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:49:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:49:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:50:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:50:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:50:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:50:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:50:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:50:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-26 14:50:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:50:09 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-06-26 14:50:10 - [MESSAGE][PASSED] - Text 'Test Narrative' is set on object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-06-26 14:50:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:50:20 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is present
+
+2019-06-26 14:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/a_Clear draft' is clicked on
+
+2019-06-26 14:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/button_Yes' is clicked on
+
+2019-06-26 14:50:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-26 14:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/p_EditorBox' is present
+
+2019-06-26 14:50:26 - [MESSAGE][PASSED] - Text 'Test Logout and Login' is set on object 'Object Repository/EnergyEfficiencyBestManagementpractices/Special Circumstances/EditorBox_splCircum/body_splCircum'
+
+2019-06-26 14:50:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-26 14:50:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/span_Last draft saved on' is: 'Last draft saved on: 26 Jun 2019 02:50:33 PM  Clear draft'
+
+2019-06-26 14:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/div_Signout' is clicked on
+
+2019-06-26 14:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/a_Sign out' is clicked on
+
+2019-06-26 14:50:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:50:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-26 14:50:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-26 14:50:40 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-26 14:50:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-26 14:50:48 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-26 14:50:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:50:50 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-26 14:50:50 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-26 14:50:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-26 14:50:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-26 14:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-26 14:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-26 14:50:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-26 14:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-26 14:51:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-26 14:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-26 14:51:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/div_Energy Efficiency Best Management Practices' is clicked on
+
+2019-06-26 14:51:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/EEBM_Navigation/span_(V01)' is clicked on
+
+2019-06-26 14:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/div_Form drafted and not yet saved' is present
+
+2019-06-26 14:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-06-26 14:51:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 26 Jun 2019 02:50:33 PM  Clear draft'
+
+2019-06-26 14:51:45 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 26 Jun 2019 02:50:33 PM  Clear draft' and expected text 'Last draft saved on: 26 Jun 2019 02:50:33 PM  Clear draft' are matched 
+
+2019-06-26 14:51:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-26 14:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/a_Clear draft' is clicked on
+
+2019-06-26 14:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/EnergyEfficiencyBestManagementpractices/Autosave/button_Yes' is clicked on
+
+2019-06-26 14:51:59 - [MESSAGE][PASSED] - Run with 'energyEfficiencyBestManagementPractices.Runner_EEBM_AutoSaveAsDraft' was passed
+
+2019-06-26 14:51:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-26 14:51:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-26 14:51:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-26 14:39:16 - [TEST_SUITE][PASSED] - EEBM_SmokeTest: Test Cases/EnergyEfficiencyBestManagementPractices/TC_EEBM_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GC_SmokeTest" time="260" tests="0" failures="1" errors="0">
+   <testsuite name="GC_SmokeTest" tests="0" failures="1" errors="0" time="260" timestamp="2019-06-20 17:30:10" hostname="promantus inc - G10PROLT025" id="Test Suites/GC_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002\\execution0.log"/>
+         <property name="attachments" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002\\1561032203491.png, H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002\\1561032204315.png, H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002\\1561032269323.png"/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="54b15cb2d2ea10ba0db6efe2de8b2c94"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft" classname="Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-20 17:30:10 - [TEST_CASE][FAILED] - Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft: Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)
+
+
+2019-06-20 17:30:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-20 17:30:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-20 17:30:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-20 17:30:11 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-20 17:30:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-20 17:30:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-20 17:30:15 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-20 17:30:15 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-20 17:30:15 - [TEST_STEP][PASSED] - downloadPath = "H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-06-20 17:30:15 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-20 17:30:16 - [TEST_STEP][FAILED] - runWithCucumberRunner(greenCleaningForm.Runner_GC_AutoSaveAsDraft): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)
+)
+
+2019-06-20 17:30:18 - [TEST_CASE][PASSED] - Test Cases/GreenCleaning/TC_GC_Navigate: Test Cases/GreenCleaning/TC_GC_Navigate
+
+2019-06-20 17:30:18 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningForm.Runner_NavigationGC): Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-20 17:30:19 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-20 17:30:20 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-20 17:30:22 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-20 17:30:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:30:24 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-20 17:30:24 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-20 17:30:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-20 17:30:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-20 17:30:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-20 17:30:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-20 17:30:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-20 17:30:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' successfully
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is present
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/divval' is: 'ATTEMPTED'
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-20 17:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/div_Green Cleaning' is clicked on
+
+2019-06-20 17:30:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-20 17:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Navigation/span_(V01)' is clicked on
+
+2019-06-20 17:30:41 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Navigation/div_GreenCleaningPolicyCreditLib' is present
+
+2019-06-20 17:30:41 - [MESSAGE][PASSED] - Run with 'greenCleaningForm.Runner_NavigationGC' was passed
+
+2019-06-20 17:30:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaning/TC_GC_Navigate' successfully
+
+2019-06-20 17:30:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-20 17:30:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-20 17:31:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-20 17:31:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:31:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/input_GC_Calc' successfully
+
+2019-06-20 17:31:01 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/input_GC_Calc'
+
+2019-06-20 17:31:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:31:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/input_executedContract' successfully
+
+2019-06-20 17:31:01 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/input_executedContract'
+
+2019-06-20 17:31:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:31:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/input_MSDS' successfully
+
+2019-06-20 17:31:02 - [MESSAGE][PASSED] - File 'H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/input_MSDS'
+
+2019-06-20 17:31:17 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-06-20 17:31:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-20 17:31:17 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost' is present
+
+2019-06-20 17:31:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost' successfully
+
+2019-06-20 17:31:17 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percentbycost'
+
+2019-06-20 17:31:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-20 17:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is present
+
+2019-06-20 17:31:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is: 'Last draft saved on: 20 Jun 2019 05:31:21 PM  Clear draft'
+
+2019-06-20 17:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' is present
+
+2019-06-20 17:31:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' successfully
+
+2019-06-20 17:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' is present
+
+2019-06-20 17:31:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/input_percent_cleaning_products' successfully
+
+2019-06-20 17:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is present
+
+2019-06-20 17:31:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is: 'Last draft saved on: 20 Jun 2019 05:31:21 PM  Clear draft'
+
+2019-06-20 17:31:28 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 20 Jun 2019 05:31:21 PM  Clear draft' are not matched 
+
+2019-06-20 17:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/p_SC_Editorbox' is present
+
+2019-06-20 17:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is present
+
+2019-06-20 17:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/button_Save' is present
+
+2019-06-20 17:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/button_Save' is clicked on
+
+2019-06-20 17:31:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-20 17:31:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-06-20 17:31:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/AddFile_UploadGC_Calc/p_GC_calculator' successfully
+
+2019-06-20 17:31:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:31:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:31:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:31:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:31:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:31:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:31:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:31:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:31:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:31:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:31:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:31:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:31:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_executedContract/p_executedContract' successfully
+
+2019-06-20 17:31:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:31:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:31:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:31:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:31:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:31:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:31:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:32:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:32:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:32:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:32:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:32:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:32:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Green_Cleaning/CleaningPrdctsMaterials_Opt4/AddFile_Upload_MSDS/p_msds' successfully
+
+2019-06-20 17:32:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:32:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:32:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:32:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:32:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:32:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:32:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:32:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:32:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:32:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:32:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-20 17:32:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-20 17:32:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-20 17:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/p_SC_Editorbox' is present
+
+2019-06-20 17:32:22 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-06-20 17:32:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-20 17:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is present
+
+2019-06-20 17:32:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is: 'Last draft saved on: 20 Jun 2019 05:32:28 PM  Clear draft'
+
+2019-06-20 17:32:32 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 20 Jun 2019 05:32:28 PM  Clear draft' are not matched 
+
+2019-06-20 17:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is clicked on
+
+2019-06-20 17:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/button_Yes' is clicked on
+
+2019-06-20 17:32:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-20 17:32:37 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/input_option3' is present
+
+2019-06-20 17:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Powered_Cleaning_Opt3/input_option3' is clicked on
+
+2019-06-20 17:32:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-20 17:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:32:48 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is present
+
+2019-06-20 17:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is clicked on
+
+2019-06-20 17:32:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-20 17:32:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:33:24 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::a[1]' is present after '30' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::a[1]' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at greenCleaningForm.GC_AutoSaveAsDraft.user_can_see_the_draft_is_cleared_in_Green_Cleaning_form(GC_AutoSaveAsDraft.groovy:244)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)
+)
+[[ATTACHMENT|H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002\\1561032203491.png]]
+
+2019-06-20 17:33:24 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at greenCleaningForm.GC_AutoSaveAsDraft.user_can_see_the_draft_is_cleared_in_Green_Cleaning_form(GC_AutoSaveAsDraft.groovy:244)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::a[1]' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 68 more
+)
+[[ATTACHMENT|H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002\\1561032204315.png]]
+
+2019-06-20 17:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-20 17:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is present
+
+2019-06-20 17:33:25 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/Green_Cleaning/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-06-20 17:33:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-20 17:33:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Green_Cleaning/Autosave/span_Last draft saved on' is: 'Last draft saved on: 20 Jun 2019 05:33:34 PM  Clear draft'
+
+2019-06-20 17:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Autosave/div_Signout' is clicked on
+
+2019-06-20 17:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Green_Cleaning/Autosave/a_Sign out' is clicked on
+
+2019-06-20 17:33:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:33:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-20 17:33:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-20 17:33:39 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-20 17:33:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-20 17:33:48 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-20 17:33:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-20 17:33:50 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-20 17:33:50 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-20 17:33:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-20 17:33:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-20 17:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-20 17:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-20 17:33:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-20 17:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-20 17:34:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@title="BDDv4.1TestProject"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-06-20 17:34:29 - [MESSAGE][FAILED] - Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.callNavigationTestCase(projectKeywords.groovy:691)
+	at leedOnlineKeywords.projectKeywords$callNavigationTestCase$2.call(Unknown Source)
+	at greenCleaningForm.GC_AutoSaveAsDraft.user_logs_in_again_to_Green_Cleaning_Form(GC_AutoSaveAsDraft.groovy:278)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //div[@title="BDDv4.1TestProject"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at leedOnlineKeywords.projectKeywords.callNavigationTestCase(projectKeywords.groovy:691)
+	at leedOnlineKeywords.projectKeywords$callNavigationTestCase$2.call(Unknown Source)
+	at greenCleaningForm.GC_AutoSaveAsDraft.user_logs_in_again_to_Green_Cleaning_Form(GC_AutoSaveAsDraft.groovy:278)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1561031757278.run(Script1561031757278.groovy:18)
+	... 13 more
+)
+[[ATTACHMENT|H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GC_SmokeTest\\20190620_173002\\1561032269323.png]]
+
+2019-06-20 17:34:29 - [MESSAGE][FAILED] - These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+
+2019-06-20 17:34:29 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)
+)
+
+2019-06-20 17:34:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-20 17:34:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-20 17:34:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2019-06-20 17:30:10 - [TEST_CASE][FAILED] - Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft: Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-20 17:30:10 - [TEST_SUITE][FAILED] - GC_SmokeTest: Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-06-20 17:30:10 - [TEST_SUITE][FAILED] - GC_SmokeTest: Test Cases/GreenCleaning/TC_GC_AutoSaveAsDraft FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Step [User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds] is defined with 1 parameters at 'greenCleaningForm.GC_AutoSaveAsDraft.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Form_and_waits_for_seconds(Integer) in file:/H:/Git%20Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/bin/groovy/'.
+However, the gherkin step has 0 arguments.
+Step text: User modifies the Special Circumstances narrative data in the Green Cleaning Form and waits for 10 seconds, Unable to verify object 'Object Repository/Green_Cleaning/Autosave/a_Clear draft' is not present, Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GC_AutoSaveAsDraft.run(TC_GC_AutoSaveAsDraft:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561032007340.run(TempTestSuite1561032007340.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GC_DeleteUploadedFiles_Custodial</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0625ae9-d6fd-4bdd-972b-7610f3b716cc</testCaseGuid>
+</TestCaseEntity>

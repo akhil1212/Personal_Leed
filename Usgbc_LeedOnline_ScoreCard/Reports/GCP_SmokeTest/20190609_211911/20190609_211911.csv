@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GCP_SmokeTest,Chrome 74.0.3729.169,,,2019-06-09 21:19:21,2019-06-09 21:22:47,3m - 26.304s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_AutoSaveAsDraft,Chrome 74.0.3729.169,,,2019-06-09 21:19:21,2019-06-09 21:22:47,3m - 25.178s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_AutoSaveAsDraftGCP),Chrome 74.0.3729.169,,,2019-06-09 21:19:22,2019-06-09 21:22:47,3m - 24.737s,FAILED

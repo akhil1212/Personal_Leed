@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Delay" time="128" tests="1" failures="0" errors="0">
+   <testsuite name="Delay" tests="1" failures="0" errors="0" time="128" timestamp="2019-06-25 11:29:46" hostname="Promantus Inc - G10PROLT021" id="Test Suites/Delay">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\Delay\\20190625_112942"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\Delay\\20190625_112942\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="c51d1552305dd6e521ffeaff85284838"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common/TC_Delay" classname="Test Cases/Common/TC_Delay" status="PASSED">
+         <system-out><![CDATA[2019-06-25 11:29:47 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Delay: Test Cases/Common/TC_Delay
+
+2019-06-25 11:29:47 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-25 11:29:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-25 11:29:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-25 11:29:47 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-25 11:29:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-25 11:29:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-25 11:29:51 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-25 11:29:51 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-06-25 11:29:51 - [TEST_STEP][PASSED] - downloadPath = "/var/lib/jenkins/workspace/LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles": null
+
+2019-06-25 11:29:51 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-06-25 11:29:52 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-25 11:29:54 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-25 11:29:54 - [TEST_STEP][PASSED] - delay(120): Delayed 120 second(s)
+
+2019-06-25 11:31:54 - [MESSAGE][PASSED] - Delayed 120 second(s)
+
+2019-06-25 11:31:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-06-25 11:31:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-25 11:31:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-25 11:29:46 - [TEST_SUITE][PASSED] - Delay: Test Cases/Common/TC_Delay]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

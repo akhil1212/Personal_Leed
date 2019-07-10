@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IPM_SmokeTest,Chrome 74.0.3729.169,,2019-06-10 14:58:33,2019-06-10 15:00:16,1m - 43.020s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram,Chrome 74.0.3729.169,,2019-06-10 14:58:34,2019-06-10 15:00:16,1m - 41.782s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-10 14:58:34,2019-06-10 14:59:03,28.613s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram),Chrome 74.0.3729.169,,2019-06-10 14:59:03,2019-06-10 15:00:15,1m - 11.574s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-10 15:00:15,2019-06-10 15:00:16,1.287s,PASSED

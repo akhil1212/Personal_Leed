@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Status</name>
+   <tag></tag>
+   <elementGuidId>bba1b3cd-7a72-4bec-9b4f-4a2a14d2f267</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;d90d444c95d636d4faab7c72fc073cef&quot;]/div[4]/div/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;d90d444c95d636d4faab7c72fc073cef&quot;]/div[4]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>
