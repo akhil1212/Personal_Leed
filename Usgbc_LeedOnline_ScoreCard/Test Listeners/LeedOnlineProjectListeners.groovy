@@ -46,8 +46,8 @@ class LeedOnlineProjectListeners {
 		//String downloadPath = "G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\DownloadedFiles"
 		//String downloadPath = "H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Include\\TestData\\DownloadedFiles"
 
-		String downloadPath = "/var/lib/jenkins/workspace/USGBC_LEED_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles"
-
+		//String downloadPath = "/var/lib/jenkins/workspace/USGBC_LEED_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles"
+		String downloadPath = "/var/lib/jenkins/workspace/Local_Check_SCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles"
 		new projectKeywords().sendCommandForDownloadChromeHeadLess((HttpCommandExecutor)driver.getCommandExecutor(),driver.getSessionId(), downloadPath )
 	}
 
