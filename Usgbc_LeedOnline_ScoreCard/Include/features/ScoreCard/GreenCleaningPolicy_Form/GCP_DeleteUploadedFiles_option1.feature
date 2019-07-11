@@ -7,7 +7,7 @@
 # Feature Description: Delete uploaded files in Green Cleaning Policy Form - In-house green cleaning policy which is option 1
 #---------------------------------------------------------------------------------------------------------------------------------
 @FunctionalTest
-Feature: Deleting the uploaded files in Green Cleaning Policy
+Feature: Deleting the uploaded files in Green Cleaning Policy - In-house green cleaning policy
 
   #Scenario-1
   @DeleteFiles

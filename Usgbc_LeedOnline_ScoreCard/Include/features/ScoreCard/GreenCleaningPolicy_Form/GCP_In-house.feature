@@ -7,7 +7,7 @@
 # Feature Description: Filling the Green Cleaning Policy Form - In-house green cleaning policy which is option 1
 #---------------------------------------------------------------------------------------------------------------------------------
 @FunctionalTest
-Feature: Filling the Green Cleaning Policy Form
+Feature: Filling the Green Cleaning Policy Form - In-house green cleaning policy
 
   #Scenario-1
   @SmokeTest

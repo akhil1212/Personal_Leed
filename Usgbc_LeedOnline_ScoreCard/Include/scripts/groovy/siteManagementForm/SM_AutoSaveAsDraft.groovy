@@ -65,6 +65,7 @@ class SM_AutoSaveAsDraft {
 
 	@Then("User should not see saving of draft even after 10 seconds in Site Management Form")
 	public void User_should_not_see_saving_of_draft_even_after_10_seconds_in_Site_Management_Form() {
+		WebUI.scrollToElement(findTestObject('Object Repository/Site_Management/span_Last draft saved on'), 30)
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/Site_Management/span_Last draft saved on'),30)
 	}
 	//////////////////////////////////

@@ -7,7 +7,7 @@
 # Feature Description: Filling the Green Cleaning Policy Form - Certified cleaning service which is option 2
 #---------------------------------------------------------------------------------------------------------------------------------
 @FunctionalTest
-Feature: Filling the Green Cleaning Policy Form
+Feature: Filling the Green Cleaning Policy Form - Certified cleaning service
 
 #Scenario-1
   @SmokeTest

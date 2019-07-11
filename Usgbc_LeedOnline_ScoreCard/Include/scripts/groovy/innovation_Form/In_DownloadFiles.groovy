@@ -131,6 +131,7 @@ class In_DownloadFiles {
 	@When("User downloads the uploaded files of supporting documentation in Innovation")
 	public void user_downloads_the_uploaded_files_of_supporting_documentation_in_Innovation() {
 		 
+		WebUI.delay(5)
 		String tableRow = "Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/tbody_Table_supporting_doc"
 		String tableId = Innovation_Entities.tableId_Xpath_splCircumstancesDocs_files
 		String scrollTo = "Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc"

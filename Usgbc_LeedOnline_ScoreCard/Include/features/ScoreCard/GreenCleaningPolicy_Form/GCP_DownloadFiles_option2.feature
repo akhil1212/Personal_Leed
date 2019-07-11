@@ -7,7 +7,7 @@
 # Feature Description: Download uploaded files in Green Cleaning Policy Form - Certified cleaning service which is option 2
 #---------------------------------------------------------------------------------------------------------------------------------
 @FunctionalTest
-Feature: Download files from Green Cleaning Policy Form
+Feature: Download files from Green Cleaning Policy Form - Certified cleaning service
 
 
   

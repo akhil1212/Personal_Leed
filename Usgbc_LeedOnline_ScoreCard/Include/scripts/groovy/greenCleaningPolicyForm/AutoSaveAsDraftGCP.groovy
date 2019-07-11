@@ -88,6 +88,7 @@ class AutoSaveAsDraftGCP {
 	@Then("User can see the draft is saved automatically with date and time for change in textbox in Green Cleaning Policy Form")
 	public void user_can_see_the_draft_is_saved_automatically_with_date_and_time_for_change_in_textbox_in_Green_Cleaning_Policy_form() {
 
+		WebUI.scrollToElement(findTestObject('Object Repository/GreenCleaningPolicy/span_Last draft saved on'), 30)
 		boolean isPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/GreenCleaningPolicy/span_Last draft saved on'), 2)
 		println "draft Present "+isPresent
 
@@ -120,8 +121,10 @@ class AutoSaveAsDraftGCP {
 	@Then("User should not see saving of draft even after 10 seconds in GCP")
 	public void user_should_not_see_saving_of_draft_even_after_seconds_in_GCP() {
 
+		WebUI.delay(10)
 		//		WebUI.verifyElementNotPresent(findTestObject("Object Repository/GreenCleaningPolicy/span_Last draft saved on"),2)
 
+		WebUI.scrollToElement(findTestObject('Object Repository/GreenCleaningPolicy/span_Last draft saved on'), 30)
 		boolean isPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/GreenCleaningPolicy/span_Last draft saved on'), 2)
 		println "No draft "+isPresent
 
