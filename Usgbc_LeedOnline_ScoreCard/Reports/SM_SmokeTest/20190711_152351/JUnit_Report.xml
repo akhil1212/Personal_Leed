@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SM_SmokeTest" time="220" tests="1" failures="0" errors="0">
+   <testsuite name="SM_SmokeTest" tests="1" failures="0" errors="0" time="220" timestamp="2019-07-11 15:23:58" hostname="promantus inc - G10PROLT025" id="Test Suites/SM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git_personal\\Personal_Leed\\Usgbc_LeedOnline_ScoreCard\\Reports\\SM_SmokeTest\\20190711_152351"/>
+         <property name="logFiles" value="H:\\Git_personal\\Personal_Leed\\Usgbc_LeedOnline_ScoreCard\\Reports\\SM_SmokeTest\\20190711_152351\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="d52bf8fabeb23a5a659eaa835d46bf14"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft" classname="Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:23:59 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft: Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft
+
+2019-07-11 15:23:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-11 15:23:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-11 15:23:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:23:59 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:23:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-11 15:24:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:24:04 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-11 15:24:04 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-11 15:24:04 - [TEST_STEP][PASSED] - downloadPath = "H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-11 15:24:04 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-11 15:24:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_AutoSaveDraft): Run with 'siteManagementForm.Runner_SM_AutoSaveDraft' was passed
+
+2019-07-11 15:24:10 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_Navigate: Test Cases/SiteManagement/TC_SM_Navigate
+
+2019-07-11 15:24:10 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Navigation): Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:24:14 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-11 15:24:14 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:24:33 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:24:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:24:35 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:24:36 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:24:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:24:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:24:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:24:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:24:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:24:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:24:58 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:24:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-11 15:24:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/Navigation/div_Site Management' successfully
+
+2019-07-11 15:24:59 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/div_Site Management' is present
+
+2019-07-11 15:24:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:24:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-11 15:24:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:25:08 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/sitemanagement_Credit' is present
+
+2019-07-11 15:25:08 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:25:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SiteManagement/TC_SM_Navigate' successfully
+
+2019-07-11 15:25:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:25:18 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/span_Last draft saved on' located by 'By.xpath:  //*[@id="credit-form"]/div[5]/div/span/span
+' is not present after '30' second(s)
+
+2019-07-11 15:25:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/input_AddFile_SA' successfully
+
+2019-07-11 15:25:18 - [MESSAGE][PASSED] - File 'H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Site_Management/AddFile_SiteAssessment/input_AddFile_SA'
+
+2019-07-11 15:25:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:25:23 - [MESSAGE][PASSED] - File 'H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/input_AddFile_DD'
+
+2019-07-11 15:25:38 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-07-11 15:25:39 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/span_Last draft saved on' located by 'By.xpath:  //*[@id="credit-form"]/div[5]/div/span/span
+' is not present after '30' second(s)
+
+2019-07-11 15:25:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:25:39 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' is present
+
+2019-07-11 15:25:39 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox'
+
+2019-07-11 15:25:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:25:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/span_Last draft saved on' successfully
+
+2019-07-11 15:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/span_Last draft saved on' is present
+
+2019-07-11 15:25:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/span_Last draft saved on' is: 'Last draft saved on: 11 Jul 2019 03:25:45 PM  Clear draft'
+
+2019-07-11 15:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/span_Last draft saved on' is present
+
+2019-07-11 15:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/button_Save' is present
+
+2019-07-11 15:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/button_Save' is clicked on
+
+2019-07-11 15:25:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']
+' is not present after '2' second(s)
+
+2019-07-11 15:25:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' successfully
+
+2019-07-11 15:25:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:25:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:25:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:25:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:25:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' successfully
+
+2019-07-11 15:26:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:26:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:26:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:26:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:26:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:26:05 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' is present
+
+2019-07-11 15:26:06 - [MESSAGE][PASSED] - Text 'Test data for save' is set on object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox'
+
+2019-07-11 15:26:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:26:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_Clear draft' is clicked on
+
+2019-07-11 15:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Btn_Yes' is clicked on
+
+2019-07-11 15:26:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:26:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' is present
+
+2019-07-11 15:26:32 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox'
+
+2019-07-11 15:26:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:26:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/span_Last draft saved on' is: 'Last draft saved on: 11 Jul 2019 03:26:39 PM  Clear draft'
+
+2019-07-11 15:26:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/div_dropdown_Automation_User' successfully
+
+2019-07-11 15:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/div_dropdown_Automation_User' is clicked on
+
+2019-07-11 15:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_SignOut' is clicked on
+
+2019-07-11 15:26:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:26:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-11 15:26:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:26:47 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:26:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:26:56 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:26:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:26:58 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:26:59 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:27:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:27:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:27:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:27:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:27:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:27:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:27:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:27:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/div_Form drafted and not yet saved' is present
+
+2019-07-11 15:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Last draft saved dateTime_warningDiv' is present
+
+2019-07-11 15:27:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 11 Jul 2019 03:26:39 PM  Clear draft'
+
+2019-07-11 15:27:35 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 11 Jul 2019 03:26:39 PM  Clear draft' and expected text 'Last draft saved on: 11 Jul 2019 03:26:39 PM  Clear draft' are matched 
+
+2019-07-11 15:27:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_Clear draft' is clicked on
+
+2019-07-11 15:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Btn_Yes' is clicked on
+
+2019-07-11 15:27:38 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_AutoSaveDraft' was passed
+
+2019-07-11 15:27:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-11 15:27:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-11 15:27:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-11 15:23:58 - [TEST_SUITE][PASSED] - SM_SmokeTest: Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

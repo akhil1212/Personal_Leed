@@ -133,7 +133,7 @@ class In_DownloadFiles {
 		 
 		WebUI.delay(5)
 		String tableRow = "Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/tbody_Table_supporting_doc"
-		String tableId = Innovation_Entities.tableId_Xpath_splCircumstancesDocs_files
+		String tableId = Innovation_Entities.tableId_Xpath_SupportingDocs_files
 		String scrollTo = "Object Repository/Innovation/Innovation_Strategy_Opt1/AddFile_supporting_doc/p_supporting_doc"
 		new projectKeywords().downloadUploadedFiles(tableRow,tableId,scrollTo,iframe)
 	}

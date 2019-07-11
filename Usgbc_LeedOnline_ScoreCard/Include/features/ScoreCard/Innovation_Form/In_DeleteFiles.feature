@@ -31,8 +31,8 @@ Feature: Deleting the uploaded files in Innovation Form
     Then User can see all the supporting additional in Innovation Form are deleted
     
    #Scenario-4
-  @SmokeTest
-  Scenario: Downloading the files of required documentation in innovation
+  @DeleteFiles
+  Scenario: Deleting the files of required documentation in innovation
     Given User should see the radio button option Innovation Strategy
     And User clicks on Innovation Strategy
    	And User has to see the table of uploaded files on supporting documentation in Innovation

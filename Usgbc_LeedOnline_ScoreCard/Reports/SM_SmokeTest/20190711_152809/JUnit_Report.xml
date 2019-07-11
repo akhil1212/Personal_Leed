@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SM_SmokeTest" time="742" tests="5" failures="0" errors="0">
+   <testsuite name="SM_SmokeTest" tests="5" failures="0" errors="0" time="742" timestamp="2019-07-11 15:28:16" hostname="promantus inc - G10PROLT025" id="Test Suites/SM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git_personal\\Personal_Leed\\Usgbc_LeedOnline_ScoreCard\\Reports\\SM_SmokeTest\\20190711_152809"/>
+         <property name="logFiles" value="H:\\Git_personal\\Personal_Leed\\Usgbc_LeedOnline_ScoreCard\\Reports\\SM_SmokeTest\\20190711_152809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="0ccc4736fdbfec48e9482cb453b3b224"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SiteManagement/TC_SiteManagement" classname="Test Cases/SiteManagement/TC_SiteManagement" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:28:17 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SiteManagement: Test Cases/SiteManagement/TC_SiteManagement
+
+2019-07-11 15:28:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-11 15:28:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-11 15:28:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:28:17 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:28:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-11 15:28:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:28:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-11 15:28:21 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-11 15:28:21 - [TEST_STEP][PASSED] - downloadPath = "H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-11 15:28:21 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-11 15:28:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SiteMngmnt): Run with 'siteManagementForm.Runner_SiteMngmnt' was passed
+
+2019-07-11 15:28:26 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_Navigate: Test Cases/SiteManagement/TC_SM_Navigate
+
+2019-07-11 15:28:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Navigation): Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:28:29 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-11 15:28:30 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:28:33 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:28:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:28:35 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:28:36 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:28:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:28:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:28:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:28:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:28:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:28:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/Navigation/div_Site Management' successfully
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/div_Site Management' is present
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/sitemanagement_Credit' is present
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SiteManagement/TC_SM_Navigate' successfully
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' is present
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' successfully
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_SiteAssessment/btn_AddFile_SA' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:00 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Site_Management/AddFile_SiteAssessment/input_AddFile_SA'
+
+2019-07-11 15:29:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:02 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_SiteAssessment/btn_AddFile_SA' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:03 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Site_Management/AddFile_SiteAssessment/input_AddFile_SA'
+
+2019-07-11 15:29:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:05 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_SiteAssessment/btn_AddFile_SA' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:05 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Site_Management/AddFile_SiteAssessment/input_AddFile_SA'
+
+2019-07-11 15:29:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:07 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' is present
+
+2019-07-11 15:29:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' successfully
+
+2019-07-11 15:29:07 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/btn_AddFile_DD' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:07 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/input_AddFile_DD'
+
+2019-07-11 15:29:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:08 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/btn_AddFile_DD' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:08 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/input_AddFile_DD'
+
+2019-07-11 15:29:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/btn_AddFile_DD' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:11 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/input_AddFile_DD'
+
+2019-07-11 15:29:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:12 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' is present
+
+2019-07-11 15:29:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' successfully
+
+2019-07-11 15:29:12 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/btn_AddFile_SC' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:12 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/input_AddFile_SC'
+
+2019-07-11 15:29:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:14 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/btn_AddFile_SC' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:14 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/input_AddFile_SC'
+
+2019-07-11 15:29:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:18 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/btn_AddFile_SC' has attribute 'class' with value 'tiny ui button'
+
+2019-07-11 15:29:18 - [MESSAGE][PASSED] - File 'H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/input_AddFile_SC'
+
+2019-07-11 15:29:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:29:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' is present
+
+2019-07-11 15:29:24 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1' is set on object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox'
+
+2019-07-11 15:29:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:29:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1'
+
+2019-07-11 15:29:27 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1' are matched 
+
+2019-07-11 15:29:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:29:37 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/button_Save' is visible
+
+2019-07-11 15:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/button_Save' is clicked on
+
+2019-07-11 15:29:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:29:40 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-11 15:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/icon_pdf' is present
+
+2019-07-11 15:29:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/icon_pdf' is clicked on
+
+2019-07-11 15:29:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:30:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:30:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' successfully
+
+2019-07-11 15:30:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:30:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:30:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' successfully
+
+2019-07-11 15:30:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:30:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:30:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:30:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1'
+
+2019-07-11 15:30:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:30:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:30:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' successfully
+
+2019-07-11 15:30:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:30:26 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-07-11 15:30:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1'
+
+2019-07-11 15:30:28 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. Q4TK1' are matched 
+
+2019-07-11 15:30:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:30:31 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-11 15:30:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:30:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_MarkReadyForReview' is clicked on
+
+2019-07-11 15:30:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:30:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-11 15:30:38 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SiteMngmnt' was passed
+
+2019-07-11 15:30:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-11 15:30:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-11 15:30:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SiteManagement/TC_SM_VerifyUploadFile" classname="Test Cases/SiteManagement/TC_SM_VerifyUploadFile" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:30:39 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_VerifyUploadFile: Test Cases/SiteManagement/TC_SM_VerifyUploadFile
+
+2019-07-11 15:30:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-11 15:30:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-11 15:30:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:30:39 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:30:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:30:42 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-11 15:30:42 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-11 15:30:42 - [TEST_STEP][PASSED] - downloadPath = "H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-11 15:30:42 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-11 15:30:42 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_VerifyUpload): Run with 'siteManagementForm.Runner_SM_VerifyUpload' was passed
+
+2019-07-11 15:30:44 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_Navigate: Test Cases/SiteManagement/TC_SM_Navigate
+
+2019-07-11 15:30:44 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Navigation): Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:30:45 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-11 15:30:45 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:30:51 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:30:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:30:53 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:30:53 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:30:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:30:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:30:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:30:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:30:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:31:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/Navigation/div_Site Management' successfully
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/div_Site Management' is present
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/divval' is: 'READY FOR REVIEW'
+
+2019-07-11 15:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_MarkReadyForReview' is clicked on
+
+2019-07-11 15:31:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:31:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/sitemanagement_Credit' is present
+
+2019-07-11 15:31:14 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:31:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SiteManagement/TC_SM_Navigate' successfully
+
+2019-07-11 15:31:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/Table_AddFile_SA' successfully
+
+2019-07-11 15:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_SiteAssessment/Table_AddFile_SA' is present
+
+2019-07-11 15:31:15 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-11 15:31:15 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-11 15:31:15 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-11 15:31:15 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-11 15:31:15 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-11 15:31:15 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-11 15:31:15 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/Table_AddFile_DD' successfully
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/Table_AddFile_DD' is present
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-11 15:31:16 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/Table_AddFile_SC' successfully
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/Table_AddFile_SC' is present
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-07-11 15:31:17 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-11 15:31:18 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-11 15:31:18 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-07-11 15:31:18 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-11 15:31:18 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_VerifyUpload' was passed
+
+2019-07-11 15:31:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-11 15:31:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-11 15:31:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SiteManagement/TC_SM_DownloadFiles" classname="Test Cases/SiteManagement/TC_SM_DownloadFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:31:18 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_DownloadFiles: Test Cases/SiteManagement/TC_SM_DownloadFiles
+
+2019-07-11 15:31:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-11 15:31:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-11 15:31:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:31:19 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:31:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:31:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-11 15:31:21 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-11 15:31:21 - [TEST_STEP][PASSED] - downloadPath = "H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-11 15:31:21 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-11 15:31:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Download): Run with 'siteManagementForm.Runner_SM_Download' was passed
+
+2019-07-11 15:31:23 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_Navigate: Test Cases/SiteManagement/TC_SM_Navigate
+
+2019-07-11 15:31:23 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Navigation): Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:31:24 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-11 15:31:24 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:31:28 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:31:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:31:30 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:31:31 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:31:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:31:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:31:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:31:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:31:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:31:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/Navigation/div_Site Management' successfully
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/div_Site Management' is present
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/sitemanagement_Credit' is present
+
+2019-07-11 15:31:57 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:31:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SiteManagement/TC_SM_Navigate' successfully
+
+2019-07-11 15:31:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/Table_AddFile_SA' successfully
+
+2019-07-11 15:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_SiteAssessment/Table_AddFile_SA' is present
+
+2019-07-11 15:31:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' successfully
+
+2019-07-11 15:31:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' is hovered
+
+2019-07-11 15:32:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:32:00 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-11 15:32:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' is hovered
+
+2019-07-11 15:32:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' is hovered
+
+2019-07-11 15:32:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:32:15 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-11 15:32:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' is hovered
+
+2019-07-11 15:32:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' is hovered
+
+2019-07-11 15:32:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:32:29 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-11 15:32:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' is hovered
+
+2019-07-11 15:32:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:32:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:32:48 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:32:48 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:32:48 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-11 15:32:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:32:51 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:32:51 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:32:51 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-11 15:32:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:32:54 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:32:54 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:32:54 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-11 15:32:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/Table_AddFile_DD' successfully
+
+2019-07-11 15:32:54 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/Table_AddFile_DD' is present
+
+2019-07-11 15:32:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' successfully
+
+2019-07-11 15:32:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' is hovered
+
+2019-07-11 15:32:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:32:57 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-11 15:33:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' is hovered
+
+2019-07-11 15:33:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:33:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' is hovered
+
+2019-07-11 15:33:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:33:11 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-11 15:33:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:33:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' is hovered
+
+2019-07-11 15:33:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:33:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' is hovered
+
+2019-07-11 15:33:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:33:36 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-11 15:33:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:33:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' is hovered
+
+2019-07-11 15:34:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:34:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:34:07 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:34:07 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:34:07 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-11 15:34:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:34:10 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:34:10 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:34:10 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-11 15:34:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:34:14 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:34:14 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:34:14 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-11 15:34:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/Table_AddFile_SC' successfully
+
+2019-07-11 15:34:14 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/Table_AddFile_SC' is present
+
+2019-07-11 15:34:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' successfully
+
+2019-07-11 15:34:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' is hovered
+
+2019-07-11 15:34:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:34:16 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-11 15:34:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' is hovered
+
+2019-07-11 15:34:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' is hovered
+
+2019-07-11 15:34:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:34:31 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-07-11 15:34:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:34:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' is hovered
+
+2019-07-11 15:34:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' is hovered
+
+2019-07-11 15:34:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:34:56 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-07-11 15:35:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' is hovered
+
+2019-07-11 15:35:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:35:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:35:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:35:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:35:15 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:35:15 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:35:15 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-07-11 15:35:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:35:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:35:18 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:35:18 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:35:18 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-07-11 15:35:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:35:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:35:21 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-11 15:35:21 - [MESSAGE][PASSED] - 
+
+2019-07-11 15:35:21 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-11 15:35:21 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Download' was passed
+
+2019-07-11 15:35:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-11 15:35:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-11 15:35:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SiteManagement/TC_SM_DeleteUploadFiles" classname="Test Cases/SiteManagement/TC_SM_DeleteUploadFiles" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:35:22 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_DeleteUploadFiles: Test Cases/SiteManagement/TC_SM_DeleteUploadFiles
+
+2019-07-11 15:35:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-11 15:35:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-11 15:35:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:35:22 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:35:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:35:24 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-11 15:35:24 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-11 15:35:24 - [TEST_STEP][PASSED] - downloadPath = "H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-11 15:35:24 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-11 15:35:25 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Delete): Run with 'siteManagementForm.Runner_SM_Delete' was passed
+
+2019-07-11 15:35:26 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_Navigate: Test Cases/SiteManagement/TC_SM_Navigate
+
+2019-07-11 15:35:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Navigation): Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:35:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-11 15:35:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:35:35 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:35:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:35:37 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:35:37 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:35:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:35:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:35:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:36:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/Navigation/div_Site Management' successfully
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/div_Site Management' is present
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/sitemanagement_Credit' is present
+
+2019-07-11 15:36:43 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:36:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SiteManagement/TC_SM_Navigate' successfully
+
+2019-07-11 15:36:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/Table_AddFile_SA' successfully
+
+2019-07-11 15:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_SiteAssessment/Table_AddFile_SA' is present
+
+2019-07-11 15:36:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' successfully
+
+2019-07-11 15:36:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:36:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:36:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:36:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:36:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:36:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:36:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:36:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:36:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:36:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:36:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/AddFile_SiteAssessment/Table_AddFile_SA' located by 'By.xpath: //*[@id="siteAssessmentUpload_files"]/table' is not present after '30' second(s)
+
+2019-07-11 15:36:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/Table_AddFile_DD' successfully
+
+2019-07-11 15:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/Table_AddFile_DD' is present
+
+2019-07-11 15:36:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' successfully
+
+2019-07-11 15:36:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:36:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:37:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:37:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:37:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:37:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:37:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:37:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:37:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:37:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/Table_AddFile_DD' located by 'By.xpath: //*[@id="otherDocsUpload_files"]/table' is not present after '30' second(s)
+
+2019-07-11 15:37:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/Table_AddFile_SC' successfully
+
+2019-07-11 15:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/Table_AddFile_SC' is present
+
+2019-07-11 15:37:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/p_Upload_SC' successfully
+
+2019-07-11 15:37:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:37:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:37:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:37:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:37:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:37:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:37:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:37:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:37:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:37:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/SpecialCircumstances/AddFile_SC/Table_AddFile_SC' located by 'By.xpath: //*[@id="splCircumstancesDocs_files"]/table' is not present after '30' second(s)
+
+2019-07-11 15:37:22 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Delete' was passed
+
+2019-07-11 15:37:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-11 15:37:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-11 15:37:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft" classname="Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:37:23 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft: Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft
+
+2019-07-11 15:37:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-07-11 15:37:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-11 15:37:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:37:23 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:37:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:37:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-07-11 15:37:26 - [TEST_STEP][PASSED] - println("The driver is ########### " + driver): null
+
+2019-07-11 15:37:26 - [TEST_STEP][PASSED] - downloadPath = "H:\Git_personal\Personal_Leed\Usgbc_LeedOnline_ScoreCard\Include\TestData\DownloadedFiles": null
+
+2019-07-11 15:37:26 - [TEST_STEP][PASSED] - projectKeywords().sendCommandForDownloadChromeHeadLess(driver.getCommandExecutor(), driver.getSessionId(), downloadPath): null
+
+2019-07-11 15:37:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_AutoSaveDraft): Run with 'siteManagementForm.Runner_SM_AutoSaveDraft' was passed
+
+2019-07-11 15:37:27 - [TEST_CASE][PASSED] - Test Cases/SiteManagement/TC_SM_Navigate: Test Cases/SiteManagement/TC_SM_Navigate
+
+2019-07-11 15:37:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(siteManagementForm.Runner_SM_Navigation): Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:37:28 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-07-11 15:37:28 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:37:34 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:37:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:37:36 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:37:36 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:37:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:37:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:37:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:38:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:38:09 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-07-11 15:38:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-07-11 15:38:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/Navigation/div_Site Management' successfully
+
+2019-07-11 15:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/div_Site Management' is present
+
+2019-07-11 15:38:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:38:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/divval' is: 'ATTEMPTED'
+
+2019-07-11 15:38:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-07-11 15:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Navigation/sitemanagement_Credit' is present
+
+2019-07-11 15:38:18 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_Navigation' was passed
+
+2019-07-11 15:38:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SiteManagement/TC_SM_Navigate' successfully
+
+2019-07-11 15:38:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:38:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/span_Last draft saved on' located by 'By.xpath:  //*[@id="credit-form"]/div[5]/div/span/span
+' is not present after '30' second(s)
+
+2019-07-11 15:38:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/input_AddFile_SA' successfully
+
+2019-07-11 15:38:28 - [MESSAGE][PASSED] - File 'H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Site_Management/AddFile_SiteAssessment/input_AddFile_SA'
+
+2019-07-11 15:38:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:38:33 - [MESSAGE][PASSED] - File 'H:/Git_personal/Personal_Leed/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/input_AddFile_DD'
+
+2019-07-11 15:38:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-07-11 15:38:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/span_Last draft saved on' located by 'By.xpath:  //*[@id="credit-form"]/div[5]/div/span/span
+' is not present after '30' second(s)
+
+2019-07-11 15:38:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' is present
+
+2019-07-11 15:38:49 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox'
+
+2019-07-11 15:38:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:38:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/span_Last draft saved on' successfully
+
+2019-07-11 15:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/span_Last draft saved on' is present
+
+2019-07-11 15:38:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/span_Last draft saved on' is: 'Last draft saved on: 11 Jul 2019 03:38:56 PM  Clear draft'
+
+2019-07-11 15:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/span_Last draft saved on' is present
+
+2019-07-11 15:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/button_Save' is present
+
+2019-07-11 15:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/button_Save' is clicked on
+
+2019-07-11 15:39:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Site_Management/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']
+' is not present after '2' second(s)
+
+2019-07-11 15:39:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_SiteAssessment/p_Upload_SA' successfully
+
+2019-07-11 15:39:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:39:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:39:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:39:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:39:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/AddFile_DocumentationDemonstrating/p_Upload_DD' successfully
+
+2019-07-11 15:39:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:39:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:39:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-07-11 15:39:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:39:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:39:17 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' is present
+
+2019-07-11 15:39:18 - [MESSAGE][PASSED] - Text 'Test data for save' is set on object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox'
+
+2019-07-11 15:39:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:39:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_Clear draft' is clicked on
+
+2019-07-11 15:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Btn_Yes' is clicked on
+
+2019-07-11 15:39:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:39:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' successfully
+
+2019-07-11 15:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/p_Describe the circumstances' is present
+
+2019-07-11 15:39:47 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/Site_Management/SpecialCircumstances/EditorBox_SC/body_SC_EditorBox'
+
+2019-07-11 15:39:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-11 15:39:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/span_Last draft saved on' is: 'Last draft saved on: 11 Jul 2019 03:39:55 PM  Clear draft'
+
+2019-07-11 15:39:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Site_Management/div_dropdown_Automation_User' successfully
+
+2019-07-11 15:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/div_dropdown_Automation_User' is clicked on
+
+2019-07-11 15:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_SignOut' is clicked on
+
+2019-07-11 15:40:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:40:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-11 15:40:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-11 15:40:05 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-07-11 15:40:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 15:40:11 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-11 15:40:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:40:13 - [MESSAGE][PASSED] - Text 'automationbdd1@gmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-07-11 15:40:14 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-07-11 15:40:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:40:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-07-11 15:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-07-11 15:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-07-11 15:40:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-11 15:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-07-11 15:40:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-11 15:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-07-11 15:40:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/div_Site Management' is clicked on
+
+2019-07-11 15:40:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Navigation/span_(V01)' is clicked on
+
+2019-07-11 15:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/div_Form drafted and not yet saved' is present
+
+2019-07-11 15:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Management/Last draft saved dateTime_warningDiv' is present
+
+2019-07-11 15:40:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site_Management/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 11 Jul 2019 03:39:55 PM  Clear draft'
+
+2019-07-11 15:40:35 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 11 Jul 2019 03:39:55 PM  Clear draft' and expected text 'Last draft saved on: 11 Jul 2019 03:39:55 PM  Clear draft' are matched 
+
+2019-07-11 15:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-11 15:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/a_Clear draft' is clicked on
+
+2019-07-11 15:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Management/Btn_Yes' is clicked on
+
+2019-07-11 15:40:38 - [MESSAGE][PASSED] - Run with 'siteManagementForm.Runner_SM_AutoSaveDraft' was passed
+
+2019-07-11 15:40:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-07-11 15:40:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-11 15:40:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-11 15:28:16 - [TEST_SUITE][PASSED] - SM_SmokeTest: Test Cases/SiteManagement/TC_SM_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -23,6 +23,12 @@
       <testCaseId>Test Cases/Innovation/TC_In_Pilot_Credit</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>99ec05c8-9b79-41e8-8c07-0d5943d1cfad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/TC_Delay</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e2a87598-4b53-401b-a20b-76e622b95f7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

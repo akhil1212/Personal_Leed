@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+In_SmokeTest,Chrome 75.0.3770.100,,,2019-07-11 12:40:35,2019-07-11 12:56:58,16m - 23.192s,FAILED
+,,,,,,,
+Test Cases/Innovation/TC_In_Innovation_Strategy,Chrome 75.0.3770.100,,,2019-07-11 12:40:35,2019-07-11 12:42:40,2m - 5.289s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:40:35,2019-07-11 12:40:40,4.587s,PASSED
+runWithCucumberRunner(innovation_Form.Runner_In_Innovation_Strategy),Chrome 75.0.3770.100,,,2019-07-11 12:40:40,2019-07-11 12:42:40,1m - 59.627s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:42:40,2019-07-11 12:42:40,0.820s,PASSED
+,,,,,,,
+Test Cases/Innovation/TC_In_Pilot_Credit,Chrome 75.0.3770.100,,,2019-07-11 12:42:40,2019-07-11 12:43:59,1m - 18.269s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:42:40,2019-07-11 12:42:43,2.405s,PASSED
+runWithCucumberRunner(innovation_Form.Runner_In_Pilot_Credit),Chrome 75.0.3770.100,,,2019-07-11 12:42:43,2019-07-11 12:43:58,1m - 14.770s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:43:58,2019-07-11 12:43:59,0.716s,PASSED
+,,,,,,,
+Test Cases/Innovation/TC_In_VerifyUploadedFile,Chrome 75.0.3770.100,,,2019-07-11 12:43:59,2019-07-11 12:45:36,1m - 37.302s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:43:59,2019-07-11 12:44:01,2.527s,PASSED
+runWithCucumberRunner(innovation_Form.Runner_In_VerifyUploadedFile),Chrome 75.0.3770.100,,,2019-07-11 12:44:02,2019-07-11 12:45:35,1m - 33.657s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:45:35,2019-07-11 12:45:36,0.763s,PASSED
+,,,,,,,
+Test Cases/Innovation/TC_In_DownloadFiles,Chrome 75.0.3770.100,,,2019-07-11 12:45:36,2019-07-11 12:52:30,6m - 53.566s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:45:36,2019-07-11 12:45:38,2.300s,PASSED
+runWithCucumberRunner(innovation_Form.Runner_In_DownloadFiles),Chrome 75.0.3770.100,,,2019-07-11 12:45:39,2019-07-11 12:52:29,6m - 50.348s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:52:29,2019-07-11 12:52:30,0.742s,PASSED
+,,,,,,,
+Test Cases/Innovation/TC_In_DeleteFiles,Chrome 75.0.3770.100,,,2019-07-11 12:52:30,2019-07-11 12:53:39,1m - 9.051s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:52:30,2019-07-11 12:52:32,2.426s,PASSED
+runWithCucumberRunner(innovation_Form.Runner_In_DeleteFiles),Chrome 75.0.3770.100,,,2019-07-11 12:52:32,2019-07-11 12:53:38,1m - 5.481s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:53:38,2019-07-11 12:53:39,0.868s,PASSED
+,,,,,,,
+Test Cases/Innovation/TC_In_AutoSaveAsDraft,Chrome 75.0.3770.100,,,2019-07-11 12:53:39,2019-07-11 12:56:58,3m - 19.231s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:53:39,2019-07-11 12:53:41,2.317s,PASSED
+runWithCucumberRunner(innovation_Form.Runner_In_AutoSaveAsDraft),Chrome 75.0.3770.100,,,2019-07-11 12:53:41,2019-07-11 12:56:57,3m - 15.982s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-11 12:56:57,2019-07-11 12:56:58,0.771s,PASSED

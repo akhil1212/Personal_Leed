@@ -291,6 +291,7 @@ class Innovation_Form {
 	@Given("User can see the generate pdf icon on the top of the Innovation Form")
 	public void user_can_see_the_generate_pdf_icon_on_the_top_of_the_Innovation_Form() {
 
+		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Innovation/icon_pdf'), 5)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Innovation/icon_pdf'), 30)
 
