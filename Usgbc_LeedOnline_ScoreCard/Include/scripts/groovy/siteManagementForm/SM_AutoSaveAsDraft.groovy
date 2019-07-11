@@ -65,7 +65,7 @@ class SM_AutoSaveAsDraft {
 
 	@Then("User should not see saving of draft even after 10 seconds in Site Management Form")
 	public void User_should_not_see_saving_of_draft_even_after_10_seconds_in_Site_Management_Form() {
-		WebUI.scrollToElement(findTestObject('Object Repository/Site_Management/span_Last draft saved on'), 30)
+		
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/Site_Management/span_Last draft saved on'),30)
 	}
 	//////////////////////////////////
@@ -111,7 +111,7 @@ class SM_AutoSaveAsDraft {
 	@Then("User can see the draft is saved automatically with date and time for Special Circumstances narrative in Site Management Form")
 	public void User_can_see_the_draft_is_saved_automatically_with_date_and_time_for_Special_Circumstances_narrative_in_Site_Management_Form() {
 
-		//WebUI.scrollToElement(findTestObject('Object Repository/Site_Management/span_Last draft saved on'), 0)
+		WebUI.scrollToElement(findTestObject('Object Repository/Site_Management/span_Last draft saved on'), 30)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Site_Management/span_Last draft saved on'),30)
 		narrative_draft = WebUI.getText(findTestObject('Object Repository/Site_Management/span_Last draft saved on'))
 		println narrative_draft
