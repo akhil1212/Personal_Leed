@@ -70,5 +70,19 @@ Feature: Filling the HeatIslandReduction
   @SmokeTest
   Scenario: To save the Heat Isalnd Reduction Form
     Given User can see the generate pdf icon on the top of the Heat Isalnd Reduction Form   
-    When User clicks on generate pdf icon to download the file in Heat Isalnd Reduction Form  
+    When User clicks on generate pdf icon to download the file in Heat Isalnd Reduction Form
+    Then User has to verify the Contributing nonroof measures table with downloaded pdf file
+    And User has to verify the Contributing high-reflectance roof table with downloaded pdf file
+    And User has to verify the Parking table with downloaded pdf file
+    And User has to verify the Summary of nonroof and roof table with downloaded pdf file in HIR Form
+    And User has to verify the Special Circumstances html editor with downloaded pdf file in HIR Form
+    And User has to verify Uploaded additional documentation with downloaded pdf file in HIR Form
+    
+  #Scenario-10
+  @SmokeTest
+  Scenario: User verify the data entered after refreshing Heat Isalnd Reduction Form
+    Given User has to refresh the form
+    Then User verifies the narrative text of Special Circumstances html editor box for Heat Isalnd Reduction Form
+    And User changes the status to ready for review for Heat Isalnd Reduction Form
+      
     

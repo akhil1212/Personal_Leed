@@ -128,6 +128,7 @@ class In_VerifyUploadedFiles {
 	public void user_clicks_clear_draft_in_Innovation() {
 		
 		WebUI.click(findTestObject('Object Repository/Innovation/Autosave/a_Clear draft'))
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/Innovation/Autosave/button_Yes'))
 	} 
 	
